@@ -33,4 +33,6 @@ To think about these goals, imagine statistics as a **translator**: it takes a m
 # Topic Covered
 
 1. Introduction to Statistics
-2. 
+2. Graphical Presentation
+3. Numerical Representation
+4. Introduction to Probability
