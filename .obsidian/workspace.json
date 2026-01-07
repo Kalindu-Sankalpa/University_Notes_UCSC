@@ -1,0 +1,188 @@
+{
+  "main": {
+    "id": "27cfc8c435f78deb",
+    "type": "split",
+    "children": [
+      {
+        "id": "fbe480249e91bca4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "46231bc165b475d5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "University Of Colombo-School Of Computing/Semester - 02/IS1212 - Fundamentals of Probability and Statistics/! IS1212 Syllabus (Lesson Plan).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "! IS1212 Syllabus (Lesson Plan)"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3da2dd71ac8d4b72",
+    "type": "split",
+    "children": [
+      {
+        "id": "a0e34526431f21ae",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dcf4301b09e6c6ad",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "e3025d5e7da141be",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "11b51af8ef4ad811",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "4c057cc63347afdb",
+    "type": "split",
+    "children": [
+      {
+        "id": "456e5f707034a639",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "09f8df5c3302a825",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "University Of Colombo-School Of Computing/Semester - 02/IS1212 - Fundamentals of Probability and Statistics/! IS1212 Syllabus (Lesson Plan).md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for ! IS1212 Syllabus (Lesson Plan)"
+            }
+          },
+          {
+            "id": "ae11d001fad37d31",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "University Of Colombo-School Of Computing/Semester - 02/IS1212 - Fundamentals of Probability and Statistics/! IS1212 Syllabus (Lesson Plan).md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from ! IS1212 Syllabus (Lesson Plan)"
+            }
+          },
+          {
+            "id": "b4478fbbf35b0b06",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "5f68c88036fa0c08",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "cdcc4af75f4fb4f7",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "University Of Colombo-School Of Computing/Semester - 02/IS1212 - Fundamentals of Probability and Statistics/! IS1212 Syllabus (Lesson Plan).md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of ! IS1212 Syllabus (Lesson Plan)"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "46231bc165b475d5",
+  "lastOpenFiles": []
+}

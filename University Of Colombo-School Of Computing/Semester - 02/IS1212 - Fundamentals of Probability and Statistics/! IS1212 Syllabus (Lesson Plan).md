@@ -32,3 +32,5 @@ To think about these goals, imagine statistics as a **translator**: it takes a m
 
 # Topic Covered
 
+1. Introduction to Statistics
+2. 
