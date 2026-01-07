@@ -44,9 +44,21 @@
               "icon": "lucide-file",
               "title": "Queues"
             }
+          },
+          {
+            "id": "50857ba4bbfbe3fe",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "University Of Colombo-School Of Computing/Semester - 02/IS 1214 - Data Structures and Algorithms/Lecture Notes/DSA - Lecture 02.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "DSA - Lecture 02"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -208,13 +220,13 @@
       "bases:Create new base": false
     }
   },
-  "active": "8501827b9ca5fb29",
+  "active": "50857ba4bbfbe3fe",
   "lastOpenFiles": [
-    "University Of Colombo-School Of Computing/Semester - 02/IS 1214 - Data Structures and Algorithms/Stacks.md",
+    "University Of Colombo-School Of Computing/Semester - 02/IS 1214 - Data Structures and Algorithms/Lecture Notes/DSA - Lecture 01.pdf",
     "University Of Colombo-School Of Computing/Semester - 02/IS 1214 - Data Structures and Algorithms/Queues.md",
+    "University Of Colombo-School Of Computing/Semester - 02/IS 1214 - Data Structures and Algorithms/Stacks.md",
     "University Of Colombo-School Of Computing/Semester - 02/IS 1214 - Data Structures and Algorithms/! IS1214 Syllabus (Lesson Plan).md",
     "University Of Colombo-School Of Computing/Semester - 02/IS 1214 - Data Structures and Algorithms/Introduction & Arrays.md",
-    "University Of Colombo-School Of Computing/Semester - 02/IS 1214 - Data Structures and Algorithms/Lecture Notes/DSA - Lecture 01.pdf",
     "University Of Colombo-School Of Computing/Semester - 02/IS 1212 - Fundamentals of Probability and Statistics/! IS1212 Syllabus (Lesson Plan).md",
     "University Of Colombo-School Of Computing/Semester - 02/IS 1210 - Database Systems/Relational Data Model.md",
     "University Of Colombo-School Of Computing/Semester - 02/IS 1210 - Database Systems/Structured Query Language (SQL).md",
