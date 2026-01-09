@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "University Of Colombo-School Of Computing/Semester - 02/IS 1214 - Data Structures and Algorithms/Link Lists.md",
+                "file": "University Of Colombo-School Of Computing/Semester - 02/IS 1212 - Fundamentals of Probability and Statistics/Introduction to Statistics.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Link Lists"
+              "title": "Introduction to Statistics"
             }
           }
         ]
@@ -94,7 +94,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "University Of Colombo-School Of Computing/Semester - 02/IS 1214 - Data Structures and Algorithms/Link Lists.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Link Lists"
+              "title": "Backlinks"
             }
           },
           {
@@ -113,12 +112,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "University Of Colombo-School Of Computing/Semester - 02/IS 1214 - Data Structures and Algorithms/Link Lists.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Link Lists"
+              "title": "Outgoing links"
             }
           },
           {
@@ -185,10 +183,11 @@
   },
   "active": "19d17fea3f9128e5",
   "lastOpenFiles": [
-    "University Of Colombo-School Of Computing/Semester - 02/IS 1214 - Data Structures and Algorithms/Stacks.md",
-    "University Of Colombo-School Of Computing/Semester - 02/IS 1214 - Data Structures and Algorithms/Queues.md",
-    "University Of Colombo-School Of Computing/Semester - 02/IS 1212 - Fundamentals of Probability and Statistics/! IS1212 Syllabus (Lesson Plan).md",
     "University Of Colombo-School Of Computing/Semester - 02/IS 1214 - Data Structures and Algorithms/Link Lists.md",
+    "University Of Colombo-School Of Computing/Semester - 02/IS 1214 - Data Structures and Algorithms/Queues.md",
+    "University Of Colombo-School Of Computing/Semester - 02/IS 1214 - Data Structures and Algorithms/Stacks.md",
+    "University Of Colombo-School Of Computing/Semester - 02/IS 1212 - Fundamentals of Probability and Statistics/Introduction to Statistics.md",
+    "University Of Colombo-School Of Computing/Semester - 02/IS 1212 - Fundamentals of Probability and Statistics/! IS1212 Syllabus (Lesson Plan).md",
     "University Of Colombo-School Of Computing/Semester - 02/IS 1214 - Data Structures and Algorithms/! IS1214 Syllabus (Lesson Plan).md",
     "University Of Colombo-School Of Computing/Semester - 02/IS 1214 - Data Structures and Algorithms/Lecture Notes/DSA - Lecture 02.pdf",
     "University Of Colombo-School Of Computing/Semester - 02/IS 1214 - Data Structures and Algorithms/Lecture Notes/DSA - Lecture 01.pdf",
@@ -196,7 +195,6 @@
     "University Of Colombo-School Of Computing/Semester - 02/IS 1210 - Database Systems/Relational Data Model.md",
     "University Of Colombo-School Of Computing/Semester - 02/IS 1210 - Database Systems/Structured Query Language (SQL).md",
     "University Of Colombo-School Of Computing/Semester - 02/IS 1210 - Database Systems/Introduction to Databases.md",
-    "University Of Colombo-School Of Computing/Semester - 02/IS 1212 - Fundamentals of Probability and Statistics/Introduction to Statistics.md",
     "University Of Colombo-School Of Computing/Semester - 02/IS 1214 - Data Structures and Algorithms/Lecture Notes/DSA - Lecture 04.pdf",
     "University Of Colombo-School Of Computing/Semester - 02/IS 1214 - Data Structures and Algorithms/Lecture Notes/DSA - Lecture 05.pdf",
     "University Of Colombo-School Of Computing/Semester - 02/IS 1214 - Data Structures and Algorithms/Lecture Notes/DSA - Lecture 03.pdf",
