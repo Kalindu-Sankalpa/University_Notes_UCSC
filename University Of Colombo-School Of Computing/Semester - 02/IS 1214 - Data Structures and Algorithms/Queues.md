@@ -47,3 +47,8 @@ To manage a queue, the computer tracks two specific positions:
 # Analogy for Understanding:
 
 Think of a **Queue** like a **one-way tunnel**. Cars enter from the back and drive through to exit at the front. No car can jump the line, and the first car to enter the tunnel is guaranteed to be the first one to come out the other side. This is the heart of "First-In, First-Out"!
+
+---
+# Lecture Notes
+
+![[DSA - Lecture 03.pdf]]

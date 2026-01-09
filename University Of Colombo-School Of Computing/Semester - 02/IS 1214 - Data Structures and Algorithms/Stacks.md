@@ -53,7 +53,11 @@ Beyond simple data storage, stacks are essential for:
 - **Underflow:** No data to give (Stack Empty).
 
 ---
-
 # Analogy for Understanding:
 
 Think of a **spring-loaded plate dispenser** in a cafeteria. When a dishwasher adds a plate, they "Push" it onto the top, and the whole pile moves down. When you need a plate, you "Pop" the one off the top. You can’t grab a plate from the middle or the bottom without removing everything above it first—that is the essence of a stack!
+
+---
+# Lecture Notes
+
+![[DSA - Lecture 02.pdf]]
