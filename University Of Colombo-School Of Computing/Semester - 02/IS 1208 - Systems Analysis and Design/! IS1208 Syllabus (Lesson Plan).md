@@ -1,3 +1,5 @@
+> Next Course : [[! IS1209 Syllabus (Lesson Plan)]]
+
 - **Course Code** : IS 1208
 - **Course Name** : Systems Analysis and Design
 - **Lecture** : Rupika Wijesinghe

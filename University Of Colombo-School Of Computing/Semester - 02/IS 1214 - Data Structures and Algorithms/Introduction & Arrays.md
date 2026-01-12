@@ -59,3 +59,8 @@ An **Array** is a collection of **homogeneous** (same type) data elements stored
 # Analogy for Understanding:
 
 Think of an **Array** like a **set of lockers in a school hallway**. Every locker is the same size (**Homogeneous**), they are all numbered in order starting from zero (**Indexed**), and they are physically bolted next to each other in one long line (**Contiguous Memory**). If you know the locker number, you can find the student's books instantly!
+
+---
+# Lecture Notes
+
+![[DSA - Lecture 01.pdf]]

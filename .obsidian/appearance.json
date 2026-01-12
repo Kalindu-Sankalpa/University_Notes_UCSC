@@ -1,3 +1,5 @@
 {
-  "accentColor": "#018aad"
+  "accentColor": "#018aad",
+  "baseFontSize": 16,
+  "baseFontSizeAction": false
 }

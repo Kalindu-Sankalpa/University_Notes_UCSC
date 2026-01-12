@@ -82,4 +82,9 @@ Raw data provides very little information until it is organized. We use differen
 ---
 # Analogy for Understanding:
 
-Think of statistics like **cooking a giant pot of soup.** The **Population** is the entire pot. Since you can't eat the whole pot at once to see if it's good, you take a **Sample** (one spoonful). The flavor of that spoonful is the **Statistic**. If you use that one spoonful to decide if the whole pot needs more salt, you are performing **Inferential Statistics.**
+Think of statistics like **cooking a giant pot of soup.** The **Population** is the entire pot. Since you can't eat the whole pot at once to see if it's good, you take a **Sample** (one spoonful). The flavor of that spoonful is the **Statistic**. If you use that one spoonful to decide if the whole pot needs more salt, you are performing **Inferential Statistics.** 
+
+---
+# Lecture Notes
+
+![[IS1212 Handout 1- Introduction to Statistics.pdf]]

@@ -1,3 +1,5 @@
+>Next Course : [[! IS1210 Syllabus (Lesson Plan)]]
+
 - **Course Code** : IS 1209
 - **Course Name** : Information Technology Project Management
 - **Lecture** : Dr. Dilrukshi Gamage
