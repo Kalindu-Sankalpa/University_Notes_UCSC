@@ -4,6 +4,8 @@
 - **Course Name** : Information Technology Project Management
 - **Lecture** : Dr. Dilrukshi Gamage
 
+#Lesson-Plan 
+
 >[!Goals]
 >This course helps students quip both the theoretical framework and practical skills necessary to lead complex technical projects.
 

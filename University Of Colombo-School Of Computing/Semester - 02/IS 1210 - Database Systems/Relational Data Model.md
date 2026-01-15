@@ -1,3 +1,5 @@
+>Next Topic : [[Database Design Process]]
+
 >[!Intro]
 >This topic helps to define the fundamental concepts and structural rules of the **relational model**. It aims to provide students with the ability to:
 >

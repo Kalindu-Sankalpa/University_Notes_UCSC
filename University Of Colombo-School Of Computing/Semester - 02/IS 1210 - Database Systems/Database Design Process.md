@@ -1,3 +1,5 @@
+>Next Topic : [[Data Normalization Process and the Normal Forms]]
+
 >[!Intro]
 >The primary goal of this topic is to teach the process of transforming real-world requirements into a structured database. Specifically, it aims to enable students to:
 >- **Analyze database requirements** and evaluate design suitability.

@@ -2,6 +2,8 @@
 - **Course Name** : Data Structures and Algorithms
 - **Lecture** : Prof. Noel Fernando
 
+#Lesson-Plan 
+
 >[!Goals]
 >The goal of this course is to provide a comprehensive understanding of **Data Structures and Algorithms (DSA)**, specifically focusing on the efficient organization, storage, and manipulation of data within a computer. It bridges the gap between theoretical algorithm design and practical implementation in C, ensuring that data is handled in ways that optimize memory utilization and processing speed.
 

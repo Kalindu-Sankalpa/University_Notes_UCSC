@@ -4,6 +4,8 @@
 - **Course Name** : Systems Analysis and Design
 - **Lecture** : Rupika Wijesinghe
 
+#Lesson-Plan
+
 > [!Goals]
 > This course provides necessary skills and competencies to analyze and design a system. In order to comprehend the inherent complexities in a large-scale software system, it is important to analyze the domain and model the system with standard techniques. Object Oriented paradigm offers system analysis and modeling approach which ensures component-based, reusable and extendable design. It is also widely used industry standard and hence; by completing this course unit, a student will gain the necessary knowledge and deep understanding in systems analysis and modeling.
 

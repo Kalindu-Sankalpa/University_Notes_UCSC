@@ -1,6 +1,10 @@
+>Next Course : [[! IS 1213 - Syllabus (Lesson Plan)]]
+
 - **Course Code** : IS 1212
 - **Course Name** : Fundamentals of Probability and Statistics
 - **Lecture** : K S Saubhagya
+
+#Lesson-Plan 
 
 >[!Goals]
 >The primary goal of the IS1212 Probability and Statistics course is to introduce students to the science of **collecting, organizing, analyzing, and presenting data** to draw conclusions in the best possible way. The course aims to provide a sufficient background in statistical techniques so that students can **formulate real-world problems** in statistical terms and make informed decisions about populations while accounting for individual variability.

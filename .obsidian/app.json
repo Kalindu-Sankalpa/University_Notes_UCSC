@@ -1,4 +1,6 @@
 {
   "newFileLocation": "root",
-  "tabSize": 4
+  "tabSize": 4,
+  "readableLineLength": true,
+  "showLineNumber": false
 }

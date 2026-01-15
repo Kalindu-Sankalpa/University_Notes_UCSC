@@ -1,3 +1,5 @@
+>Next Topic : [[Structured Query Language (SQL)]]
+
 >[!Intro]
 >The primary goal of this topic is to demonstrate the process of **normalization** and apply specific techniques to produce a set of relations with desirable properties. It aims to help students:
 >- Understand the purpose of normalization in **minimizing data redundancy** and eliminating **update anomalies**.
