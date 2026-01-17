@@ -23,15 +23,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "University Of Colombo-School Of Computing/Semester - 02/IS 1213 - Organizational Behavior/Personality and Values.md",
-                "mode": "source",
+                "file": "University Of Colombo-School Of Computing/Semester - 02/IS 1213 - Organizational Behavior/Perception & Decision Making.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Personality and Values"
+              "title": "Perception & Decision Making"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -190,10 +191,11 @@
       "bases:Create new base": false
     }
   },
-  "active": "9774779b7834a260",
+  "active": "7d36763a5c75ceef",
   "lastOpenFiles": [
-    "University Of Colombo-School Of Computing/Semester - 02/IS 1213 - Organizational Behavior/Personality and Values.md",
     "University Of Colombo-School Of Computing/Semester - 02/IS 1213 - Organizational Behavior/! IS1213 - Syllabus (Lesson Plan).md",
+    "University Of Colombo-School Of Computing/Semester - 02/IS 1213 - Organizational Behavior/Perception & Decision Making.md",
+    "University Of Colombo-School Of Computing/Semester - 02/IS 1213 - Organizational Behavior/Personality and Values.md",
     "University Of Colombo-School Of Computing/Semester - 02/IS 1213 - Organizational Behavior/Diversity in Organizations.md",
     "University Of Colombo-School Of Computing/Semester - 02/IS 1213 - Organizational Behavior/Introduction to Organizational Behavior.md",
     "University Of Colombo-School Of Computing/Semester - 02/IS 1213 - Organizational Behavior/Lecture Notes/Lesson 02 - Personality and Values.pdf",
@@ -224,7 +226,6 @@
     "University Of Colombo-School Of Computing/Semester - 02/IS 1214 - Data Structures and Algorithms/Link Lists.md",
     "University Of Colombo-School Of Computing/Semester - 02/IS 1214 - Data Structures and Algorithms/Lecture Notes/DSA - Lecture 01.pdf",
     "University Of Colombo-School Of Computing/Semester - 02/IS 1212 - Fundamentals of Probability and Statistics/Numerical Representation.md",
-    "University Of Colombo-School Of Computing/Semester - 02/IS 1212 - Fundamentals of Probability and Statistics/Graphical Presentation.md",
     "University Of Colombo-School Of Computing/Semester - 02/IS 1212 - Fundamentals of Probability and Statistics/Lecture Notes/IS1212 Handout 4 - Probability final.pdf",
     "University Of Colombo-School Of Computing/Semester - 02/IS 1214 - Data Structures and Algorithms/Lecture Notes/DSA - Lecture 02.pdf",
     "University Of Colombo-School Of Computing/Semester - 02/IS 1214 - Data Structures and Algorithms/Lecture Notes/DSA - Lecture 04.pdf"

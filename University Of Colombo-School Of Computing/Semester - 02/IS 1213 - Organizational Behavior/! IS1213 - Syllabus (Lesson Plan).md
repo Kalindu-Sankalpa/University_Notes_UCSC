@@ -53,4 +53,4 @@
 1. [[Introduction to Organizational Behavior]]
 2. [[Diversity in Organizations]]
 3. [[Personality and Values]]
-4. Perception & Decision Making
+4. [[Perception & Decision Making]]

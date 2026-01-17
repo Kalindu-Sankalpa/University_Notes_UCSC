@@ -47,3 +47,7 @@ Diversity management is the practical application of an organization's understan
 - Fine-tune jobs to fit the **specific abilities** of the employees to maximize performance.
 
 By effectively managing diversity, organizations can foster a **more innovative and productive workplace** that is better equipped to serve a diverse global customer base.
+
+---
+# Lecture Notes
+![[Lesson 01 - Diversity in Organizations.pdf]]
