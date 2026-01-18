@@ -40,3 +40,5 @@ To think about these goals, imagine statistics as a **translator**: it takes a m
 2. [[Graphical Presentation]]
 3. [[Numerical Representation]]
 4. [[Introduction to Probability]]
+5. [[Conditional Probability]]
+6. [[Independent Events]]
