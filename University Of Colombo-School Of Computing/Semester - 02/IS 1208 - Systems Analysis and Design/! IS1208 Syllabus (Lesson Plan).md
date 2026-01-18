@@ -11,7 +11,7 @@
 
 ---
 ## Section A : Context of Systems Analysis and Design methods
-1. [[Information Systems and System development environments, System stakeholders, Systems Development Life Cycle]]
+1. Information Systems and System development environments, System stakeholders, Systems Development Life Cycle
 2. [[Software Development Methodologies and Software process models]]
 ## Section B : System Analysis
 1. What is Systems Analysis? Systems Analysis approaches. Systems analysis phases and tasks

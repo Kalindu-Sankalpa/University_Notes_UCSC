@@ -18,17 +18,17 @@
             }
           },
           {
-            "id": "7d36763a5c75ceef",
+            "id": "6016e6c1257b973d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "University Of Colombo-School Of Computing/Semester - 02/IS 1213 - Organizational Behavior/Perception & Decision Making.md",
-                "mode": "preview",
+                "file": "University Of Colombo-School Of Computing/Semester - 02/IS 1212 - Fundamentals of Probability and Statistics/Conditional Probability.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Perception & Decision Making"
+              "title": "Conditional Probability"
             }
           }
         ],
@@ -191,24 +191,34 @@
       "bases:Create new base": false
     }
   },
-  "active": "7d36763a5c75ceef",
+  "active": "6016e6c1257b973d",
   "lastOpenFiles": [
-    "University Of Colombo-School Of Computing/Semester - 02/IS 1213 - Organizational Behavior/! IS1213 - Syllabus (Lesson Plan).md",
+    "University Of Colombo-School Of Computing/Semester - 02/IS 1212 - Fundamentals of Probability and Statistics/Conditional Probability.md",
+    "University Of Colombo-School Of Computing/Semester - 02/IS 1212 - Fundamentals of Probability and Statistics/Introduction to Probability.md",
+    "University Of Colombo-School Of Computing/Semester - 02/IS 1212 - Fundamentals of Probability and Statistics/! IS1212 Syllabus (Lesson Plan).md",
+    "University Of Colombo-School Of Computing/Semester - 02/IS 1212 - Fundamentals of Probability and Statistics/Lecture Notes/IS1212 Handout 6 - Independent Events.pdf",
+    "University Of Colombo-School Of Computing/Semester - 02/IS 1212 - Fundamentals of Probability and Statistics/Lecture Notes/IS1212 Handout 5 - Conditional Probability.pdf",
+    "University Of Colombo-School Of Computing/Semester - 02/IS 1213 - Organizational Behavior/Lecture Notes/Lesson 02 - Personality and Values.pdf",
+    "University Of Colombo-School Of Computing/Semester - 02/IS 1212 - Fundamentals of Probability and Statistics/Numerical Representation.md",
+    "University Of Colombo-School Of Computing/Semester - 02/IS 1212 - Fundamentals of Probability and Statistics/Graphical Presentation.md",
+    "University Of Colombo-School Of Computing/Semester - 02/IS 1212 - Fundamentals of Probability and Statistics/Introduction to Statistics.md",
+    "University Of Colombo-School Of Computing/Semester - 02/IS 1210 - Database Systems/Data Normalization Process and the Normal Forms.md",
+    "University Of Colombo-School Of Computing/Semester - 02/IS 1208 - Systems Analysis and Design/Information Systems and System development environments, System stakeholders, Systems Development Life Cycle.md",
+    "University Of Colombo-School Of Computing/Semester - 02/IS 1208 - Systems Analysis and Design/Software Development Methodologies and Software process models.md",
+    "University Of Colombo-School Of Computing/Semester - 02/IS 1208 - Systems Analysis and Design/! IS1208 Syllabus (Lesson Plan).md",
+    "University Of Colombo-School Of Computing/Semester - 02/IS 1208 - Systems Analysis and Design/Images/img_01.png",
     "University Of Colombo-School Of Computing/Semester - 02/IS 1213 - Organizational Behavior/Perception & Decision Making.md",
+    "University Of Colombo-School Of Computing/Semester - 02/IS 1213 - Organizational Behavior/! IS1213 - Syllabus (Lesson Plan).md",
     "University Of Colombo-School Of Computing/Semester - 02/IS 1213 - Organizational Behavior/Personality and Values.md",
     "University Of Colombo-School Of Computing/Semester - 02/IS 1213 - Organizational Behavior/Diversity in Organizations.md",
     "University Of Colombo-School Of Computing/Semester - 02/IS 1213 - Organizational Behavior/Introduction to Organizational Behavior.md",
-    "University Of Colombo-School Of Computing/Semester - 02/IS 1213 - Organizational Behavior/Lecture Notes/Lesson 02 - Personality and Values.pdf",
     "University Of Colombo-School Of Computing/Semester - 02/IS 1213 - Organizational Behavior/Lecture Notes/Lesson 03 - Perception and Individual Decision Making.pdf",
     "University Of Colombo-School Of Computing/Semester - 02/IS 1213 - Organizational Behavior/Lecture Notes/Lesson 01 - Diversity in Organizations.pdf",
     "University Of Colombo-School Of Computing/Semester - 02/IS 1213 - Organizational Behavior/Lecture Notes/Introduction to Organizational Behavior.pdf",
     "University Of Colombo-School Of Computing/Semester - 02/IS 1213 - Organizational Behavior/Lecture Notes",
     "University Of Colombo-School Of Computing/Semester - 02/IS 1214 - Data Structures and Algorithms/! IS1214 Syllabus (Lesson Plan).md",
-    "University Of Colombo-School Of Computing/Semester - 02/IS 1212 - Fundamentals of Probability and Statistics/! IS1212 Syllabus (Lesson Plan).md",
     "University Of Colombo-School Of Computing/Semester - 02/IS 1210 - Database Systems/! IS1210 Syllabus (Lesson Plan).md",
-    "University Of Colombo-School Of Computing/Semester - 02/IS 1208 - Systems Analysis and Design/! IS1208 Syllabus (Lesson Plan).md",
     "University Of Colombo-School Of Computing/Semester - 02/IS 1209 - Information Technology Project Management/! IS1209 Syllabus (Lesson Plan).md",
-    "University Of Colombo-School Of Computing/Semester - 02/IS 1210 - Database Systems/Data Normalization Process and the Normal Forms.md",
     "University Of Colombo-School Of Computing/Semester - 02/IS 1210 - Database Systems/Database Design Process.md",
     "University Of Colombo-School Of Computing/Semester - 02/IS 1210 - Database Systems/Relational Data Model.md",
     "University Of Colombo-School Of Computing/Semester - 02/IS 1210 - Database Systems/Database Environment.md",
@@ -217,17 +227,8 @@
     "University Of Colombo-School Of Computing/Semester - 02/IS 1209 - Information Technology Project Management/Introduction to Software Project Management.md",
     "University Of Colombo-School Of Computing/Semester - 02/IS 1209 - Information Technology Project Management/Capital Budgeting & Financial Metrics.md",
     "University Of Colombo-School Of Computing/Semester - 02/IS 1209 - Information Technology Project Management/Project Management Process Groups & Life Cycles.md",
-    "University Of Colombo-School Of Computing/Semester - 02/IS 1208 - Systems Analysis and Design/Software Development Methodologies and Software process models.md",
-    "University Of Colombo-School Of Computing/Semester - 02/IS 1208 - Systems Analysis and Design/Information Systems and System development environments, System stakeholders, Systems Development Life Cycle.md",
-    "University Of Colombo-School Of Computing/Semester - 02/IS 1212 - Fundamentals of Probability and Statistics/Introduction to Statistics.md",
-    "University Of Colombo-School Of Computing/Semester - 02/IS 1212 - Fundamentals of Probability and Statistics/Introduction to Probability.md",
     "University Of Colombo-School Of Computing/Semester - 02/IS 1213 - Organizational Behavior",
-    "University Of Colombo-School Of Computing/Semester - 02/IS 1214 - Data Structures and Algorithms/Introduction & Arrays.md",
-    "University Of Colombo-School Of Computing/Semester - 02/IS 1214 - Data Structures and Algorithms/Link Lists.md",
     "University Of Colombo-School Of Computing/Semester - 02/IS 1214 - Data Structures and Algorithms/Lecture Notes/DSA - Lecture 01.pdf",
-    "University Of Colombo-School Of Computing/Semester - 02/IS 1212 - Fundamentals of Probability and Statistics/Numerical Representation.md",
-    "University Of Colombo-School Of Computing/Semester - 02/IS 1212 - Fundamentals of Probability and Statistics/Lecture Notes/IS1212 Handout 4 - Probability final.pdf",
-    "University Of Colombo-School Of Computing/Semester - 02/IS 1214 - Data Structures and Algorithms/Lecture Notes/DSA - Lecture 02.pdf",
-    "University Of Colombo-School Of Computing/Semester - 02/IS 1214 - Data Structures and Algorithms/Lecture Notes/DSA - Lecture 04.pdf"
+    "University Of Colombo-School Of Computing/Semester - 02/IS 1212 - Fundamentals of Probability and Statistics/Lecture Notes/IS1212 Handout 4 - Probability final.pdf"
   ]
 }

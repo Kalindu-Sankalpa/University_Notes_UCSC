@@ -1,3 +1,4 @@
+>Next Topic : [[Graphical Presentation]]
 
 Statistics is the **science of collecting, organizing, analyzing, presenting data, and finally drawing conclusions** in the best possible way. It acts as a bridge between raw data and informed decision-making.
 
