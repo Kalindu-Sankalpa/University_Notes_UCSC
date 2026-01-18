@@ -46,3 +46,7 @@ If these events are mutually independent, then combinations of them are also ind
 
 **Analogy for Understanding:**
 	Think of **independent events** like **two people watching the same movie in different cities.** Whether Person A buys popcorn $(EventA)$ has absolutely no effect on the probability that Person B will buy a soda $(EventB)$. Their choices are totally separate. However, if they were **sharing one bucket of popcorn** (Dependent), Person A taking a huge handful would definitely change the probability of how much popcorn is left for Person B!
+
+---
+# Lecture Notes
+![[IS1212 Handout 6 - Independent Events.pdf]]

@@ -64,3 +64,7 @@ Two events are **Independent** if the occurrence of one has **no effect** on the
 
 **Analogy for Understanding:**
 	Imagine you are at a **cafeteria**. The probability that someone orders **Fries** is P(Fries). However, if you see them holding a **Burger**, the probability they will order fries usually goes up! That new, higher probability is P(Fries∣Burger). If they are a health nut and the burger doesn't change their chance of getting fries, then fries and burgers are **Independent**.
+
+---
+# Lecture Notes
+![[IS1212 Handout 5 - Conditional Probability.pdf]]
