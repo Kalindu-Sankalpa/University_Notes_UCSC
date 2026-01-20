@@ -9,9 +9,9 @@
 We write this as $P(A∣B)$, which is read as the **"probability of A, given B"**.
 
 - **The Golden Rule:** To find the conditional probability, you take the probability of both events happening together and divide it by the probability of the event that is already certain.
-	**Formula:** $P(A∣B)=\frac{P(B)}{P(A∩B)}​ (where P(B)>0)$.
+	**Formula:** $P(A∣B)=\frac{P(A∩B)}{P(B)} (where P(B)>0)$.
 
-• **The Inverse:** Similarly, $P(B∣A)=\frac{P(A)}{P(A∩B)}​$.
+• **The Inverse:** Similarly, $P(B∣A)=\frac{P(A∩B)}{P(A)}$.
 
 • **A Special Fact:** $P(B∣B)$ is always **1**, because if we know B has happened, the chance of B having happened is 100%.
 
