@@ -61,3 +61,94 @@ Think of a **spring-loaded plate dispenser** in a cafeteria. When a dishwasher a
 # Lecture Notes
 
 ![[DSA - Lecture 02.pdf]]
+
+---
+# Code Examples
+
+## Pseudo Code for Stack Push
+
+```pseudo
+PSEUDOCODE: PUSH OPERATION
+
+PROCEDURE PUSH(STACK, TOP, MAX, ITEM)
+1. [Check for overflow]
+   IF TOP = MAX-1 THEN
+	   PRINT "Stack Overflow"
+      RETURN
+   END IF
+
+2. [Increment TOP]
+   SET TOP = TOP + 1
+
+3. [Insert item]
+   SET STACK[TOP] = ITEM
+
+4. [Success]
+   PRINT "Element pushed successfully"
+   RETURN
+END PROCEDURE
+```
+
+# C code for Push Stack
+
+```C
+#include <stdio.h>
+#define MAX 5  // Maximum size of stack
+
+int stack[MAX];
+int top = -1;  // Stack is empty
+
+// Push function
+void push(int item) {
+    // Step 1: Check for overflow
+    if (top == MAX - 1) {
+        printf("Stack Overflow! Cannot push %d\n", item);
+        return;
+    }
+    
+    // Step 2: Increment TOP
+    top++;
+    
+    // Step 3: Insert item
+    stack[top] = item;
+    
+    // Step 4: Success
+    printf("✓ Pushed %d onto stack\n", item);
+}
+
+// Display stack
+void display() {
+    if (top == -1) {
+        printf("Stack is empty!\n");
+        return;
+    }
+    
+    printf("Stack (TOP → BOTTOM): ");
+    for (int i = top; i >= 0; i--) {
+        printf("%d ", stack[i]);
+        if (i == top) printf("← TOP");
+        printf("\n");
+    }
+}
+
+// Main function
+int main() {
+    printf("=== Stack Push Operation ===\n\n");
+    
+    // Push some elements
+    push(10);
+    push(20);
+    push(30);
+    push(40);
+    push(50);  // This fills the stack (MAX=5)
+    
+    printf("\nCurrent stack:\n");
+    display();
+    
+    // Try to overflow
+    printf("\nTrying to push 60 (should overflow):\n");
+    push(60);
+    
+    return 0;
+}
+```
