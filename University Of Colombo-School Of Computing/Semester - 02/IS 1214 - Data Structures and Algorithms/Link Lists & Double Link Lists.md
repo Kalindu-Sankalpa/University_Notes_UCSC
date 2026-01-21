@@ -11,6 +11,10 @@ Each node in a linked list is essentially a container with two main parts:
 - **START Pointer:** A special variable that stores the address of the very first node so the computer knows where the list begins.
 
 - **NULL Pointer:** The last node in the list points to `NULL` (often denoted as 'X'), signaling the end of the sequence.
+>Double Link List is more complex tow-way structure where each node contains **Three Parts**
+>- The data field
+>- A Pointer to the Next node
+>- Pointer to the **Previous**
 
 # 2. Arrays vs. Linked Lists
 

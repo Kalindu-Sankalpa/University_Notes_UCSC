@@ -42,7 +42,7 @@
 	- **Circular Queues**: Overcoming the limitations of linear queues regarding memory gaps.
 	- **Priority Queues and Heaps**: Using binary trees (heaps) to manage elements by priority and performing **Heap Sort**.
 
-4. [[Link Lists]]
+4. [[Link Lists & Double Link Lists]]
 	- Comparison between arrays and linked lists (fixed vs. dynamic size).
 	- **Dynamic memory management** in C using pointers and heap memory.
 	- **Singly Linked List** structure: Data fields and "next" pointers.
