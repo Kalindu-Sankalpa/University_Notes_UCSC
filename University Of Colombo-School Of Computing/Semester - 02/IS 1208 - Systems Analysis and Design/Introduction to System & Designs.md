@@ -46,3 +46,8 @@ SA&D is essential because developing an effective information system requires ca
 3. **Providing a Systematic Approach:** SA&D is integrated within the **System Development Life Cycle (SDLC)**, which is a systematic approach to software development. This systematic structure, often guided by a formal **methodology** that defines activities, methods, best practices, and tools, ensures that systems are built in the most effective way.
 
 4. **Bridging the Communication Gap:** Professionals involved in SA&D, known as Systems Analysts, study business problems and opportunities and transform business and information requirements into specifications for the Information System (IS). They are essential for bridging the communication gap that exists between nontechnical business stakeholders (like users and system owners) and technical people involved in building the system.
+
+---
+# Lecture Notes
+
+![[IS1208 - Introduction to System & Design.pdf]]

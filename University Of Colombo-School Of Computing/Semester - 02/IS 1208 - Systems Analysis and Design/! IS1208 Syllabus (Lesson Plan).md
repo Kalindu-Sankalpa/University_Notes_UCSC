@@ -11,19 +11,12 @@
 
 ---
 ## Section A : Context of Systems Analysis and Design methods
-1. Information Systems and System development environments, System stakeholders, Systems Development Life Cycle
+1. [[Introduction to System & Designs]]
 2. [[Software Development Methodologies and Software process models]]
 ## Section B : System Analysis
-1. What is Systems Analysis? Systems Analysis approaches. Systems analysis phases and tasks
-2. Fact finding techniques for Requirements discovery
+1. [[Systems Analysis and Fact Finding techniques]]
+2. [[Feasibility Analysis]]
 3. Modelling Systems requirements with Use cases
-4. Data Modelling and Analysis
-5. Process Modelling
-6. Object Oriented Analysis: System concepts for Object Modeling
-7. The process of Object Modelling
-8. Feasibility Analysis
-9. Systems Design
-10. Application Architecture and Modelling
 ## Section C : System Design
 1. The design of an Object-oriented System
 2. Process of Object Oriented Design, Modelling using the **Unified Modeling Language**

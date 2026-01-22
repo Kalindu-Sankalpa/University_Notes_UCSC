@@ -52,3 +52,62 @@ Think of a **Queue** like a **one-way tunnel**. Cars enter from the back and dri
 # Lecture Notes
 
 ![[DSA - Lecture 03.pdf]]
+
+---
+# Code Examples
+
+## 📝 PSEUDOCODE FOR ALL OPERATIONS
+
+### 1. ENQUEUE (Insertion)
+
+```pseudo
+PROCEDURE ENQUEUE(QUEUE, FRONT, REAR, MAX, ITEM)
+1. [Check for overflow]
+   IF REAR = MAX-1 THEN
+      PRINT "Queue Overflow"
+      RETURN
+   END IF
+
+2. [If queue is empty, set FRONT to 0]
+   IF FRONT = -1 THEN
+      SET FRONT = 0
+   END IF
+
+3. [Increment REAR]
+   SET REAR = REAR + 1
+
+4. [Insert item]
+   SET QUEUE[REAR] = ITEM
+
+5. [Success]
+   PRINT "Element enqueued"
+   RETURN
+END PROCEDURE
+```
+
+### 2. DEQUEUE (Deletion)
+
+```pseudo
+PROCEDURE DEQUEUE(QUEUE, FRONT, REAR)
+1. [Check for underflow]
+   IF FRONT = -1 OR FRONT > REAR THEN
+      PRINT "Queue Underflow"
+      RETURN -1
+   END IF
+
+2. [Get front element]
+   SET ITEM = QUEUE[FRONT]
+
+3. [Increment FRONT]
+   SET FRONT = FRONT + 1
+
+4. [If queue becomes empty, reset]
+   IF FRONT > REAR THEN
+      SET FRONT = -1
+      SET REAR = -1
+   END IF
+
+5. [Return dequeued element]
+   RETURN ITEM
+END PROCEDURE
+```
