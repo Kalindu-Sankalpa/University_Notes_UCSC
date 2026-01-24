@@ -1,6 +1,6 @@
 > Next Topic : [[Database Environment]]
 
->[!Intro]
+>[!tip]
 >This topic helps to establish a foundational understanding of the **database approach** as a solution to the limitations of traditional file-based data management.
 >
 >The main goal of designing a database for an enterprise is to create an **accurate representation of the data**, the **relationships** between that data, and the **constraints** relevant to the organization
@@ -62,3 +62,8 @@ Databases offer **improved consistency, minimal redundancy, and better data shar
 	Personal (<1 user), Work-group (<25 users), Departmental (functional units), and Enterprise (organization-wide).
 
 A **file-based system** is like a group of students each keeping their own personal notebook for a project; if one student updates a fact, the others' notes become outdated and inconsistent. A **database system**, however, is like a single shared digital document where everyone views and updates the same information in real-time, ensuring everyone has the most accurate data.
+
+---
+# Lecture Notes
+
+![[IS1210 - Introduction to Databases.pdf]]

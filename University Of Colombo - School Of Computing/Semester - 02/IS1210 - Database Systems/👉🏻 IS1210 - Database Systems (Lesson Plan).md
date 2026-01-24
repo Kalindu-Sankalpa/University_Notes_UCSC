@@ -4,7 +4,7 @@
 
 #Lesson-Plan 
 
->[!Goals]
+>[!todo] Goals
 >This course provides a comprehensive introduction to database systems, covering essential concepts, principles, and practical skills necessary for designing, implementing, and maintaining robust database systems. Through a combination of theoretical foundations and hands-on exercises, students will gain a deep understanding of database architecture, relational models, normalization techniques, SQL query formulation, and database application development.
 
 ---
@@ -25,6 +25,8 @@
 1. [[Introduction to Databases]]
 2. [[Database Environment]]
 3. [[Relational Data Model]]
-4. [[Database Design Process]]
-5. [[Data Normalization Process and the Normal Forms]]
-6. [[Structured Query Language (SQL)]]
+4. [[Data Modeling using the Entity-Relationship Model]]
+5. [[Enhanced Entity Relationship Model]]
+6. [[Logical Database Design]]
+7. [[Data Normalization Process and the Normal Forms]]
+8. [[Structured Query Language (SQL)]]

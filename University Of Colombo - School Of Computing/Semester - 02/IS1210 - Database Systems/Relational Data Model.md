@@ -1,6 +1,6 @@
->Next Topic : [[Database Design Process]]
+>Next Topic : [[Data Modeling using the Entity-Relationship Model]]
 
->[!Intro]
+>[!tip]
 >This topic helps to define the fundamental concepts and structural rules of the **relational model**. It aims to provide students with the ability to:
 >
 > - Define core terminology such as **relations, attributes, domains, and tuples**.
@@ -51,3 +51,8 @@ Constraints are integrity rules that a database is not permitted to violate.
 - **Data Rules:** **Entity Integrity** prevents "empty" primary keys, ensuring every record can be found, while **Referential Integrity** maintains the consistency of links between tables.
 
 The **relational data model** is like a **standardized spreadsheet workbook**: the **Relation** is an individual sheet, the **Attributes** are the column headers, and each **Tuple** is a completed row. **Primary Keys** act like unique ID numbers for every row to ensure no two entries are confused, and **Foreign Keys** are like a "see also" note that points you to a specific row on a different sheet.
+
+---
+# Lecture Notes
+
+![[IS1210 - Relational Data Model.pdf]]

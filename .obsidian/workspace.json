@@ -16,71 +16,6 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
-          },
-          {
-            "id": "02f3397f5b250675",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "University Of Colombo-School Of Computing/Semester - 02/IS 1208 - Systems Analysis and Design/! IS1208 Syllabus (Lesson Plan).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "! IS1208 Syllabus (Lesson Plan)"
-            }
-          },
-          {
-            "id": "a99c65e28879e670",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "University Of Colombo-School Of Computing/Semester - 02/IS 1208 - Systems Analysis and Design/Feasibility Analysis.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Feasibility Analysis"
-            }
-          },
-          {
-            "id": "243f504dfe3f6104",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "University Of Colombo-School Of Computing/Semester - 02/IS 1208 - Systems Analysis and Design/Feasibility Analysis.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Feasibility Analysis"
-            },
-            "group": "0f1d45d67652b8e0"
-          }
-        ],
-        "currentTab": 3
-      },
-      {
-        "id": "10c4e8e6cf0905fb",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "7281abc6b61706eb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "University Of Colombo-School Of Computing/Semester - 02/IS 1208 - Systems Analysis and Design/Feasibility Analysis.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Feasibility Analysis"
-            },
-            "group": "0f1d45d67652b8e0"
           }
         ]
       }
@@ -102,7 +37,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": true
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -139,7 +74,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 307.5
+    "width": 398.5,
+    "collapsed": true
   },
   "right": {
     "id": "4c057cc63347afdb",
@@ -155,9 +91,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "University Of Colombo-School Of Computing/Semester - 02/IS 1208 - Systems Analysis and Design/Feasibility Analysis.md",
                 "collapseAll": false,
-                "extraContext": false,
+                "extraContext": true,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
@@ -165,7 +100,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Feasibility Analysis"
+              "title": "Backlinks"
             }
           },
           {
@@ -228,7 +163,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 410.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -239,47 +174,49 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "publish:Publish changes...": false
     }
   },
-  "active": "7281abc6b61706eb",
+  "active": "9774779b7834a260",
   "lastOpenFiles": [
-    "University Of Colombo-School Of Computing/Semester - 02/IS 1208 - Systems Analysis and Design/Systems Analysis and Fact Finding techniques.md",
-    "University Of Colombo-School Of Computing/Semester - 02/IS 1208 - Systems Analysis and Design/Feasibility Analysis.md",
-    "University Of Colombo-School Of Computing/Semester - 02/IS 1208 - Systems Analysis and Design/Software Development Methodologies and Software process models.md",
-    "University Of Colombo-School Of Computing/Semester - 02/IS 1208 - Systems Analysis and Design/! IS1208 Syllabus (Lesson Plan).md",
-    "University Of Colombo-School Of Computing/Semester - 02/IS 1208 - Systems Analysis and Design/Introduction to System & Designs.md",
-    "University Of Colombo-School Of Computing/Semester - 02/IS 1208 - Systems Analysis and Design/Lecture Notes/IS1208 - Software Process Models.pdf",
-    "University Of Colombo-School Of Computing/Semester - 02/IS 1208 - Systems Analysis and Design/Lecture Notes/IS1208 - Introduction to System & Design.pdf",
-    "University Of Colombo-School Of Computing/Semester - 02/IS 1208 - Systems Analysis and Design/Lecture Notes/IS1208 - Modelling System Requirements.pdf",
-    "University Of Colombo-School Of Computing/Semester - 02/IS 1208 - Systems Analysis and Design/Lecture Notes/IS1208 - Systems Analysis.pdf",
-    "University Of Colombo-School Of Computing/Semester - 02/IS 1208 - Systems Analysis and Design/Lecture Notes/IS1208 - Feasibility Study.pdf",
-    "University Of Colombo-School Of Computing/Semester - 02/IS 1208 - Systems Analysis and Design/Lecture Notes",
-    "University Of Colombo-School Of Computing/Semester - 02/IS 1214 - Data Structures and Algorithms/Stacks.md",
-    "University Of Colombo-School Of Computing/Semester - 02/IS 1214 - Data Structures and Algorithms/Queues.md",
-    "University Of Colombo-School Of Computing/Semester - 02/IS 1214 - Data Structures and Algorithms/! IS1214 Syllabus (Lesson Plan).md",
-    "University Of Colombo-School Of Computing/Semester - 02/IS 1213 - Organizational Behavior/! IS1213 - Syllabus (Lesson Plan).md",
-    "University Of Colombo-School Of Computing/Semester - 02/IS 1212 - Fundamentals of Probability and Statistics/! IS1212 Syllabus (Lesson Plan).md",
-    "University Of Colombo-School Of Computing/Semester - 02/IS 1214 - Data Structures and Algorithms/Link Lists & Double Link Lists.md",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1209 - Information Technology Project Management/👉🏻 IS1209 - Information Technology Project Management (Lesson Plan).md",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1210 - Database Systems/👉🏻 IS1210 - Database Systems (Lesson Plan).md",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1212 - Fundamentals of Probability and Statistics/👉🏻 IS1212 - Fundamentals of Probability and Statistics (Lesson Plan).md",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1213 - Organizational Behavior/👉🏻 IS1213 - Organizational Behavior (Lesson Plan).md",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1214 - Data Structures and Algorithms/👉🏻 IS1214 - Data Structures and Algorithms (Lesson Plan).md",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1208 - Systems Analysis and Design/👉🏻 IS1208 - Systems Analysis and Design (Lesson Plan).md",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1210 - Database Systems/Introduction to Databases.md",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1210 - Database Systems/Relational Data Model.md",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1210 - Database Systems/Data Modeling using the Entity-Relationship Model.md",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1210 - Database Systems/Enhanced Entity Relationship Model.md",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1210 - Database Systems/Database Environment.md",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1210 - Database Systems/Logical Database Design.md",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1210 - Database Systems/Data Normalization Process and the Normal Forms.md",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1210 - Database Systems/Images/img_01.svg",
+    "University Of Colombo-School Of Computing/Semester - 02/IS 1210 - Database Systems/Database Design Process.md",
+    "2026-01-24.md",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1210 - Database Systems/Lecture Notes/IS1210 - Logical Database Design.pdf",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1210 - Database Systems/Lecture Notes/IS1210 - Relational Data Model.pdf",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1210 - Database Systems/Lecture Notes/IS1210 - Normalization - Part 3.pdf",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1210 - Database Systems/Lecture Notes/IS1210 - Normalization - Part 2.pdf",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1210 - Database Systems/Lecture Notes/IS1210 - Normalization - Part 1.pdf",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1210 - Database Systems/Lecture Notes/IS1210 - Introduction to Databases.pdf",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1210 - Database Systems/Lecture Notes/IS1210 - Enhanced Entity-Relationship Model.pdf",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1210 - Database Systems/Lecture Notes/IS1210 - Data Modeling using the Entity-Relationship Model.pdf",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1210 - Database Systems/Lecture Notes/IS1210 - Database Environment.pdf",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1210 - Database Systems/Lecture Notes",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1213 - Organizational Behavior/Diversity in Organizations.md",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1213 - Organizational Behavior/Introduction to Organizational Behavior.md",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1208 - Systems Analysis and Design/Feasibility Analysis.md",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1208 - Systems Analysis and Design/Systems Analysis and Fact Finding techniques.md",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1208 - Systems Analysis and Design/Software Development Methodologies and Software process models.md",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1208 - Systems Analysis and Design/Introduction to System & Designs.md",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1214 - Data Structures and Algorithms/Stacks.md",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1214 - Data Structures and Algorithms/Queues.md",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1214 - Data Structures and Algorithms/Link Lists & Double Link Lists.md",
     "University Of Colombo-School Of Computing/Semester - 02/IS 1214 - Data Structures and Algorithms/Link Lists.md",
-    "University Of Colombo-School Of Computing/Semester - 02/IS 1210 - Database Systems/! IS1210 Syllabus (Lesson Plan).md",
-    "University Of Colombo-School Of Computing/Semester - 02/IS 1212 - Fundamentals of Probability and Statistics/Conditional Probability.md",
-    "University Of Colombo-School Of Computing/Semester - 02/IS 1212 - Fundamentals of Probability and Statistics/Introduction to Statistics.md",
-    "University Of Colombo-School Of Computing/Semester - 02/IS 1213 - Organizational Behavior/Perception & Decision Making.md",
-    "University Of Colombo-School Of Computing/Semester - 02/IS 1212 - Fundamentals of Probability and Statistics/Independent Events.md",
-    "University Of Colombo-School Of Computing/Semester - 02/IS 1212 - Fundamentals of Probability and Statistics/Introduction to Probability.md",
-    "University Of Colombo-School Of Computing/Semester - 02/IS 1212 - Fundamentals of Probability and Statistics/Numerical Representation.md",
-    "University Of Colombo-School Of Computing/Semester - 02/IS 1212 - Fundamentals of Probability and Statistics/Graphical Presentation.md",
-    "University Of Colombo-School Of Computing/Semester - 02/IS 1212 - Fundamentals of Probability and Statistics/Lecture Notes/IS1212 Handout 6 - Independent Events.pdf",
-    "University Of Colombo-School Of Computing/Semester - 02/IS 1212 - Fundamentals of Probability and Statistics/Lecture Notes/IS1212 Handout 5 - Conditional Probability.pdf",
-    "University Of Colombo-School Of Computing/Semester - 02/IS 1213 - Organizational Behavior/Lecture Notes/Lesson 02 - Personality and Values.pdf",
-    "University Of Colombo-School Of Computing/Semester - 02/IS 1210 - Database Systems/Data Normalization Process and the Normal Forms.md",
-    "University Of Colombo-School Of Computing/Semester - 02/IS 1208 - Systems Analysis and Design/Images/img_01.png",
-    "University Of Colombo-School Of Computing/Semester - 02/IS 1213 - Organizational Behavior/Personality and Values.md",
-    "University Of Colombo-School Of Computing/Semester - 02/IS 1213 - Organizational Behavior/Diversity in Organizations.md",
-    "University Of Colombo-School Of Computing/Semester - 02/IS 1213 - Organizational Behavior/Introduction to Organizational Behavior.md",
-    "University Of Colombo-School Of Computing/Semester - 02/IS 1213 - Organizational Behavior/Lecture Notes/Lesson 03 - Perception and Individual Decision Making.pdf",
-    "University Of Colombo-School Of Computing/Semester - 02/IS 1209 - Information Technology Project Management/! IS1209 Syllabus (Lesson Plan).md",
-    "University Of Colombo-School Of Computing/Semester - 02/IS 1210 - Database Systems/Database Design Process.md"
+    "University Of Colombo - School Of Computing/Semester - 02/IS1212 - Fundamentals of Probability and Statistics/Conditional Probability.md",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1208 - Systems Analysis and Design/Images/img_01.png"
   ]
 }

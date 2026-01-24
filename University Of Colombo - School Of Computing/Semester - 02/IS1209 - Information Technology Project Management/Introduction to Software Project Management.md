@@ -2,7 +2,7 @@
 
 **Software Project Management (SPM)** is a discipline aimed at ensuring that software is delivered **on time, within budget and schedule constraints, and satisfies the requirements of the client**. Unlike general projects, software projects are uniquely challenging because software is **intangible (invisible)**, making progress difficult to see; it is often more **complex** than other engineering artifacts; and it is highly **flexible**, meaning it is frequently subjected to changing organizational requirements.
 
-![[University Of Colombo-School Of Computing/Semester - 02/IS 1209 - Information Technology Project Management/Images/img_01.svg]]
+![[University Of Colombo - School Of Computing/Semester - 02/IS1209 - Information Technology Project Management/Images/img_01.svg]]
 
 The core of effective project management focuses on the **Management Spectrum**, often referred to as the **Four P’s**:
 

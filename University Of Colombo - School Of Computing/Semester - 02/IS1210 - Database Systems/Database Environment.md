@@ -1,6 +1,6 @@
 >Next Topic : [[Relational Data Model]]
 
->[!intro]
+>[!tip]
 >The primary goal of this topic is to explain the **three-level database architecture** (ANSI-SPARC) and the various components that allow a Database Management System (DBMS) to function as a bridge between users and physical data. Specifically, it aims to:
 >- Differentiate between the **external, conceptual, and internal levels**.
 >- Define the purpose of **mappings** and the concept of **logical and physical data independence**.
@@ -57,3 +57,8 @@ A DBMS must provide services like **concurrency control** (ensuring simultaneous
 	The system uses **DDL** to build the house (structure) and **DML** to move the furniture (data) in and out.
 
 The **three-level architecture** is like using a **smartphone**: The **External level** is the app's interface that you interact with; the **Conceptual level** is the programming logic that decides what the app can do; and the **Internal level** is the actual electrical signals and storage chips inside the phone. Because of **data independence**, the manufacturer can change the internal chips (Internal level) without you ever needing to learn a new way to use the app (External level).
+
+---
+# Lecture Notes
+
+![[IS1210 - Database Environment.pdf]]
