@@ -16,8 +16,33 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
+          },
+          {
+            "id": "4c71a044e06c49f3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "University Of Colombo - School Of Computing/Semester - 02/IS1210 - Database Systems/Enhanced Entity Relationship Model.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Enhanced Entity Relationship Model"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -91,6 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "University Of Colombo - School Of Computing/Semester - 02/IS1210 - Database Systems/Enhanced Entity Relationship Model.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -100,7 +126,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Enhanced Entity Relationship Model"
             }
           },
           {
@@ -151,15 +177,17 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "University Of Colombo - School Of Computing/Semester - 02/IS1210 - Database Systems/Enhanced Entity Relationship Model.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Enhanced Entity Relationship Model"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -178,10 +206,11 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "9774779b7834a260",
+  "active": "4c71a044e06c49f3",
   "lastOpenFiles": [
-    "University Of Colombo - School Of Computing/Semester - 02/IS1209 - Information Technology Project Management/👉🏻 IS1209 - Information Technology Project Management (Lesson Plan).md",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1210 - Database Systems/Enhanced Entity Relationship Model.md",
     "University Of Colombo - School Of Computing/Semester - 02/IS1210 - Database Systems/👉🏻 IS1210 - Database Systems (Lesson Plan).md",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1209 - Information Technology Project Management/👉🏻 IS1209 - Information Technology Project Management (Lesson Plan).md",
     "University Of Colombo - School Of Computing/Semester - 02/IS1212 - Fundamentals of Probability and Statistics/👉🏻 IS1212 - Fundamentals of Probability and Statistics (Lesson Plan).md",
     "University Of Colombo - School Of Computing/Semester - 02/IS1213 - Organizational Behavior/👉🏻 IS1213 - Organizational Behavior (Lesson Plan).md",
     "University Of Colombo - School Of Computing/Semester - 02/IS1214 - Data Structures and Algorithms/👉🏻 IS1214 - Data Structures and Algorithms (Lesson Plan).md",
@@ -189,7 +218,6 @@
     "University Of Colombo - School Of Computing/Semester - 02/IS1210 - Database Systems/Introduction to Databases.md",
     "University Of Colombo - School Of Computing/Semester - 02/IS1210 - Database Systems/Relational Data Model.md",
     "University Of Colombo - School Of Computing/Semester - 02/IS1210 - Database Systems/Data Modeling using the Entity-Relationship Model.md",
-    "University Of Colombo - School Of Computing/Semester - 02/IS1210 - Database Systems/Enhanced Entity Relationship Model.md",
     "University Of Colombo - School Of Computing/Semester - 02/IS1210 - Database Systems/Database Environment.md",
     "University Of Colombo - School Of Computing/Semester - 02/IS1210 - Database Systems/Logical Database Design.md",
     "University Of Colombo - School Of Computing/Semester - 02/IS1210 - Database Systems/Data Normalization Process and the Normal Forms.md",

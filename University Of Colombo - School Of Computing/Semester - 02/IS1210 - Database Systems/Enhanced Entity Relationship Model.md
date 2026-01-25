@@ -16,6 +16,14 @@ These are the two processes used to create EER diagrams:
 
 - **Generalization:** A bottom-up process that identifies common features among several entity types to define a generalized super-class, effectively suppressing their differences.
 
+# Aggregation and Composition
+
+- **Aggregation** :
+	An abstract through which relationship are treated as higher-level entities. Represents a "has-a" or "part-of" relationship where parts can exist independently.
+	
+- **Composition** :
+	A strong form of aggregation where parts cannot exist without the whole. Represents a "contains" relationship with strong ownership and life-cycle dependency.
+
 # Constraints on EER Modeling
 
 Designers must apply specific constraints to these relationships:
