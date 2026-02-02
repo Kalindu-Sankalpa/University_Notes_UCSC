@@ -54,3 +54,9 @@ The process involves a series of tests called **Normal Forms**:
 • **Trade-offs:** While normalization reduces redundancy and improves data integrity, it can **increase the number of joins** required for queries, which may reduce performance efficiency and increase system complexity.
 
 The **Normalization Process** is like **refining raw materials**: you start with a "dirty" unnormalized table (UNF) and filter out repeating patterns (1NF), then remove "half-dependencies" on composite keys (2NF), and finally clear out indirect "sideways" dependencies (3NF) until you have a **pure, consistent data structure**. While this makes the data much safer from errors (**anomalies**), it makes the "assembly" of full reports slightly more complex because the data is now stored in many specialized, smaller tables instead of one giant one.
+
+---
+# Lecture Notes
+![[IS1210 - Normalization - Part 1.pdf]]
+![[IS1210 - Normalization - Part 2.pdf]]
+![[IS1210 - Normalization - Part 3.pdf]]

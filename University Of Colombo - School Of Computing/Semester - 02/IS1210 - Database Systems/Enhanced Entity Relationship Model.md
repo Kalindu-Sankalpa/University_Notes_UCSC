@@ -56,3 +56,6 @@ The model also includes **Categories**, which are sub-classes of the **union** o
 
 The **EER Model** is like a **biological classification system**: The **Super-class** is the "Genus" (e.g., Mammal), and the **Sub-classes** are the "Species" (e.g., Dog, Cat). Because of **Inheritance**, a Dog automatically has "Mammal traits" (attributes like warm-blooded), and **Disjointness** ensures that a single animal cannot be both a Dog and a Cat at the same time.
 
+---
+# Lecture Notes
+![[IS1210 - Enhanced Entity-Relationship Model.pdf]]
