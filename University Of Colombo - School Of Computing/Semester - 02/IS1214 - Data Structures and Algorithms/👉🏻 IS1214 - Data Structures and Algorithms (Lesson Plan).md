@@ -52,6 +52,15 @@
 	- **Circular and Header Linked Lists**: Lists where the last node points back to the start or lists containing a special header node.
 	- Practical application: Representing **polynomials** using linked lists for mathematical operations.
 
+5. [[Trees]]
+	- **Defining and applying tree terminology**, such as root, leaf node, ancestor, descendant, level number, degree, height, and depth.
+	- **Distinguishing between tree types**, including general trees, binary trees, full binary trees, and complete binary trees.
+	- **Implementing memory representations**, specifically comparing sequential (array-based) and linked representations for binary trees.
+	- **Mastering traversal algorithms**, including depth-first schemes (Pre-order, In-order, Post-order) and breadth-first schemes (Level-order).
+	- **Constructing and manipulating Binary Search Trees (BSTs)**, including performing search, insertion, and complex deletion operations.
+	- **Understanding self-balancing structures**, specifically the AVL tree balance property and the use of single and double rotations to correct imbalances.
+	- **Utilizing trees for practical applications**, such as calculating the size/height of a tree, building expression trees for mathematical evaluation, and creating dictionary structures.
+
 ---
 # Analogy for Understanding:
 

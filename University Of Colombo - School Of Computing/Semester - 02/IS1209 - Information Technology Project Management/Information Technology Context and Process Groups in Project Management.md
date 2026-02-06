@@ -38,3 +38,7 @@ The technical management of a project is organized into **five process groups**:
 
 > [!NOTE] Analogy
 > Running an IT project within an organization is like **navigating a ship through a busy harbor**. You cannot just focus on your own engine and crew (**the process groups**); you must also understand the tides and currents of the surrounding waters (**organizational culture**), obey the harbor's traffic laws (**organizational structure**), and ensure you have the lighthouse's guidance and the harbor master's permission (**top management commitment**) to reach your destination safely.
+
+---
+# Lecture Notes
+![[Topic 02 - Information Technology Context and Process Groups in Project Management.pdf]]

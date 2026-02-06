@@ -77,3 +77,7 @@ This clarify a common point of confusion:
 --------------------------------------------------------------------------------
 
 **Analogy:** Managing a project using these groups is like **writing a book**. **Initiating** is getting a contract from a publisher; **Planning** is creating the outline and chapter breakdown; **Executing** is the actual writing; **Monitoring and Controlling** is the editing process where you check for plot holes and fix them; and **Closing** is sending the final manuscript to the printer and receiving your first copy.
+
+---
+# Lecture Notes
+![[Topic 03 - Project Management Process Groups & Life Cycles.pdf]]

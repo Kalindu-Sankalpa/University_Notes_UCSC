@@ -55,3 +55,6 @@ Success often depends on **systems thinking**—understanding how the project fi
 - **Stakeholders:** Can be internal (team, sponsor) or external (customers, contractors).
 
 - **Key Financial Metrics (Capital Budgeting):** Used to decide project viability. Includes **Net Present Value (NPV)**, **Internal Rate of Return (IRR)**, and **Payback Period**.
+---
+# Lecture Notes
+![[Topic 01 - Introduction to Software Project Management.pdf]]

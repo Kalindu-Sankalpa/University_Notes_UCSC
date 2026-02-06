@@ -48,3 +48,4 @@
 2. [[Information Technology Context and Process Groups in Project Management]]
 3. [[Project Management Process Groups & Life Cycles]]
 4. [[Capital Budgeting & Financial Metrics]]
+5. [[Project Scope Management]]

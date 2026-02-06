@@ -16,8 +16,9 @@
 ## Section B : System Analysis
 1. [[Systems Analysis and Fact Finding techniques]]
 2. [[Feasibility Analysis]]
-3. Modelling Systems requirements with Use cases
+3. [[Modelling Systems requirements with Use cases]]
 ## Section C : System Design
-1. The design of an Object-oriented System
-2. Process of Object Oriented Design, Modelling using the **Unified Modeling Language**
-3. Object re-usability and Design Patterns
+1. [[The design of an Object-oriented System]]
+2. [[Process of Object Oriented Design, Modelling using the Unified Modeling Language]]
+3. [[Object re-usability and Design Patterns]]
+4. [[Class Diagrams and some Agile Techniques]]
