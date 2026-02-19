@@ -1,3 +1,5 @@
+>Next Topic : [[Discrete Random Variables]]
+
 **Independent events** occur when the happening of one event does not influence the probability of the other happening in any way. In other words, if two events are independent, the information that one has occurred leaves the probability of the other unchanged.
 
 # 1. The Formal "Independence Test"
@@ -49,4 +51,4 @@ If these events are mutually independent, then combinations of them are also ind
 
 ---
 # Lecture Notes
-![[IS1212 Handout 6 - Independent Events.pdf]]
+![[IS 1212 Handout 6 - Independent Events.pdf]]

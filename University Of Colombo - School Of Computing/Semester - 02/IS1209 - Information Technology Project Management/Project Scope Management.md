@@ -1,4 +1,4 @@
->Next Topic : 
+>Next Topic : [[Project Time Management]]
 
 >[!info] Introduction
 >Scope management is vital because you can't manage a project's schedule or the budget without knowing the scoop or if the scoop is out of control, a concept that tied directly to the **Triple Constant** (Scoop, Time, Cost)

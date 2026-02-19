@@ -72,4 +72,4 @@ Think of probability like a **Pizza**. The **Sample Space** is the whole pizza. 
 ---
 # Lecture Notes
 
-![[IS1212 Handout 4 - Probability final.pdf]]
+![[IS 1212 Handout 4 - Probability final.pdf]]

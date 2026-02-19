@@ -60,4 +60,4 @@ Organizing data is like **cleaning a messy room.** Raw data is the pile of cloth
 ---
 # Lecture Notes
 
-![[IS1212 Handout 2 - Graphical Representation.pdf]]
+![[IS 1212 Handout 2 - Graphical Representation.pdf]]

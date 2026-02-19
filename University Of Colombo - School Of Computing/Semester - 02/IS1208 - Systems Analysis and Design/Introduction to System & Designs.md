@@ -1,6 +1,6 @@
 > Next Topic : [[Software Development Methodologies and Software process models]]
 
-> [!Objective]
+> [!attention] Objectives
 > This topic covers the brief of Information system  Analysis and Design, System Stakeholders, and System Development Life Cycle
 > 
 > By studying this part you will be able:

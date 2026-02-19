@@ -72,4 +72,4 @@ Two events are **Independent** if the occurrence of one has **no effect** on the
 
 ---
 # Lecture Notes
-![[IS1212 Handout 5 - Conditional Probability.pdf]]
+![[IS 1212 Handout 5 - Conditional Probability.pdf]]

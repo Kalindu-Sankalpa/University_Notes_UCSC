@@ -73,4 +73,4 @@ Imagine you are a **scout looking for a new basketball player.** The **Mean** sc
 ---
 # Lecture Notes
 
-![[IS1212 Handout 3 - Numerical Representation.pdf]]
+![[IS 1212 Handout 3 - Numerical Representation.pdf]]

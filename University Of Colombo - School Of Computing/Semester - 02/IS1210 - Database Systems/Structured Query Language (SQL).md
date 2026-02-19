@@ -52,3 +52,10 @@ A **view** is a virtual table created via a `SELECT` statement. Topic six covers
 - **Virtualization:** **Views** allow designers to present "customized" windows into the data, hiding complexity or sensitive information from specific users.
 
 **Structured Query Language (SQL)** is like **the control room of a massive automated warehouse**: **DDL** is the set of commands used to build the shelves and label the bins (creating tables and constraints); **DML** is the system used to stock items, move them around, or take them out (insert, update, delete); and the **SELECT statement** is the high-speed retrieval robot that can find a specific item or count every box in the building in seconds.
+
+---
+# Lecture Notes
+![[IS1210 - SQL Part 1.pdf]]
+![[IS1210 - SQL Part 2.pdf]]
+![[IS1210 - SQL DDL.pdf]]
+![[IS1210 - SQL DML.pdf]]

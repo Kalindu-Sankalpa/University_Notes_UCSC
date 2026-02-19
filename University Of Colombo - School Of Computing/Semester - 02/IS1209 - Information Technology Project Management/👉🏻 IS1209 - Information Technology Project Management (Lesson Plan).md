@@ -49,3 +49,5 @@
 3. [[Project Management Process Groups & Life Cycles]]
 4. [[Capital Budgeting & Financial Metrics]]
 5. [[Project Scope Management]]
+6. [[Project Time Management]]
+7. [[Project Quality Management]]

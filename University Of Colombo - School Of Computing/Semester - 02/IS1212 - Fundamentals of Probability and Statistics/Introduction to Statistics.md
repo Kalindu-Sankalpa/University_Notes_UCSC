@@ -88,4 +88,4 @@ Think of statistics like **cooking a giant pot of soup.** The **Population** is 
 ---
 # Lecture Notes
 
-![[IS1212 Handout 1- Introduction to Statistics.pdf]]
+![[IS 1212 Handout 1 - Introduction to Statistics.pdf]]
