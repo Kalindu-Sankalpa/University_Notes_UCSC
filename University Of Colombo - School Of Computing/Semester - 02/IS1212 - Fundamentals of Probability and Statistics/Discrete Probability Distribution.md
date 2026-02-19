@@ -1,3 +1,5 @@
+>Next Topic : [[Continuous Probability Distribution]]
+
 >[!tip]
 >**Discrete Probability Distributions** describe how probabilities are spread across the possible values of a discrete random variable. A valid probability mass function $(pmf)$, denoted as $f(x)$, must ensure that every individual probability is between 0 and 1, and the sum of all probabilities equals exactly 1.
 
@@ -73,3 +75,8 @@ Used when you are selecting items from a finite population **without replacement
 • If you are counting how many fish swim by your boat every hour, that's **Poisson**.
 
 • If you catch fish and **keep them in a bucket** (don't throw them back), the changing odds of your next catch follow the **Hyper-geometric** distribution!
+
+---
+# Lecture Notes
+![[IS 1212 Handout 8 - Discrete Probability Distribution I.pdf]]
+![[IS 1212 Handout 9 - Discrete Probability Distribution II.pdf]]
