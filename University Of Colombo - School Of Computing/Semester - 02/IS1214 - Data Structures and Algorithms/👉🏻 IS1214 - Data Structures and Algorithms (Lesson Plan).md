@@ -61,6 +61,26 @@
 	- **Understanding self-balancing structures**, specifically the AVL tree balance property and the use of single and double rotations to correct imbalances.
 	- **Utilizing trees for practical applications**, such as calculating the size/height of a tree, building expression trees for mathematical evaluation, and creating dictionary structures.
 
+6. [[Sorting Methods]]
+	- **1. Basic Sorting Techniques (Part A)**
+		- **Selection Sort:** Finds the smallest element and exchanges it with the first position, repeating for the rest of the array.
+		- **Insertion Sort:** Builds the sorted list one item at a time by comparing and inserting elements into their proper place.
+		- **Bubble Sort (Sorting by Exchange):** Repeatedly compares adjacent elements and swaps them if they are in the wrong order.
+	- **2. Advanced Comparison-Based Sorting (Parts B, C, and D)**
+		- **Merge Sort:** A "divide and conquer" algorithm that recursively divides the array into halves, sorts them, and merges them back together.
+		- **Shell Sort:** An improvement over insertion sort that allows for the exchange of elements that are far apart using a "gap" or increment.
+		- **Quick Sort:** Another "divide and conquer" method that partitions the array around a selected "pivot" element.
+		- **Heap Sort:** Utilizes a **Heap** data structure (a special binary tree where parents are ≥ children) to sort elements efficiently.
+- **3. Non-Comparison-Based Sorting (Part E)**
+	- **Counting Sort:** Efficient when the range of input values is small; it counts the frequency of each distinct element.
+	- **Radix Sort:** A linear sorting algorithm for integers that processes data digit-by-digit, starting from the least significant digit.
+	- **Bucket Sort:** Distributes elements into various "buckets," sorts each bucket individually, and then concatenates the results.
+- **Factors Considered in Sorting**
+  The lecture also emphasizes important performance metrics for these algorithms:
+	- **Speed:** Simple algorithms are typically $O(N^2)$, while advanced ones are $O(N\log{N})$.
+	- **Storage:** Some algorithms sort "in place" $(O(N) memory)$, while others require extra space.
+	- **Stability:** Whether the algorithm preserves the relative order of records with equal keys.
+
 ---
 # Analogy for Understanding:
 
