@@ -54,3 +54,10 @@
 2. [[Diversity in Organizations]]
 3. [[Personality and Values]]
 4. [[Perception & Decision Making]]
+5. [[Motivation]]
+6. [[Emotions & Moods]]
+7. [[Groups & Teams]]
+
+---
+# Past Papers
+[[IS 1213 - Organizational Behavior.pdf]]

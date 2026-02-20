@@ -51,3 +51,7 @@
 5. [[Project Scope Management]]
 6. [[Project Time Management]]
 7. [[Project Quality Management]]
+
+---
+# Past Papers
+[[IS 1209 - Information Technology Project Management.pdf]]

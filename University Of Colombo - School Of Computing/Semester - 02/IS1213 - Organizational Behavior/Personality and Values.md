@@ -1,3 +1,5 @@
+>Next Topic : [[Perception & Decision Making]]
+
 >[!info]
 >**Personality and Values**, we delve into the deeper, internal traits that determine how individuals interact with their environment and what they prioritize in life and work.
 

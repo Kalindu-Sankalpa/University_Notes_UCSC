@@ -45,3 +45,7 @@ To think about these goals, imagine statistics as a **translator**: it takes a m
 7. [[Discrete Random Variables]]
 8. [[Discrete Probability Distribution]]
 9. [[Continuous Probability Distribution]]
+
+---
+# Past Papers
+[[IS 1212 - Probability and Statistics.pdf]]

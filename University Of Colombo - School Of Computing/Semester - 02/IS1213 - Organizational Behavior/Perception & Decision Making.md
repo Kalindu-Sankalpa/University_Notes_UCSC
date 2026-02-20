@@ -1,3 +1,5 @@
+>Next Topic : [[Motivation]]
+
 >[!info]
 >**Perception and Individual Decision Making**, explores how we interpret our surroundings and how those interpretations shape the choices we make.
 
