@@ -16,9 +16,10 @@ A class is a generalized description of a collection of similar objects, which a
 
 - **+ (Public):** Visible to all classes.
 - **- (Private):** Visible only within that specific class.
-- **# (Protected):** Visible to subclasses.
+- **# (Protected):** Visible to sub-classes.
 - **~ (Package):** Visible to classes within the same package.
 
+![[Class diagram notation.webp]]
 # Class Relationships
 
 Relationships define how different classes interact within the system:
@@ -26,9 +27,13 @@ Relationships define how different classes interact within the system:
 - **Association:** A bidirectional connection between classes.
 - **Aggregation:** A "whole-part" relationship where the "part" (child class) can **exist independently** of the "whole" (parent class), such as computer parts in a store.
 - **Composition:** A stronger "whole-part" relationship where the part **cannot exist independently** of the whole, such as a headlight on a specific car.
-- **Generalization (Inheritance):** An "is-a" relationship where a subclass inherits properties and behaviors from a superclass.
+- **Generalization (Inheritance):** An "is-a" relationship where a subclass inherits properties and behaviors from a super-class.
 - **Dependency/Usage:** A loosely coupled connection where one class utilizes the services of another to perform a task.
 
+![[Class diagrams relations.png]]
+# Class Diagram Arrows
+
+![[Class diagrams arrows.webp]]
 # Agile Techniques
 
 Agile methods are newer than UML and focus on flexibility and the needs of the user.

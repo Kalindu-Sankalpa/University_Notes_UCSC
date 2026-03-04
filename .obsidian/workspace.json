@@ -4,17 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "002272b1bcd3018c",
+        "id": "76fe46aad0fa6eea",
         "type": "tabs",
         "children": [
           {
-            "id": "a6a45a5dc3355620",
+            "id": "d8ecab0dcc58de29",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "University Of Colombo - School Of Computing/Semester - 02/IS1208 - Systems Analysis and Design/Class Diagrams and some Agile Techniques.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Class Diagrams and some Agile Techniques"
             }
           }
         ]
@@ -74,8 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 433.5,
-    "collapsed": true
+    "width": 339.5
   },
   "right": {
     "id": "4c057cc63347afdb",
@@ -84,7 +97,7 @@
       {
         "id": "456e5f707034a639",
         "type": "tabs",
-        "dimension": 50.201207243460765,
+        "dimension": 66.83899556868538,
         "children": [
           {
             "id": "09f8df5c3302a825",
@@ -154,12 +167,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "University Of Colombo - School Of Computing/Semester - 02/IS1208 - Systems Analysis and Design/Class Diagrams and some Agile Techniques.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Class Diagrams and some Agile Techniques"
             }
           },
           {
@@ -180,7 +194,7 @@
       {
         "id": "5ca9c691d47aa69a",
         "type": "tabs",
-        "dimension": 49.798792756539235,
+        "dimension": 33.16100443131462,
         "children": [
           {
             "id": "c8b0b71c0703baa0",
@@ -188,6 +202,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "University Of Colombo - School Of Computing/Semester - 02/IS1208 - Systems Analysis and Design/Class Diagrams and some Agile Techniques.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -210,20 +225,19 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.8304079652523758,
+                  "scale": 0.8304079652523757,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "title": "Graph of Class Diagrams and some Agile Techniques"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 417.5,
-    "collapsed": true
+    "width": 361.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -239,21 +253,29 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "a6a45a5dc3355620",
+  "active": "d8ecab0dcc58de29",
   "lastOpenFiles": [
-    "University Of Colombo - School Of Computing/Semester - 02/IS1209 - Information Technology Project Management/Information Technology Context and Process Groups in Project Management.md",
-    "University Of Colombo - School Of Computing/Semester - 02/IS1209 - Information Technology Project Management/Introduction to Software Project Management.md",
-    "University Of Colombo - School Of Computing/Semester - 02/IS1209 - Information Technology Project Management/👉🏻 IS1209 - Information Technology Project Management (Lesson Plan).md",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1208 - Systems Analysis and Design/👉🏻 IS1208 - Systems Analysis and Design (Lesson Plan).md",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1208 - Systems Analysis and Design/Class Diagrams and some Agile Techniques.md",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1208 - Systems Analysis and Design/Images/Class diagrams relations.png",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1208 - Systems Analysis and Design/Images/Class diagrams arrows.webp",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1208 - Systems Analysis and Design/Images/Class diagram notation.webp",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1208 - Systems Analysis and Design/Images/img_01.png",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1210 - Database Systems/Structured Query Language (SQL).md",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1210 - Database Systems/👉🏻 IS1210 - Database Systems (Lesson Plan).md",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1208 - Systems Analysis and Design/Object re-usability and Design Patterns.md",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1208 - Systems Analysis and Design/Process of Object Oriented Design, Modelling using the Unified Modeling Language.md",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1208 - Systems Analysis and Design/The design of an Object-oriented System.md",
     "University Of Colombo - School Of Computing/Semester - 02/IS1208 - Systems Analysis and Design/Modelling Systems requirements with Use cases.md",
     "University Of Colombo - School Of Computing/Semester - 02/IS1208 - Systems Analysis and Design/Feasibility Analysis.md",
     "University Of Colombo - School Of Computing/Semester - 02/IS1208 - Systems Analysis and Design/Systems Analysis and Fact Finding techniques.md",
     "University Of Colombo - School Of Computing/Semester - 02/IS1208 - Systems Analysis and Design/Software Development Methodologies and Software process models.md",
     "University Of Colombo - School Of Computing/Semester - 02/IS1208 - Systems Analysis and Design/Introduction to System & Designs.md",
-    "University Of Colombo - School Of Computing/Semester - 02/IS1208 - Systems Analysis and Design/👉🏻 IS1208 - Systems Analysis and Design (Lesson Plan).md",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1209 - Information Technology Project Management/Information Technology Context and Process Groups in Project Management.md",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1209 - Information Technology Project Management/Introduction to Software Project Management.md",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1209 - Information Technology Project Management/👉🏻 IS1209 - Information Technology Project Management (Lesson Plan).md",
     "University Of Colombo - School Of Computing/Semester - 02/Past Papers/IS 1208 - System Analysis and Design.pdf",
-    "University Of Colombo - School Of Computing/Semester - 02/IS1210 - Database Systems/Structured Query Language (SQL).md",
     "University Of Colombo - School Of Computing/Semester - 02/IS1210 - Database Systems/Lecture Notes/IS1210 - SQL DML Part 2.pdf",
-    "University Of Colombo - School Of Computing/Semester - 02/IS1210 - Database Systems/👉🏻 IS1210 - Database Systems (Lesson Plan).md",
     "University Of Colombo - School Of Computing/Semester - 02/IS1212 - Fundamentals of Probability and Statistics/Discrete Probability Distribution.md",
     "University Of Colombo - School Of Computing/Semester - 02/Past Papers/IS 1212 - Probability and Statistics.pdf",
     "University Of Colombo - School Of Computing/Semester - 02/IS1212 - Fundamentals of Probability and Statistics/👉🏻 IS1212 - Fundamentals of Probability and Statistics (Lesson Plan).md",
@@ -265,11 +287,6 @@
     "University Of Colombo - School Of Computing/Semester - 02/IS1214 - Data Structures and Algorithms/👉🏻 IS1214 - Data Structures and Algorithms (Lesson Plan).md",
     "University Of Colombo - School Of Computing/Semester - 02/IS1212 - Fundamentals of Probability and Statistics/Numerical Representation.md",
     "University Of Colombo - School Of Computing/Semester - 02/IS1212 - Fundamentals of Probability and Statistics/Graphical Presentation.md",
-    "University Of Colombo - School Of Computing/Semester - 02/IS1212 - Fundamentals of Probability and Statistics/Introduction to Statistics.md",
-    "University Of Colombo - School Of Computing/Semester - 02/IS1213 - Organizational Behavior/👉🏻 IS1213 - Organizational Behavior (Lesson Plan).md",
-    "University Of Colombo - School Of Computing/Semester - 02/IS1212 - Fundamentals of Probability and Statistics/Independent Events.md",
-    "University Of Colombo - School Of Computing/Semester - 02/IS1214 - Data Structures and Algorithms/Link Lists & Double Link Lists.md",
-    "University Of Colombo - School Of Computing/Semester - 02/IS1214 - Data Structures and Algorithms/Queues.md",
     "University Of Colombo - School Of Computing/Semester - 02/Past Papers/IS 1214 - Data Structures and Algorithms.pdf",
     "University Of Colombo - School Of Computing/Semester - 02/IS1214 - Data Structures and Algorithms/Lecture Notes/DSA - Lecture 08.pdf",
     "University Of Colombo - School Of Computing/Semester - 02/Past Papers/IS 1213 - Organizational Behavior.pdf",
@@ -277,7 +294,6 @@
     "University Of Colombo - School Of Computing/Semester - 02/Past Papers/IS 1210 - Database Systems.pdf",
     "University Of Colombo - School Of Computing/Semester - 02/Past Papers/IS 1209 - Information Technology Project Management.pdf",
     "University Of Colombo - School Of Computing/Semester - 02/Past Papers",
-    "University Of Colombo - School Of Computing/Semester - 02/IS1210 - Database Systems/Images/img_01.svg",
-    "University Of Colombo - School Of Computing/Semester - 02/IS1208 - Systems Analysis and Design/Images/img_01.png"
+    "University Of Colombo - School Of Computing/Semester - 02/IS1210 - Database Systems/Images/img_01.svg"
   ]
 }
