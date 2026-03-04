@@ -71,15 +71,15 @@
 		- **Shell Sort:** An improvement over insertion sort that allows for the exchange of elements that are far apart using a "gap" or increment.
 		- **Quick Sort:** Another "divide and conquer" method that partitions the array around a selected "pivot" element.
 		- **Heap Sort:** Utilizes a **Heap** data structure (a special binary tree where parents are ≥ children) to sort elements efficiently.
-- **3. Non-Comparison-Based Sorting (Part E)**
-	- **Counting Sort:** Efficient when the range of input values is small; it counts the frequency of each distinct element.
-	- **Radix Sort:** A linear sorting algorithm for integers that processes data digit-by-digit, starting from the least significant digit.
-	- **Bucket Sort:** Distributes elements into various "buckets," sorts each bucket individually, and then concatenates the results.
-- **Factors Considered in Sorting**
-  The lecture also emphasizes important performance metrics for these algorithms:
-	- **Speed:** Simple algorithms are typically $O(N^2)$, while advanced ones are $O(N\log{N})$.
-	- **Storage:** Some algorithms sort "in place" $(O(N) memory)$, while others require extra space.
-	- **Stability:** Whether the algorithm preserves the relative order of records with equal keys.
+	- **3. Non-Comparison-Based Sorting (Part E)**
+		- **Counting Sort:** Efficient when the range of input values is small; it counts the frequency of each distinct element.
+		- **Radix Sort:** A linear sorting algorithm for integers that processes data digit-by-digit, starting from the least significant digit.
+		- **Bucket Sort:** Distributes elements into various "buckets," sorts each bucket individually, and then concatenates the results.
+	- **Factors Considered in Sorting**
+	  The lecture also emphasizes important performance metrics for these algorithms:
+		- **Speed:** Simple algorithms are typically $O(N^2)$, while advanced ones are $O(N\log{N})$.
+		- **Storage:** Some algorithms sort "in place" $(O(N) memory)$, while others require extra space.
+		- **Stability:** Whether the algorithm preserves the relative order of records with equal keys.
 
 ---
 # Analogy for Understanding:

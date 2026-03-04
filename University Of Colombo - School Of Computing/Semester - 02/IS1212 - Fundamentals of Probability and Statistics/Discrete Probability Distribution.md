@@ -41,9 +41,8 @@ Used for events that occur randomly over a fixed interval of time or space.
 - **Geometric Distribution:** Measures the number of trials needed until the **very first success** occurs.
 >**Fancy Example:** Flipping a coin repeatedly until you get your first "Heads".
 
-- **Negative Binomial Distribution:** A generalization of geometric; it measures the number of trials until the $k^{th}$ success** happens.
-
-    >**Fancy Example:** An oil company drills wells (20% success rate) and wants to know the probability that their **3rd strike** happens on the **7th well** drilled.
+- **Negative Binomial Distribution:** A generalization of geometric; it measures the number of trials until the $k^{th}$ success happens.
+>**Fancy Example:** An oil company drills wells (20% success rate) and wants to know the probability that their **3rd strike** happens on the **7th well** drilled.
 
 # 5. Hyper-geometric Distribution (The "No-Replacement" Model)
 

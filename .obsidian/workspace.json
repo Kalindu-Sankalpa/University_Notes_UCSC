@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "67eac1815c79839c",
+        "id": "002272b1bcd3018c",
         "type": "tabs",
         "children": [
           {
-            "id": "a4ae9525e8704ae1",
+            "id": "a6a45a5dc3355620",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -16,37 +16,8 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
-          },
-          {
-            "id": "5f5814a2b2a223a1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "University Of Colombo - School Of Computing/Semester - 02/IS1214 - Data Structures and Algorithms/👉🏻 IS1214 - Data Structures and Algorithms (Lesson Plan).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "👉🏻 IS1214 - Data Structures and Algorithms (Lesson Plan)"
-            }
-          },
-          {
-            "id": "e30e2c564cd644bb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "University Of Colombo - School Of Computing/Semester - 02/IS1214 - Data Structures and Algorithms/Sorting Methods.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Sorting Methods"
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -103,7 +74,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 416.5
+    "width": 433.5,
+    "collapsed": true
   },
   "right": {
     "id": "4c057cc63347afdb",
@@ -112,6 +84,7 @@
       {
         "id": "456e5f707034a639",
         "type": "tabs",
+        "dimension": 50.201207243460765,
         "children": [
           {
             "id": "09f8df5c3302a825",
@@ -138,11 +111,26 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "University Of Colombo - School Of Computing/Semester - 02/IS1214 - Data Structures and Algorithms/Sorting Methods.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Sorting Methods"
+            }
+          },
+          {
+            "id": "5f68c88036fa0c08",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
             }
           },
           {
@@ -161,91 +149,134 @@
             }
           },
           {
-            "id": "5f68c88036fa0c08",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-archive",
-              "title": "All properties"
-            }
-          },
-          {
             "id": "cdcc4af75f4fb4f7",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "University Of Colombo - School Of Computing/Semester - 02/IS1214 - Data Structures and Algorithms/Sorting Methods.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Sorting Methods"
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "7e411f195d2650dd",
+            "type": "leaf",
+            "state": {
+              "type": "footnotes",
+              "state": {
+                "file": "University Of Colombo - School Of Computing/Semester - 02/IS1214 - Data Structures and Algorithms/Sorting Methods.md"
+              },
+              "icon": "lucide-file-signature",
+              "title": "Footnotes"
+            }
+          }
+        ],
+        "currentTab": 4
+      },
+      {
+        "id": "5ca9c691d47aa69a",
+        "type": "tabs",
+        "dimension": 49.798792756539235,
+        "children": [
+          {
+            "id": "c8b0b71c0703baa0",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": true,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.8304079652523758,
+                  "close": true
+                }
+              },
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 315.5,
+    "width": 417.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
+      "switcher:Open quick switcher": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "publish:Publish changes...": false
+      "publish:Publish changes...": false,
+      "markdown-importer:Open format converter": false,
+      "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "e30e2c564cd644bb",
+  "active": "a6a45a5dc3355620",
   "lastOpenFiles": [
-    "University Of Colombo - School Of Computing/Semester - 02/IS1214 - Data Structures and Algorithms/👉🏻 IS1214 - Data Structures and Algorithms (Lesson Plan).md",
-    "University Of Colombo - School Of Computing/Semester - 02/IS1214 - Data Structures and Algorithms/Sorting Methods.md",
-    "University Of Colombo - School Of Computing/Semester - 02/IS1214 - Data Structures and Algorithms/Lecture Notes/DSA - Lecture 08.pdf",
-    "University Of Colombo - School Of Computing/Semester - 02/IS1213 - Organizational Behavior/👉🏻 IS1213 - Organizational Behavior (Lesson Plan).md",
-    "University Of Colombo - School Of Computing/Semester - 02/IS1212 - Fundamentals of Probability and Statistics/👉🏻 IS1212 - Fundamentals of Probability and Statistics (Lesson Plan).md",
-    "University Of Colombo - School Of Computing/Semester - 02/IS1210 - Database Systems/👉🏻 IS1210 - Database Systems (Lesson Plan).md",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1209 - Information Technology Project Management/Information Technology Context and Process Groups in Project Management.md",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1209 - Information Technology Project Management/Introduction to Software Project Management.md",
     "University Of Colombo - School Of Computing/Semester - 02/IS1209 - Information Technology Project Management/👉🏻 IS1209 - Information Technology Project Management (Lesson Plan).md",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1208 - Systems Analysis and Design/Modelling Systems requirements with Use cases.md",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1208 - Systems Analysis and Design/Feasibility Analysis.md",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1208 - Systems Analysis and Design/Systems Analysis and Fact Finding techniques.md",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1208 - Systems Analysis and Design/Software Development Methodologies and Software process models.md",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1208 - Systems Analysis and Design/Introduction to System & Designs.md",
     "University Of Colombo - School Of Computing/Semester - 02/IS1208 - Systems Analysis and Design/👉🏻 IS1208 - Systems Analysis and Design (Lesson Plan).md",
-    "University Of Colombo - School Of Computing/Semester - 02/Past Papers/Past Papers.md",
     "University Of Colombo - School Of Computing/Semester - 02/Past Papers/IS 1208 - System Analysis and Design.pdf",
-    "University Of Colombo - School Of Computing/Semester - 02/Past Papers/IS 1214 - Data Structures and Algorithms.pdf",
-    "University Of Colombo - School Of Computing/Semester - 02/Past Papers/IS 1213 - Organizational Behavior.pdf",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1210 - Database Systems/Structured Query Language (SQL).md",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1210 - Database Systems/Lecture Notes/IS1210 - SQL DML Part 2.pdf",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1210 - Database Systems/👉🏻 IS1210 - Database Systems (Lesson Plan).md",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1212 - Fundamentals of Probability and Statistics/Discrete Probability Distribution.md",
     "University Of Colombo - School Of Computing/Semester - 02/Past Papers/IS 1212 - Probability and Statistics.pdf",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1212 - Fundamentals of Probability and Statistics/👉🏻 IS1212 - Fundamentals of Probability and Statistics (Lesson Plan).md",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1212 - Fundamentals of Probability and Statistics/Continuous Probability Distribution.md",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1212 - Fundamentals of Probability and Statistics/Discrete Random Variables.md",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1212 - Fundamentals of Probability and Statistics/Conditional Probability.md",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1212 - Fundamentals of Probability and Statistics/Introduction to Probability.md",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1214 - Data Structures and Algorithms/Sorting Methods.md",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1214 - Data Structures and Algorithms/👉🏻 IS1214 - Data Structures and Algorithms (Lesson Plan).md",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1212 - Fundamentals of Probability and Statistics/Numerical Representation.md",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1212 - Fundamentals of Probability and Statistics/Graphical Presentation.md",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1212 - Fundamentals of Probability and Statistics/Introduction to Statistics.md",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1213 - Organizational Behavior/👉🏻 IS1213 - Organizational Behavior (Lesson Plan).md",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1212 - Fundamentals of Probability and Statistics/Independent Events.md",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1214 - Data Structures and Algorithms/Link Lists & Double Link Lists.md",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1214 - Data Structures and Algorithms/Queues.md",
+    "University Of Colombo - School Of Computing/Semester - 02/Past Papers/IS 1214 - Data Structures and Algorithms.pdf",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1214 - Data Structures and Algorithms/Lecture Notes/DSA - Lecture 08.pdf",
+    "University Of Colombo - School Of Computing/Semester - 02/Past Papers/IS 1213 - Organizational Behavior.pdf",
     "University Of Colombo - School Of Computing/Semester - 02/Past Papers/IS 1211 - Computer Networks.pdf",
     "University Of Colombo - School Of Computing/Semester - 02/Past Papers/IS 1210 - Database Systems.pdf",
     "University Of Colombo - School Of Computing/Semester - 02/Past Papers/IS 1209 - Information Technology Project Management.pdf",
-    "University Of Colombo - School Of Computing/Semester - 02/IS1213 - Organizational Behavior/Motivation.md",
-    "University Of Colombo - School Of Computing/Semester - 02/IS1213 - Organizational Behavior/Emotions & Moods.md",
     "University Of Colombo - School Of Computing/Semester - 02/Past Papers",
-    "University Of Colombo - School Of Computing/Semester - 02/IS1213 - Organizational Behavior/Groups & Teams.md",
-    "().md",
-    "University Of Colombo - School Of Computing/Semester - 02/IS1213 - Organizational Behavior/Perception & Decision Making.md",
-    "University Of Colombo - School Of Computing/Semester - 02/IS1213 - Organizational Behavior/Personality and Values.md",
-    "University Of Colombo - School Of Computing/Semester - 02/IS1213 - Organizational Behavior/Diversity in Organizations.md",
-    "University Of Colombo - School Of Computing/Semester - 02/IS1213 - Organizational Behavior/Introduction to Organizational Behavior.md",
-    "University Of Colombo - School Of Computing/Semester - 02/IS1213 - Organizational Behavior/Lecture Notes/Lesson 07 - Understanding Work Teams.pdf",
-    "University Of Colombo - School Of Computing/Semester - 02/IS1212 - Fundamentals of Probability and Statistics/Continuous Probability Distribution.md",
-    "University Of Colombo - School Of Computing/Semester - 02/IS1212 - Fundamentals of Probability and Statistics/Discrete Probability Distribution.md",
-    "University Of Colombo - School Of Computing/Semester - 02/IS1212 - Fundamentals of Probability and Statistics/Discrete Random Variables.md",
-    "University Of Colombo - School Of Computing/Semester - 02/IS1212 - Fundamentals of Probability and Statistics/Independent Events.md",
-    "University Of Colombo - School Of Computing/Semester - 02/IS1212 - Fundamentals of Probability and Statistics/Numerical Representation.md",
-    "University Of Colombo - School Of Computing/Semester - 02/IS1212 - Fundamentals of Probability and Statistics/Introduction to Statistics.md",
-    "University Of Colombo - School Of Computing/Semester - 02/IS1210 - Database Systems/Structured Query Language (SQL).md",
-    "University Of Colombo - School Of Computing/Semester - 02/IS1209 - Information Technology Project Management/Project Quality Management.md",
-    "University Of Colombo - School Of Computing/Semester - 02/IS1209 - Information Technology Project Management/Project Time Management.md",
-    "University Of Colombo - School Of Computing/Semester - 02/IS1209 - Information Technology Project Management/Project Scope Management.md",
     "University Of Colombo - School Of Computing/Semester - 02/IS1210 - Database Systems/Images/img_01.svg",
     "University Of Colombo - School Of Computing/Semester - 02/IS1208 - Systems Analysis and Design/Images/img_01.png"
   ]

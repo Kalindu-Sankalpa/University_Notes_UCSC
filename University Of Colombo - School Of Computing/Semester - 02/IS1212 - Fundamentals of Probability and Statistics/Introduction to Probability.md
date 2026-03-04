@@ -50,7 +50,7 @@ The sources describe three ways we assign probability to events:
 - **Mutually Exclusive (Disjoint) Events:** Two events that **cannot happen at the same time**.
 	_Fancy Example:_ You can get a Head or a Tail in one flip, but never both at once.
 
-- **Complement of an Event** (**E′**):** All outcomes in the sample space that are **not** part of event E.
+- **Complement of an Event** (**E′**): All outcomes in the sample space that are **not** part of event E.
 	_Fancy Example:_ If 31.6% of households own a dog, the probability of the **complement** (not owning a dog) is 1−0.316=0.684.
 
 ---

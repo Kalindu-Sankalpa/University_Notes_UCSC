@@ -1,61 +1,96 @@
->[!Intro]
->The primary goal of this topic is to equip students with the practical skills necessary to interact with a relational database using SQL. Specifically, it aims to enable students to:
->- **Formulate SQL queries** of varying complexity to retrieve and manipulate data,,.
->- **Define and manage database structures** including tables, indexes, and integrity constraints.
->- **Create and evaluate views** to simplify data access and enhance security,,.
->- **Develop database applications** by integrating SQL with other relevant tools and technologies.
+>[!Intro] Objective Of SQL
+>The primary objective of **Structured Query Language (SQL)** is to provide a standardized, **non-procedural language** that allows users to create database structures, perform data management tasks (insertion, modification, and deletion), and execute both simple and complex queries with minimal effort. It is designed to be **portable and intuitive**, using English-like syntax to transform relational inputs into required outputs.
 
-# Introduction and Data Types
+# 1. Classification and Environment
 
-SQL is the standard language used for defining, manipulating, and controlling access to data within a relational database. It utilizes various **data types** to ensure data accuracy, including **Character** (CHAR, VARCHAR), **Numeric** (INTEGER, FLOAT, DECIMAL), **Binary Large Objects** (BLOB), and **Date/Time** formats.
+SQL originated from the evolution of the relational model and was standardized by **ANSI and ISO**. It operates in two modes: **Interactive Mode** (direct terminal entry) and **Embedded Mode** (integrated into languages like Java or C++). The ISO standard classifies SQL into four sub-languages:
 
-# Data Definition Language (DDL)
+- **Data Definition Language (DDL):** Used for defining and modifying the **database schema**.
+- **Data Manipulation Language (DML):** Used for **retrieving and modifying** the data within tables.
+- **Data Control Language (DCL):** Used for managing **user permissions** and access.
+- **Transaction Control Language (TCL):** Ensures the **consistency and reliability** of database transactions.
 
-The DDL component of SQL is used to define and modify the database structure. Key operations include:
+# 2. ISO SQL Data Types and Basics
 
-- **Table Management:** Using `CREATE TABLE` to define new tables, `ALTER TABLE` to modify existing structures, and `DROP TABLE` to remove them.
+SQL uses the terms **table, row, and column** to represent relations, tuples, and attributes. Keywords are **case-insensitive**, but **literal character data** must match the database exactly. Key data types include:
 
-- **Integrity Constraints:** Specifying rules such as `PRIMARY KEY`, `UNIQUE`, `NOT NULL`, and `CHECK` constraints. It also handles **referential integrity** through `FOREIGN KEY` definitions with specific actions like `CASCADE` or `RESTRICT`.
+- **Numeric:** Divided into **Exact Numeric** (INT, SMALLINT, BIGINT, DECIMAL, NUMERIC) and **Approximate Numeric** for scientific data (FLOAT, REAL, DOUBLE PRECISION).
 
-- **Indexes:** Using `CREATE INDEX` and `DROP INDEX` to improve data retrieval speeds.
+- **Character/String:** **CHAR** (fixed length, space-padded), **VARCHAR** (variable length), and **CLOB** (large objects with specific restrictions).
 
-# Data Manipulation Language (DML)
+- **Boolean:** Supports **TRUE, FALSE, and UNKNOWN** (NULL).
 
-DML allows users to interact with the data stored in the tables:
+- **Temporal:** Includes **DATE** (YYYY-MM-DD), **TIME** (HH:MM:SS), **TIMESTAMP** (both date and time), and **INTERVAL** (periods of time).
 
-- **Data Retrieval:** The `SELECT` statement is used to query data. It can be refined using the `WHERE` clause, relational operators, and keywords like `AND`, `OR`, `BETWEEN`, `IN`, and `LIKE`.
+# 3. Data Definition and Integrity Enhancement (DDL)
 
-- **Advanced Querying:** SQL supports **aggregate functions** (COUNT, SUM, AVG, MAX, MIN) combined with `GROUP BY` and `HAVING` clauses to summarize data.
+DDL statements like `CREATE SCHEMA` and `CREATE TABLE` define the structure. The **Integrity Enhancement Feature** protects the database from inconsistency through several constraints:
 
-- **Complex Joins:** Users can combine data from multiple tables using **Natural Joins**, **Outer Joins**, and **Union** operations.
+- **Required Data:** Specified using the **NOT NULL** clause.
 
-- **Subqueries:** SQL allows for **nested select statements** and correlated queries to perform sophisticated data analysis.
+- **Domain Constraints:** Enforced via the **CHECK clause** or by creating a specific **DOMAIN**.
 
-- **Modifying Data:** The `INSERT INTO`, `UPDATE`, and `DELETE` commands are used to add, modify, or remove records based on specific criteria or subqueries.
+- **Entity Integrity:** Enforced by defining a **PRIMARY KEY** (must be unique and non-null).
 
-# Views
+- **Referential Integrity:** Enforced via **FOREIGN KEYS** that reference a parent table. Actions for updates or deletions include **CASCADE, SET NULL, SET DEFAULT, or NO ACTION**.
 
-A **view** is a virtual table created via a `SELECT` statement. Topic six covers the **creation and removal of views**, their updatability, and their use in **improving security and simplifying complex queries** for the end-user.
+- **Schema Modification:** Tables are updated using **ALTER TABLE** (to add/drop columns or constraints) and removed using **DROP TABLE** (with RESTRICT or CASCADE options). **TRUNCATE** is used to clear all records quickly without destroying the structure.
+
+# 4. Data Manipulation and Maintenance (DML)
+
+DML statements allow for the maintenance of table contents:
+
+- **INSERT:** Adds single or multiple rows; non-numeric values must be in **single quotes**.
+
+- **UPDATE:** Modifies existing data, often using a **WHERE clause** to target specific rows.
+
+- **DELETE:** Removes rows; if the WHERE clause is omitted, **all rows are deleted** but the table structure remains.
+
+# 5. Advanced Data Retrieval
+
+The **SELECT statement** is the most frequent SQL operation. The **sequence of processing** is: **FROM → WHERE → GROUP BY → HAVING → SELECT → ORDER BY**.
+
+- **Filtering & Formatting:** Users can use `DISTINCT` to eliminate duplicates and `AS` to create **aliases** for calculated fields.
+
+- **Predicates:** Retrieval is refined using **BETWEEN** (range), **IN** (set membership), **LIKE** (pattern matching with `%` for zero/more characters and `_` for one character), and **IS NULL**.
+
+- **Aggregation & Grouping:** Five functions (**COUNT, SUM, AVG, MIN, MAX**) summarize data. **GROUP BY** produces summary rows, while **HAVING** filters those groups based on aggregate conditions.
+
+- **Sub-queries:** Inner SELECT statements can return **Scalar** (single value), **Row** (multiple columns, one row), or **Table** (multiple rows/columns) results to an outer query. Keywords like **ANY/SOME, ALL, and EXISTS** assist in complex sub-query logic.
+
+# 6. Joins and Set Operations
+
+To combine data from multiple tables, SQL uses **joins**:
+
+- **Inner Join:** Pairs related rows where matching columns have the same value.
+
+- **ANSI Join Syntax:** Includes `JOIN ON`, `JOIN USING`, and `NATURAL JOIN`.
+
+- **Outer Joins:** **Left, Right, and Full Outer Joins** include unmatched rows from one or both tables, filling missing data with NULLs.
+
+- **Set Operations:** **UNION, INTERSECT, and EXCEPT** (or MINUS) combine result tables that are **union-compatible** (same number of columns and data types).
 
 ---
+# Short Note: Structured Query Language (SQL)
 
-# Short Note - Structured Query Language (SQL)
+- **Core Logic:** SQL is **non-procedural**; you specify the "what" (result) and the DBMS determines the "how" (execution path).
 
-- **Core Function:** SQL serves as the comprehensive tool for both building a database (**DDL**) and interacting with its data (**DML**).
+- **Data Integrity:** SQL is the primary tool for enforcing **Entity and Referential Integrity**, using primary and foreign keys to prevent "orphaned" or inconsistent records.
 
-- **The SELECT Statement:** This is the most frequently used command, allowing users to specify exactly **what** data they need through filtering, sorting, and aggregating.
+- **The Power of Metadata:** All DDL definitions (schemas, tables, constraints) are stored in the **System Catalog**, allowing the DBMS to maintain control over data as a resource.
 
-- **Relational Power:** Through **Joins and Subqueries**, SQL can link disparate tables together into a single, cohesive result set.
+- **Aggregate Filtering:** While **WHERE** filters individual rows _before_ groups are formed, **HAVING** filters the groups _after_ they are formed, always involving at least one aggregate function.
 
-- **Integrity Enforcement:** SQL provides the syntax to strictly enforce **Entity and Referential Integrity**, ensuring the database remains accurate and consistent.
+- **Join Strategy:** Multi-table queries typically link a **Foreign Key** in a "child" table to a **Primary Key** in a "parent" table.
 
-- **Virtualization:** **Views** allow designers to present "customized" windows into the data, hiding complexity or sensitive information from specific users.
+- **Set Compatibility:** For **UNION, INTERSECT, or EXCEPT** to work, tables must have the same structure and corresponding columns must draw from the same **domain**.
 
-**Structured Query Language (SQL)** is like **the control room of a massive automated warehouse**: **DDL** is the set of commands used to build the shelves and label the bins (creating tables and constraints); **DML** is the system used to stock items, move them around, or take them out (insert, update, delete); and the **SELECT statement** is the high-speed retrieval robot that can find a specific item or count every box in the building in seconds.
+**SQL** is like **directing an automated library**: the **DDL** is the set of rules for how books are categorized and where the shelves are built; the **DML** is the process of adding new books or updating their records; and the **SELECT statement** is the search terminal where you ask for specific titles or genres—the system doesn't require you to know which floor the book is on, it simply brings the result to you.
 
 ---
 # Lecture Notes
 ![[IS1210 - SQL Part 1.pdf]]
 ![[IS1210 - SQL Part 2.pdf]]
 ![[IS1210 - SQL DDL.pdf]]
-![[IS1210 - SQL DML.pdf]]
+![[IS1210 - SQL DML Part 1.pdf]]
+![[IS1210 - SQL DML Part 2.pdf]]

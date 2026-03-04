@@ -1,8 +1,11 @@
 {
-  "newFileLocation": "root",
+  "newFileLocation": "current",
   "tabSize": 4,
   "readableLineLength": true,
   "showLineNumber": false,
   "alwaysUpdateLinks": true,
-  "defaultViewMode": "preview"
+  "defaultViewMode": "preview",
+  "attachmentFolderPath": "./",
+  "showUnsupportedFiles": false,
+  "showInlineTitle": true
 }
