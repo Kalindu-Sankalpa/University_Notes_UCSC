@@ -10,7 +10,7 @@
 
 # Relational Terminology and Structure
 
-In relational model, data is organized into **Relations** (informally know as tables). A **Tuple** represents a row in the table, while an **Attribute** represents a column. The **Domain** is the set of values allowed for one or more attributes.
+In relational model, data is organized into **Relations** (informally know as tables). A **Tuple** represents a row in the table, while an **Attribute** represents a column. The **[^1]Domain** is the set of values allowed for one or more attributes.
 
 Two important measures of a relation are its **Degree** (the number of attributes it contains) and its **Cardinality** (the number of tuples/rows it contains).
 
@@ -36,6 +36,56 @@ Constraints are integrity rules that a database is not permitted to violate.
 
 - **Domain Constraints:** Define the specific set of values an attribute is permitted to hold.
 
+# Domain Constrains
+
+In SQL, domains are implemented and enforced through **Data Definition Language (DDL)** using two primary mechanisms: the `CHECK` clause and the `CREATE DOMAIN` statement.
+
+## 1. The CHECK Clause
+
+The `CHECK` clause allows you to define a constraint directly on a column to limit the values it can receive.
+
+**Example: Restricting Gender Values**
+
+```
+	CREATE TABLE Staff (
+	    staffNo CHAR(5) PRIMARY KEY,
+	    fName VARCHAR(20) NOT NULL,
+	    -- The domain is restricted to 'M' or 'F' using an inline CHECK constraint
+	    sex CHAR NOT NULL CHECK (sex IN ('M', 'F'))
+	);
+```
+
+In this code, the **domain** for the `sex` attribute is strictly defined as only two possible characters, and the DBMS will reject any other input.
+
+## 2. The CREATE DOMAIN Statement
+
+The ISO standard also allows you to create a **reusable domain** as a standalone database object. This is useful if multiple tables need to follow the same set of rules.
+
+**Example: Defining a custom "SexType" Domain**
+
+```
+	-- First, define the domain independently
+	CREATE DOMAIN SexType AS CHAR
+	    DEFAULT 'M'
+	    CHECK (VALUE IN ('M', 'F'));
+	
+	-- Then, use that domain when creating tables
+	CREATE TABLE Staff (
+	    staffNo CHAR(5) PRIMARY KEY,
+	    sex SexType -- Instead of CHAR, we use our custom domain
+	);
+	
+	CREATE TABLE Client (
+	    clientNo CHAR(5) PRIMARY KEY,
+	    sex SexType -- The same domain logic is reused here
+	);
+```
+
+By defining `SexType` once, you ensure that every attribute using this domain across the entire database follows the exact same set of legal values.
+
+**Why Domains Matter**
+Beyond simple data entry, domains are critical for **relational integrity**. For example, when performing set operations like a `UNION`, it is the user's responsibility to ensure that corresponding columns come from the **same domain**. It would not be sensible to combine a column for "Staff Age" with a column for "Number of Rooms," even if they both use the `INTEGER` data type, because they represent different logical domains.
+
 ---
 
 # Short Note - Relational Data Model
@@ -56,3 +106,5 @@ The **relational data model** is like a **standardized spreadsheet workbook**: t
 # Lecture Notes
 
 ![[IS1210 - Relational Data Model.pdf]]
+
+[^1]: A **domain** is the original set of **atomic values**—meaning values that are indivisible—used to model data for one or more attributes. It serves as a set of **acceptable values** that a specific column is permitted to contain, ensuring that the information stored remains logical and consistent. For example, the domain for a "Marital Status" attribute might be restricted to the set {Married, Single, Divorced}, while a "Salary" domain might be defined as all floating-point numbers greater than 0 and less than 200,000.

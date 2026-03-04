@@ -70,6 +70,60 @@ To combine data from multiple tables, SQL uses **joins**:
 
 - **Set Operations:** **UNION, INTERSECT, and EXCEPT** (or MINUS) combine result tables that are **union-compatible** (same number of columns and data types).
 
+# 7. Indexes
+
+An **index** is a data structure designed to help the DBMS locate specific records in a file more quickly, significantly speeding up response times for user queries—especially in large tables. It works similarly to a book index by providing **fast access** and **topic-based navigation** without requiring a sequential search of every row. An index structure consists of a **Search Key** (a copy of a primary or candidate key stored in sorted order) and a **Data Reference/Pointer** (the physical disk address of the record).
+
+While indexes are vital for performance and minimizing disk accesses, they are not strictly necessary for a DBMS to function. Designers must be cautious, as having **too many indexes** can slow down the performance of `INSERT`, `UPDATE`, and `DELETE` operations due to the overhead of updating index files every time table data changes.
+
+## Types and Creation
+
+- **Primary Index:** Built on the ordering key field of a sequentially ordered data file.
+- **Clustering Index:** Built on a non-key field where the data file is sequentially ordered, allowing multiple records per index value.
+- **Secondary Index:** Defined on a non-ordering field.
+- **Dense vs. Sparse:** A **dense index** has an entry for every search key value, while a **sparse index** has entries for only some values.
+- **Commands:** Use `CREATE [UNIQUE] INDEX` to define an index and `DROP INDEX` to remove it.
+
+# 8. Views
+
+A **view** is a **virtual relation** that does not physically exist in the database but is produced on request based on a defining query (**sub-select**). To the user, it appears as a real table with columns and rows, but the DBMS only stores its definition in the **system catalog**.
+## Key View Concepts
+
+- **Types:** Views can be **Horizontal** (restricting access to specific rows), **Vertical** (restricting access to specific columns), or **Grouped/Joined** (aggregating data or linking multiple tables).
+
+- **Execution Mechanisms:** The DBMS handles views through **View Resolution** (merging the user query with the view definition at runtime) or **View Materialization** (storing the view as a temporary physical table for faster access in high-rate applications).
+
+- **Updatability:** A view is updatable only if the DBMS can trace every row/column back to a single source table. Updates are generally restricted if the view uses `DISTINCT`, aggregate functions, `GROUP BY`, or joins.
+
+- **WITH CHECK OPTION:** This clause ensures that any `INSERT` or `UPDATE` performed through the view does not cause a row to "migrate" (disappear) because it no longer satisfies the view's `WHERE` condition.
+
+# 9. Transaction Control Language (TCL)
+
+TCL commands manage **transactions** to ensure database consistency and reliability. A transaction is a **logical unit of work** (an action or series of actions) that reads or updates database contents. It must always transform the database from one **consistent state** to another, even if consistency is temporarily violated during execution.
+
+## The ACID Properties All transactions must possess four basic properties:
+
+1. **Atomicity:** The "all or nothing" rule; the transaction is performed in full or not at all.
+2. **Consistency:** The transaction must maintain valid states and integrity rules.
+3. **Isolation:** Transactions executing simultaneously must not interfere with each other.
+4. **Durability:** Once committed, changes are permanent and survive subsequent system failures.
+
+## TCL Commands and States
+
+- **BEGIN TRANSACTION:** Marks the boundary of a unit of work.
+- **COMMIT:** Permanently saves all transaction updates to the disk.
+- **ROLLBACK:** Undoes all changes made by the transaction if an error occurs.
+- **States:** A transaction moves from **Active** to **Partially Committed** (stored in memory buffer) and finally **Committed** (on disk), or it may enter a **Failed** state and be **Terminated**.
+
+# 10. Data Control Language (DCL)
+
+DCL provides the mechanism to ensure only authorized users can access the database, managing maintenance and user rights. SQL supports **Discretionary Access Control (DAC)**, where users are granted specific privileges on database objects at the owner's discretion.
+
+## Privileges and Commands
+
+- **Privileges:** The ISO standard defines specific actions a user can perform, including `SELECT` (retrieve), `INSERT` (add), `UPDATE` (modify), `DELETE` (remove), `REFERENCES` (integrity constraints), and `USAGE` (domains/character sets).
+- **GRANT:** Used to give access rights to specific users or the `PUBLIC`. Adding `WITH GRANT OPTION` allows the recipient to pass those privileges to others.
+- **REVOKE:** Used to remove previously granted privileges.
 ---
 # Short Note: Structured Query Language (SQL)
 
@@ -84,6 +138,14 @@ To combine data from multiple tables, SQL uses **joins**:
 - **Join Strategy:** Multi-table queries typically link a **Foreign Key** in a "child" table to a **Primary Key** in a "parent" table.
 
 - **Set Compatibility:** For **UNION, INTERSECT, or EXCEPT** to work, tables must have the same structure and corresponding columns must draw from the same **domain**.
+
+- **Performance:** **Indexes** are the primary tool for query optimization, using sorted search keys and pointers to bypass slow sequential table scans.
+
+- **Abstraction:** **Views** provide **data independence** and security by presenting users with customized, simplified "windows" into the data while hiding sensitive base table information.
+
+- **Reliability:** **TCL** protects data through the **ACID** model, ensuring that complex operations (like a bank transfer) either complete perfectly or fail without leaving behind "half-finished" or inconsistent data.
+
+- **Security:** **DCL** manages access via the **GRANT** and **REVOKE** system, ensuring that data is only accessible to those with the appropriate **privileges**.
 
 **SQL** is like **directing an automated library**: the **DDL** is the set of rules for how books are categorized and where the shelves are built; the **DML** is the process of adding new books or updating their records; and the **SELECT statement** is the search terminal where you ask for specific titles or genres—the system doesn't require you to know which floor the book is on, it simply brings the result to you.
 
