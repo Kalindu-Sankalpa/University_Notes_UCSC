@@ -21,7 +21,8 @@ The ER model is built upon three main concepts:
 
 - **Relationships:**
 	These are meaningful associations between entities. They are defined by their **degree** (unary, binary, ternary, or Quaternary) and **Cardinality ratios** (1:1, 1:N, or M:N). **Participation constraints** determine if every entity instance _must_ participate in a relationship (Total) or if it is optional (Partial).
-
+## Symbols used in ER Model
+![[ER diagram symbols.png]]
 # Enhanced Entity-Relationship (EER) Modeling
 
 EER modeling introduces advanced concepts for complex applications:
