@@ -97,6 +97,42 @@ A **view** is a **virtual relation** that does not physically exist in the datab
 
 - **WITH CHECK OPTION:** This clause ensures that any `INSERT` or `UPDATE` performed through the view does not cause a row to "migrate" (disappear) because it no longer satisfies the view's `WHERE` condition.
 
+## WITH CHECK OPTION
+
+The **WITH CHECK OPTION** in SQL is used with updatable views to prevent **"migrating rows,"** which are rows that would disappear from a view because an `INSERT` or `UPDATE` causes them to no longer satisfy the view's `WHERE` condition. When you have a **view hierarchy** (a view derived from another view), the two qualifiers **CASCADED** and **LOCAL** determine how these checks are applied across the different levels.
+
+### 1. CASCADED (The Default Option)
+
+If a view is created using **WITH CASCADED CHECK OPTION**, the DBMS enforces the `WHERE` conditions of that view and **all underlying views** it is derived from.
+
+- **Strictness:** It is the most restrictive option.
+- **Behavior:** Any row added or updated through this view must satisfy its own criteria and the criteria of every view beneath it in the hierarchy. Even if an underlying view does not have a check option of its own, the `CASCADED` qualifier will "reach down" and enforce those rules to ensure the row does not disappear from the current view.
+### 2. LOCAL
+
+If a view is created using **WITH LOCAL CHECK OPTION**, the DBMS only enforces the `WHERE` condition of the view being updated and any underlying views that **also** have their own check options.
+
+- **Behavior:** A row is allowed to disappear from the current view **if and only if** it also disappears from the underlying derived view or base table. It essentially checks the current view's rules but is more "forgiving" regarding the rules of underlying views that lack their own check options.
+
+---
+### Example Illustration
+
+Consider this hierarchy based on a **Staff** table:
+
+1. **LowSalary** **View:** `SELECT * FROM Staff WHERE salary > 9000` (No check option).
+2. **HighSalary** **View:** `SELECT * FROM LowSalary WHERE salary > 10000` (Derived from `LowSalary`).
+
+**Scenario A: Using** **WITH LOCAL CHECK OPTION** **on** **HighSalary**
+
+- If you try to update a salary to **9500**, the update **fails**. Why? Because 9500 is less than 10000, so it violates `HighSalary`'s rule, even though it still fits in `LowSalary`.
+- If you try to update a salary to **8000**, the update **succeeds**. Why? Because while the row disappears from `HighSalary`, it _also_ disappears from the underlying `LowSalary` view. Under `LOCAL`, this "migration" is permitted.
+
+**Scenario B: Using** **WITH CASCADED CHECK OPTION** **on** **HighSalary**
+
+- If you try to update a salary to **9500**, it **fails** (violates `HighSalary`).
+- If you try to update a salary to **8000**, it **also fails**. Because it is `CASCADED`, the DBMS protects the entire chain and will not let the row disappear from the hierarchy at all.
+
+**Recommendation:** To avoid data anomalies and unexpected disappearances of records, the sources suggest that views should normally be created using the **WITH CASCADED CHECK OPTION**.
+
 # 9. Transaction Control Language (TCL)
 
 TCL commands manage **transactions** to ensure database consistency and reliability. A transaction is a **logical unit of work** (an action or series of actions) that reads or updates database contents. It must always transform the database from one **consistent state** to another, even if consistency is temporarily violated during execution.
