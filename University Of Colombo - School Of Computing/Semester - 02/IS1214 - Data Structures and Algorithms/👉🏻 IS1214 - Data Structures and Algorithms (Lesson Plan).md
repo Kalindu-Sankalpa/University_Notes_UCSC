@@ -80,10 +80,33 @@
 		- **Speed:** Simple algorithms are typically $O(N^2)$, while advanced ones are $O(N\log{N})$.
 		- **Storage:** Some algorithms sort "in place" $(O(N) memory)$, while others require extra space.
 		- **Stability:** Whether the algorithm preserves the relative order of records with equal keys.
-7. Complexity and Analysis of Algorythems
-		This section moves from implementing data structures to mathematicaly evaluating how well they perform.
-	- **1. Algorithm Charachteristics:** Defining the essential trials fro an algorithm, such as **finieness, definiteness, and effectiveness**.
-	- **2. Time and Space Complexity**
+
+7. [[Complexity and Analysis of Algorithms]]
+   This section moves from implementing data structures to mathematically evaluating how well they perform.
+	- **1. Algorithm Characteristics:** Defining the essential trials fro an algorithm, such as **finieness, definiteness, and effectiveness**.
+	- **2. Asymptotic Notations:**
+		- **Big O Notation:** Used to describe the upper bound (worst-case) of an algorithm's growth.
+		- **Theta Notation ($\theta$):** Used for analyzing average-case complexity.
+	- **3. Complexity Classes:** Categorizing algorithms from best to worst: $O(1) (Constant)$, $O(\log n) (Logarithmic)$, $O(n) (Linear)$, $O(n \log n) (Linearithmic)$, $O(n2) (Quadratic)$, and $O(2n) (Exponential)$.
+	- **4. Factors Influencing Speed:** Exploring how algorithmic efficiency, hardware (CPU/RAM), and environmental factors (OS overhead) affect performance.
+	- **5. Practical Analysis:** Calculating the complexity of loops, nested loops, and recursive functions like Factorials and **Fibonacci numbers**.
+
+8. Graphs
+	- **Graph Anatomy:** Defining **Vertices (nodes)** as entities and **Edges (arcs)** as the relationships between them $(G=(V,E))$.
+	- **Graph Types:**
+	    - **Directed vs. Undirected:** Whether connections have a specific one-way direction.
+	    - **Weighted Graphs:** Graphs where edges have associated costs (e.g., distance between towns).
+    - **Key Terminology:** Understanding concepts like **Adjacency** (connected nodes), **Path** (sequence of vertices), **Cycles**, and **Degree** (number of edges on a vertex).
+    - **Representation Methods:**
+	    - **Adjacency Matrix:** A 2D array (Boolean product) representing connections; useful for finding paths of specific lengths.
+	    - **Adjacency List:** An array of linked lists, which is more memory-efficient for sparse graphs.
+	- **Graph Traversal Algorithms:**
+	    - **Depth-First Search (DFS):** Uses a **Stack** or recursion to explore as deep as possible along a branch before backtracking.
+	    - **Breadth-First Search (BFS):** Uses a **Queue** to visit all neighboring nodes at the current level before moving deeper.
+	- **Spanning Trees:** A sub-graph that connects all vertices without any cycles.
+	- **Minimum Spanning Tree (MST):** In a weighted graph, the spanning tree that has the **lowest total edge cost**.
+	- **Applications:** Using MSTs for civil network planning (power lines, water pipes), cluster analysis, and network routing.
+	- **Prim’s Algorithm:** A specific method used to find the MST of a graph.
 ---
 # Analogy for Understanding:
 

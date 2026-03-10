@@ -4,31 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "e3370ac3eb92ea27",
+        "id": "b614f10f2557e6bb",
         "type": "tabs",
         "children": [
           {
-            "id": "cc3dcf8f8d9d01df",
+            "id": "a0db6fe54cb91781",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "University Of Colombo - School Of Computing/Semester - 02/IS1214 - Data Structures and Algorithms/👉🏻 IS1214 - Data Structures and Algorithms (Lesson Plan).md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "👉🏻 IS1214 - Data Structures and Algorithms (Lesson Plan)"
+              "title": "New tab"
             }
           }
         ]
@@ -88,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 471.5
+    "width": 307.5
   },
   "right": {
     "id": "4c057cc63347afdb",
@@ -167,13 +153,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "University Of Colombo - School Of Computing/Semester - 02/IS1212 - Fundamentals of Probability and Statistics/Continuous Probability Distribution.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Continuous Probability Distribution"
+              "title": "Outline"
             }
           },
           {
@@ -202,7 +187,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "University Of Colombo - School Of Computing/Semester - 02/IS1212 - Fundamentals of Probability and Statistics/Continuous Probability Distribution.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -230,14 +214,14 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Continuous Probability Distribution"
+              "title": "Graph view"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 374.5,
+    "width": 361.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -254,8 +238,9 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "cc3dcf8f8d9d01df",
+  "active": "a0db6fe54cb91781",
   "lastOpenFiles": [
+    "University Of Colombo - School Of Computing/Semester - 02/IS1214 - Data Structures and Algorithms/Complexity and Analysis of Algorithms.md",
     "University Of Colombo - School Of Computing/Semester - 02/IS1214 - Data Structures and Algorithms/👉🏻 IS1214 - Data Structures and Algorithms (Lesson Plan).md",
     "University Of Colombo - School Of Computing/Semester - 02/IS1212 - Fundamentals of Probability and Statistics/👉🏻 IS1212 - Fundamentals of Probability and Statistics (Lesson Plan).md",
     "University Of Colombo - School Of Computing/Semester - 02/IS1212 - Fundamentals of Probability and Statistics/Continuous Probability Distribution.md",
@@ -298,7 +283,6 @@
     "University Of Colombo - School Of Computing/Semester - 02/IS1210 - Database Systems/Data Modeling using the Entity-Relationship Model.md",
     "University Of Colombo - School Of Computing/Semester - 02/Past Papers/IS 1210 - Database Systems.pdf",
     "University Of Colombo - School Of Computing/Semester - 02/IS1210 - Database Systems/Relational Data Model.md",
-    "University Of Colombo - School Of Computing/Semester - 02/IS1210 - Database Systems/Introduction to Databases.md",
     "University Of Colombo - School Of Computing/Semester - 02/IS1210 - Database Systems/Lecture Notes/IS1210 - TCL & DCL.pdf",
     "University Of Colombo - School Of Computing/Semester - 02/IS1210 - Database Systems/Lecture Notes/IS1210 - Indexes and Views.pdf",
     "University Of Colombo - School Of Computing/Semester - 02/Past Papers/IS 1208 - System Analysis and Design.pdf"
