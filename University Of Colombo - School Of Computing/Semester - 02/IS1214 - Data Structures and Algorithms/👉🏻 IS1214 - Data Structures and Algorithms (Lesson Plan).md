@@ -80,7 +80,9 @@
 		- **Speed:** Simple algorithms are typically $O(N^2)$, while advanced ones are $O(N\log{N})$.
 		- **Storage:** Some algorithms sort "in place" $(O(N) memory)$, while others require extra space.
 		- **Stability:** Whether the algorithm preserves the relative order of records with equal keys.
-
+7. Complexity and Analysis of Algorythems
+		This section moves from implementing data structures to mathematicaly evaluating how well they perform.
+	- **1. Algorithm Charachteristics :** 
 ---
 # Analogy for Understanding:
 
