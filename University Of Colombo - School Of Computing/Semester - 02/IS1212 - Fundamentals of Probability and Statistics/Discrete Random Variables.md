@@ -36,7 +36,7 @@ The **Expectation** or **Expected Value** $E(X)$ is the theoretical mean of the 
 
 --------------------------------------------------------------------------------
 
-**4. Variance & Standard Deviation: The "Spread"**
+# 4. Variance & Standard Deviation: The "Spread"
 
 While the mean tells you the center, **Variance** $Var(X)$ measures how much the values "spread out" around that center.
 

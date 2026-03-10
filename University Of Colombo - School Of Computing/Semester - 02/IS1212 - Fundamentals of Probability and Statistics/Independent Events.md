@@ -1,6 +1,7 @@
 >Next Topic : [[Discrete Random Variables]]
 
-**Independent events** occur when the happening of one event does not influence the probability of the other happening in any way. In other words, if two events are independent, the information that one has occurred leaves the probability of the other unchanged.
+>[!tip]
+>**Independent events** occur when the happening of one event does not influence the probability of the other happening in any way. In other words, if two events are independent, the information that one has occurred leaves the probability of the other unchanged.
 
 # 1. The Formal "Independence Test"
 
@@ -8,7 +9,7 @@ To mathematically prove that two events (A and B) are independent, you can use t
 
 - **The Multiplication Rule:** $P(A∩B)=P(A)×P(B)$.
 
-- **The Conditional Rule:** $P(A∣B)=P(A) and P(B∣A)=P(B)$.
+- **The Conditional Rule:** $P(A∣B)=P(A)$ and $P(B∣A)=P(B)$.
 
     ◦ _Meaning:_ Knowing B happened did nothing to the original probability of A.
 
@@ -43,7 +44,7 @@ If these events are mutually independent, then combinations of them are also ind
 | ----------------------- | ---------------------------------- | ------------------------------ |
 | **Independence**        | "No influence"                     | $P(A∩B)=P(A)×P(B)$             |
 | **The "With" Rule**     | **With** replacement = Independent | $P(A∩B)=P(A)P(B)$              |
-| **The Conditional**     | The "Given" is ignored             | $P(A$                          |
+| **The Conditional**     | The "Given" is ignored             | $P(A∣B) = P(A)$                |
 | **Mutual Independence** | Works for 3+ events                | All pairs + the trio must work |
 
 **Analogy for Understanding:**

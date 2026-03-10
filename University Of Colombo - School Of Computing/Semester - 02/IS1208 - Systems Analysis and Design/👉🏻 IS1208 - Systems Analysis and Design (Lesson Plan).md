@@ -25,8 +25,8 @@
 5. [[Activity Diagrams]]
 6. [[State Machine Diagrams]]
 7. [[Object Discovery and Advanced UML Diagrams]]
-8. Object Interaction and Sequence Modeling
-9. OOAD and Agile (CRC Cards)
+8. [[Object Interaction and Sequence Modeling]]
+9. [[OOAD and Agile (CRC Cards)]]
 
 ---
 # Past Papers

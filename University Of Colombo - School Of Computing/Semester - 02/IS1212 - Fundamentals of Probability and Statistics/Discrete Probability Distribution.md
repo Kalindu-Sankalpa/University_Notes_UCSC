@@ -9,9 +9,9 @@
 In this simplest model, every possible outcome has an equal chance of occurring.
 
 - **The Logic:**
-  If there are n outcomes, each has a probability of 1/n.
+  If there are $n$ outcomes, each has a probability of $1/n$.
 - **Fancy Example:**
-  Choosing one of the **6 Infinity Stones** at random from a bag. Each stone has a 1/6 chance of being picked.
+  Choosing one of the **6 Infinity Stones** at random from a bag. Each stone has a $1/6$ chance of being picked.
 - **Stats:** 
 	- Mean $$E(X)=\frac{(n+1)}{2}$$
 	- Variance $$Var(X)=\frac{(n^2−1)}{12}$$
@@ -19,10 +19,12 @@ In this simplest model, every possible outcome has an equal chance of occurring.
 
 - **Bernoulli Distribution:**
   A single trial with only two outcomes: "Success" (the outcome of interest) or "Failure".
+
 >_Example:_ Flipping a coin once to see if it's "Heads".
 
 - **Binomial Distribution:**
-  This happens when you repeat independent Bernoulli trials n times with a constant probability of success $p$.
+  This happens when you repeat independent Bernoulli trials $n$ times with a constant probability of success $p$.
+
 >**Fancy Example:**
 >A basketball player has a 70% chance (p=0.7) of making a free throw. The Binomial distribution predicts the probability of them making exactly 8 out of 10 shots (n=10).
 
