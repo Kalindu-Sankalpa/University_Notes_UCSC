@@ -87,11 +87,11 @@
 	- **2. Asymptotic Notations:**
 		- **Big O Notation:** Used to describe the upper bound (worst-case) of an algorithm's growth.
 		- **Theta Notation ($\theta$):** Used for analyzing average-case complexity.
-	- **3. Complexity Classes:** Categorizing algorithms from best to worst: $O(1) (Constant)$, $O(\log n) (Logarithmic)$, $O(n) (Linear)$, $O(n \log n) (Linearithmic)$, $O(n2) (Quadratic)$, and $O(2n) (Exponential)$.
+	- **3. Complexity Classes:** Categorizing algorithms from best to worst: $O(1) (Constant)$, $O(\log n) (Logarithmic)$, $O(n) (Linear)$, $O(n \log n) (Linearithmic)$, $O(n^2) (Quadratic)$, and $O(2^n) (Exponential)$.
 	- **4. Factors Influencing Speed:** Exploring how algorithmic efficiency, hardware (CPU/RAM), and environmental factors (OS overhead) affect performance.
 	- **5. Practical Analysis:** Calculating the complexity of loops, nested loops, and recursive functions like Factorials and **Fibonacci numbers**.
 
-8. Graphs
+8. [[Graphs]]
 	- **Graph Anatomy:** Defining **Vertices (nodes)** as entities and **Edges (arcs)** as the relationships between them $(G=(V,E))$.
 	- **Graph Types:**
 	    - **Directed vs. Undirected:** Whether connections have a specific one-way direction.

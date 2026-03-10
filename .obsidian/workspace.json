@@ -8,16 +8,55 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a0db6fe54cb91781",
+            "id": "f2ecc22610b306b7",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "University Of Colombo - School Of Computing/Semester - 02/IS1214 - Data Structures and Algorithms/👉🏻 IS1214 - Data Structures and Algorithms (Lesson Plan).md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "👉🏻 IS1214 - Data Structures and Algorithms (Lesson Plan)"
+            }
+          },
+          {
+            "id": "fe4ecfc888f58908",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "University Of Colombo - School Of Computing/Semester - 02/IS1214 - Data Structures and Algorithms/Graphs.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Graphs"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -74,7 +113,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 307.5
+    "width": 436.5
   },
   "right": {
     "id": "4c057cc63347afdb",
@@ -153,12 +192,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "University Of Colombo - School Of Computing/Semester - 02/IS1214 - Data Structures and Algorithms/Graphs.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Graphs"
             }
           },
           {
@@ -187,10 +227,11 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "University Of Colombo - School Of Computing/Semester - 02/IS1214 - Data Structures and Algorithms/Graphs.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
-                  "localJumps": 3,
+                  "localJumps": 1,
                   "localBacklinks": true,
                   "localForelinks": true,
                   "localInterlinks": false,
@@ -204,17 +245,17 @@
                   "textFadeMultiplier": 0,
                   "nodeSizeMultiplier": 1,
                   "lineSizeMultiplier": 1,
-                  "collapse-forces": false,
+                  "collapse-forces": true,
                   "centerStrength": 0.518713248970312,
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.6126649874132912,
+                  "scale": 0.3508306925556124,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "title": "Graph of Graphs"
             }
           }
         ]
@@ -238,10 +279,19 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "a0db6fe54cb91781",
+  "active": "fe4ecfc888f58908",
   "lastOpenFiles": [
     "University Of Colombo - School Of Computing/Semester - 02/IS1214 - Data Structures and Algorithms/Complexity and Analysis of Algorithms.md",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1214 - Data Structures and Algorithms/Lecture Notes/DSA - Lecture 10.pdf",
     "University Of Colombo - School Of Computing/Semester - 02/IS1214 - Data Structures and Algorithms/👉🏻 IS1214 - Data Structures and Algorithms (Lesson Plan).md",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1214 - Data Structures and Algorithms/Lecture Notes/DSA - Lecture 09.pdf",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1214 - Data Structures and Algorithms/Sorting Methods.md",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1214 - Data Structures and Algorithms/Trees.md",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1214 - Data Structures and Algorithms/Link Lists & Double Link Lists.md",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1214 - Data Structures and Algorithms/Queues.md",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1214 - Data Structures and Algorithms/Stacks.md",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1214 - Data Structures and Algorithms/Introduction & Arrays.md",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1214 - Data Structures and Algorithms/Graphs.md",
     "University Of Colombo - School Of Computing/Semester - 02/IS1212 - Fundamentals of Probability and Statistics/👉🏻 IS1212 - Fundamentals of Probability and Statistics (Lesson Plan).md",
     "University Of Colombo - School Of Computing/Semester - 02/IS1212 - Fundamentals of Probability and Statistics/Continuous Probability Distribution.md",
     "University Of Colombo - School Of Computing/Semester - 02/IS1212 - Fundamentals of Probability and Statistics/Discrete Probability Distribution.md",
@@ -274,17 +324,7 @@
     "University Of Colombo - School Of Computing/Semester - 02/IS1208 - Systems Analysis and Design/Lecture Notes/IS1208 - Object Interaction and Sequence Modeling.pdf",
     "University Of Colombo - School Of Computing/Semester - 02/IS1208 - Systems Analysis and Design/Lecture Notes/IS1208 - Object Discovery and Advanced UML Diagrams.pdf",
     "University Of Colombo - School Of Computing/Semester - 02/IS1208 - Systems Analysis and Design/Images/State Machine Diagram",
-    "University Of Colombo - School Of Computing/Semester - 02/IS1210 - Database Systems/Structured Query Language (SQL).md",
-    "University Of Colombo - School Of Computing/Semester - 02/IS1210 - Database Systems/👉🏻 IS1210 - Database Systems (Lesson Plan).md",
-    "University Of Colombo - School Of Computing/Semester - 02/IS1213 - Organizational Behavior/👉🏻 IS1213 - Organizational Behavior (Lesson Plan).md",
-    "University Of Colombo - School Of Computing/Semester - 02/IS1210 - Database Systems/Data Normalization Process and the Normal Forms.md",
-    "University Of Colombo - School Of Computing/Semester - 02/IS1210 - Database Systems/Logical Database Design.md",
-    "University Of Colombo - School Of Computing/Semester - 02/IS1210 - Database Systems/Enhanced Entity Relationship Model.md",
-    "University Of Colombo - School Of Computing/Semester - 02/IS1210 - Database Systems/Data Modeling using the Entity-Relationship Model.md",
     "University Of Colombo - School Of Computing/Semester - 02/Past Papers/IS 1210 - Database Systems.pdf",
-    "University Of Colombo - School Of Computing/Semester - 02/IS1210 - Database Systems/Relational Data Model.md",
-    "University Of Colombo - School Of Computing/Semester - 02/IS1210 - Database Systems/Lecture Notes/IS1210 - TCL & DCL.pdf",
-    "University Of Colombo - School Of Computing/Semester - 02/IS1210 - Database Systems/Lecture Notes/IS1210 - Indexes and Views.pdf",
-    "University Of Colombo - School Of Computing/Semester - 02/Past Papers/IS 1208 - System Analysis and Design.pdf"
+    "University Of Colombo - School Of Computing/Semester - 02/IS1210 - Database Systems/Lecture Notes/IS1210 - TCL & DCL.pdf"
   ]
 }
