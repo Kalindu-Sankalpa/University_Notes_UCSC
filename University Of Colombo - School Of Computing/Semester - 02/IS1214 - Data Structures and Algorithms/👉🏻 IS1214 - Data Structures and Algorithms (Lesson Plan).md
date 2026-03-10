@@ -82,7 +82,8 @@
 		- **Stability:** Whether the algorithm preserves the relative order of records with equal keys.
 7. Complexity and Analysis of Algorythems
 		This section moves from implementing data structures to mathematicaly evaluating how well they perform.
-	- **1. Algorithm Charachteristics :** 
+	- **1. Algorithm Charachteristics:** Defining the essential trials fro an algorithm, such as **finieness, definiteness, and effectiveness**.
+	- **2. Time and Space Complexity**
 ---
 # Analogy for Understanding:
 
