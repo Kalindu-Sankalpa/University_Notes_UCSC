@@ -25,7 +25,7 @@ Traversal is the process of visiting all nodes in a specific order:
 - **Depth-First Search (DFS):** Explores as deep as possible along a branch before **backtracking**. It is implemented using a **Stack** or recursion.
 - **Breadth-First Search (BFS):** Explores all neighbor nodes at the current level before moving to the next level. It is implemented using a **Queue**.
 
-4. Spanning Trees and MST
+# 4. Spanning Trees and MST
 
 - **Spanning Tree:** A connected subgraph that includes **all vertices** but contains **no cycles**. A graph with n vertices will have $n−1$ edges in its spanning tree.
 - **Minimum Spanning Tree (MST):** In a weighted graph, this is the spanning tree with the **minimum total edge weight**.
