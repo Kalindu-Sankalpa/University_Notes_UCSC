@@ -24,6 +24,7 @@ Traversal is the process of visiting all nodes in a specific order:
 
 - **Depth-First Search (DFS):** Explores as deep as possible along a branch before **backtracking**. It is implemented using a **Stack** or recursion.
 - **Breadth-First Search (BFS):** Explores all neighbor nodes at the current level before moving to the next level. It is implemented using a **Queue**.
+![[DFS vs BFS graph traversal.png]]
 
 # 4. Spanning Trees and MST
 
