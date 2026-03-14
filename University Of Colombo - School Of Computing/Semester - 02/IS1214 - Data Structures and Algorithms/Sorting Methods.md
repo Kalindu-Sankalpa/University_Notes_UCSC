@@ -8,11 +8,17 @@ These are simple algorithms often easier to implement but generally have a time 
 - **Selection Sort:**
   This method finds the smallest element in the array and exchanges it with the first position (`A`). It then finds the next smallest and swaps it with the second position, repeating until the array is sorted. Its running time is always $O(n^2)$ regardless of the initial order.
 
+![[Selection Sort - Algorithm.png]]
+
 - **Insertion Sort:**
   It partitions an array into sorted and unsorted parts. It takes elements from the unsorted part one by one and "inserts" them into their proper location within the sorted part. It is most efficient $(O(n))$ when the array is already nearly sorted and least efficient $(O(n^2))$ in the worst case.
 
+![[Insertion Sort - Algorithm.png]]
+
 - **Bubble Sort (Exchange Sort):**
   One of the simplest algorithms, it repeatedly passes through the list, comparing adjacent elements and swapping them if they are in the wrong order. After each pass, the next largest element "bubbles" up to its correct position. Its complexity is $O(n^2)$ for best, average, and worst cases.
+
+![[Bubble Sort - Algorithm.png]]
 
 # Part B: Advanced Comparison-Based Sorting (Merge & Shell)
 
