@@ -44,6 +44,15 @@ Decisions are choices made from alternatives, and every step of the process is i
 
 - **Rational Decision Making:**
 	A "perfect world" six-step model that assumes complete information and maximum payoff.
+	
+	> [!important] perfect world - six steps
+	>  1. Define the problem.
+	>  2. Identify the decision criteria.
+	>  3. Allocate weight to the criteria.
+	>  4. Develop the alternatives.
+	>  5. Evaluate the alternatives.
+	>  6. Select the best alternative.
+
 - **Bounded Rationality:**
 	The "real world" model where individuals "satisfice"—seeking solutions that are satisfactory and sufficient given limited data.
 - **Intuition:**
