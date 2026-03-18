@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "b614f10f2557e6bb",
+        "id": "d001f05de1719701",
         "type": "tabs",
         "children": [
           {
-            "id": "8918eefd6d0b5762",
+            "id": "b6276a8b4be80338",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "University Of Colombo - School Of Computing/Semester - 02/IS1214 - Data Structures and Algorithms/👉🏻 IS1214 - Data Structures and Algorithms (Lesson Plan).md",
+                "file": "University Of Colombo - School Of Computing/Semester - 02/IS1213 - Organizational Behavior/👉🏻 IS1213 - Organizational Behavior (Lesson Plan).md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -28,37 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "👉🏻 IS1214 - Data Structures and Algorithms (Lesson Plan)"
-            }
-          }
-        ]
-      },
-      {
-        "id": "78b3731cb82e1799",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "4d88e2b1527ae61e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "University Of Colombo - School Of Computing/Semester - 02/IS1214 - Data Structures and Algorithms/Sorting Methods.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Sorting Methods"
+              "title": "👉🏻 IS1213 - Organizational Behavior (Lesson Plan)"
             }
           }
         ]
@@ -118,7 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 383.5
+    "width": 451.5
   },
   "right": {
     "id": "4c057cc63347afdb",
@@ -197,13 +167,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "University Of Colombo - School Of Computing/Semester - 02/IS1214 - Data Structures and Algorithms/Sorting Methods.md",
+                "file": "University Of Colombo - School Of Computing/Semester - 02/IS1213 - Organizational Behavior/Communication.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Sorting Methods"
+              "title": "Outline of Communication"
             }
           },
           {
@@ -232,7 +202,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "University Of Colombo - School Of Computing/Semester - 02/IS1214 - Data Structures and Algorithms/Sorting Methods.md",
+                "file": "University Of Colombo - School Of Computing/Semester - 02/IS1213 - Organizational Behavior/Communication.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -255,12 +225,12 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.8304079652523747,
+                  "scale": 0.6024013357398856,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Sorting Methods"
+              "title": "Graph of Communication"
             }
           }
         ]
@@ -284,11 +254,20 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "4d88e2b1527ae61e",
+  "active": "dcf4301b09e6c6ad",
   "lastOpenFiles": [
+    "University Of Colombo - School Of Computing/Semester - 02/IS1213 - Organizational Behavior/Communication.md",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1213 - Organizational Behavior/👉🏻 IS1213 - Organizational Behavior (Lesson Plan).md",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1213 - Organizational Behavior/Lecture Notes/Lesson 08 - Communication.pdf",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1213 - Organizational Behavior/Groups & Teams.md",
+    "University Of Colombo - School Of Computing/Semester - 02/Past Papers/IS 1213 - Organizational Behavior.pdf",
     "University Of Colombo - School Of Computing/Semester - 02/IS1214 - Data Structures and Algorithms/👉🏻 IS1214 - Data Structures and Algorithms (Lesson Plan).md",
     "University Of Colombo - School Of Computing/Semester - 02/IS1214 - Data Structures and Algorithms/Sorting Methods.md",
     "University Of Colombo - School Of Computing/Semester - 02/IS1214 - Data Structures and Algorithms/Stacks.md",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1214 - Data Structures and Algorithms/Trees.md",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1214 - Data Structures and Algorithms/Complexity and Analysis of Algorithms.md",
+    "Untitled.base",
+    "Untitled.canvas",
     "University Of Colombo - School Of Computing/Semester - 02/IS1214 - Data Structures and Algorithms/Introduction & Arrays.md",
     "University Of Colombo - School Of Computing/Semester - 02/IS1214 - Data Structures and Algorithms/Images/Sorting Techniques/Bubble Sort - Algorithm.png",
     "University Of Colombo - School Of Computing/Semester - 02/IS1214 - Data Structures and Algorithms/Images/Sorting Techniques/Selection Sort - Algorithm.png",
@@ -296,12 +275,9 @@
     "University Of Colombo - School Of Computing/Semester - 02/IS1214 - Data Structures and Algorithms/Images/Sorting Techniques",
     "University Of Colombo - School Of Computing/Semester - 02/IS1214 - Data Structures and Algorithms/Images/DFS vs BFS graph traversal.png",
     "University Of Colombo - School Of Computing/Semester - 02/IS1214 - Data Structures and Algorithms/Images",
-    "University Of Colombo - School Of Computing/Semester - 02/IS1214 - Data Structures and Algorithms/Trees.md",
-    "University Of Colombo - School Of Computing/Semester - 02/IS1214 - Data Structures and Algorithms/Complexity and Analysis of Algorithms.md",
     "University Of Colombo - School Of Computing/Semester - 02/IS1214 - Data Structures and Algorithms/Queues.md",
     "University Of Colombo - School Of Computing/Semester - 02/IS1214 - Data Structures and Algorithms/Link Lists & Double Link Lists.md",
     "University Of Colombo - School Of Computing/Semester - 02/IS1213 - Organizational Behavior/Introduction to Organizational Behavior.md",
-    "University Of Colombo - School Of Computing/Semester - 02/IS1213 - Organizational Behavior/👉🏻 IS1213 - Organizational Behavior (Lesson Plan).md",
     "University Of Colombo - School Of Computing/Semester - 02/Past Papers/IS 1214 - Data Structures and Algorithms.pdf",
     "University Of Colombo - School Of Computing/Semester - 02/IS1214 - Data Structures and Algorithms/Graphs.md",
     "University Of Colombo - School Of Computing/Semester - 02/IS1214 - Data Structures and Algorithms/Lecture Notes/DSA - Lecture 10.pdf",
@@ -318,8 +294,6 @@
     "University Of Colombo - School Of Computing/Semester - 02/IS1212 - Fundamentals of Probability and Statistics/Conditional Probability.md",
     "University Of Colombo - School Of Computing/Semester - 02/IS1208 - Systems Analysis and Design/OOAD and Agile (CRC Cards).md",
     "University Of Colombo - School Of Computing/Semester - 02/IS1208 - Systems Analysis and Design/Object Interaction and Sequence Modeling.md",
-    "University Of Colombo - School Of Computing/Semester - 02/IS1208 - Systems Analysis and Design/👉🏻 IS1208 - Systems Analysis and Design (Lesson Plan).md",
-    "University Of Colombo - School Of Computing/Semester - 02/IS1208 - Systems Analysis and Design/Object Discovery and Advanced UML Diagrams.md",
     "University Of Colombo - School Of Computing/Semester - 02/IS1208 - Systems Analysis and Design/Images/Activity Diagram/Steps-to-Draw-an-Activity-Diagram.jpg",
     "University Of Colombo - School Of Computing/Semester - 02/IS1208 - Systems Analysis and Design/Images/Activity Diagram/time-event.jpg",
     "University Of Colombo - School Of Computing/Semester - 02/IS1208 - Systems Analysis and Design/Images/Activity Diagram/swimlane.jpg",
@@ -327,9 +301,6 @@
     "University Of Colombo - School Of Computing/Semester - 02/IS1208 - Systems Analysis and Design/Images/Activity Diagram/join.jpg",
     "University Of Colombo - School Of Computing/Semester - 02/IS1208 - Systems Analysis and Design/Images/Activity Diagram/initial-state.jpg",
     "University Of Colombo - School Of Computing/Semester - 02/IS1208 - Systems Analysis and Design/Images/Activity Diagram",
-    "University Of Colombo - School Of Computing/Semester - 02/IS1208 - Systems Analysis and Design/Lecture Notes/IS1208 - State Diagrams.pdf",
-    "University Of Colombo - School Of Computing/Semester - 02/IS1208 - Systems Analysis and Design/Lecture Notes/IS1208 - OOAD and Agile (CRC Cards).pdf",
-    "University Of Colombo - School Of Computing/Semester - 02/IS1208 - Systems Analysis and Design/Lecture Notes/IS1208 - Object Interaction and Sequence Modeling.pdf",
-    "University Of Colombo - School Of Computing/Semester - 02/IS1208 - Systems Analysis and Design/Lecture Notes/IS1208 - Object Discovery and Advanced UML Diagrams.pdf"
+    "University Of Colombo - School Of Computing/Semester - 02/IS1208 - Systems Analysis and Design/Lecture Notes/IS1208 - State Diagrams.pdf"
   ]
 }
