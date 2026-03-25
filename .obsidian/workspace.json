@@ -4,18 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "ac6477e88e98d0fd",
+        "id": "0e7469d75607ec48",
         "type": "tabs",
         "children": [
           {
-            "id": "12134b696a1003c9",
+            "id": "c06b9452882526f4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "University Of Colombo - School Of Computing/Semester - 02/IS1211 - Computer Networks/👉🏻 IS1211 - Computer Networks (Lesson Plan).md",
-                "mode": "source",
-                "source": true,
+                "mode": "preview",
+                "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
                   "collapseAll": false,
@@ -30,33 +30,8 @@
               "icon": "lucide-file",
               "title": "👉🏻 IS1211 - Computer Networks (Lesson Plan)"
             }
-          },
-          {
-            "id": "41e4536991a34cae",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "University Of Colombo - School Of Computing/Semester - 02/IS1211 - Computer Networks/Core Networking Concepts.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Core Networking Concepts"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -113,7 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 344.5
+    "width": 418.5
   },
   "right": {
     "id": "4c057cc63347afdb",
@@ -279,10 +254,17 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "41e4536991a34cae",
+  "active": "c06b9452882526f4",
   "lastOpenFiles": [
-    "University Of Colombo - School Of Computing/Semester - 02/IS1211 - Computer Networks/👉🏻 IS1211 - Computer Networks (Lesson Plan).md",
     "University Of Colombo - School Of Computing/Semester - 02/IS1211 - Computer Networks/Core Networking Concepts.md",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1211 - Computer Networks/Images/osi_model_layers.svg",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1211 - Computer Networks/Images/computer_networks_study_roadmap.svg",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1211 - Computer Networks/Images/computer_networks_study_roadmap (1).svg",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1211 - Computer Networks/👉🏻 IS1211 - Computer Networks (Lesson Plan).md",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1211 - Computer Networks/Pasted image 20260325111335.png",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1211 - Computer Networks/Untitled.md",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1211 - Computer Networks/Images",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1211 - Computer Networks/Physical Layer.md",
     "University Of Colombo - School Of Computing/Semester - 02/IS1212 - Fundamentals of Probability and Statistics/👉🏻 IS1212 - Fundamentals of Probability and Statistics (Lesson Plan).md",
     "University Of Colombo - School Of Computing/Semester - 02/IS1210 - Database Systems/👉🏻 IS1210 - Database Systems (Lesson Plan).md",
     "University Of Colombo - School Of Computing/Semester - 02/IS1211 - Computer Networks",
@@ -310,11 +292,8 @@
     "University Of Colombo - School Of Computing/Semester - 02/IS1214 - Data Structures and Algorithms/👉🏻 IS1214 - Data Structures and Algorithms (Lesson Plan).md",
     "University Of Colombo - School Of Computing/Semester - 02/IS1214 - Data Structures and Algorithms/Sorting Methods.md",
     "University Of Colombo - School Of Computing/Semester - 02/IS1214 - Data Structures and Algorithms/Stacks.md",
-    "University Of Colombo - School Of Computing/Semester - 02/IS1214 - Data Structures and Algorithms/Trees.md",
-    "University Of Colombo - School Of Computing/Semester - 02/IS1214 - Data Structures and Algorithms/Complexity and Analysis of Algorithms.md",
     "Untitled.base",
     "Untitled.canvas",
-    "University Of Colombo - School Of Computing/Semester - 02/IS1214 - Data Structures and Algorithms/Introduction & Arrays.md",
     "University Of Colombo - School Of Computing/Semester - 02/IS1214 - Data Structures and Algorithms/Images/Sorting Techniques/Bubble Sort - Algorithm.png",
     "University Of Colombo - School Of Computing/Semester - 02/IS1214 - Data Structures and Algorithms/Images/Sorting Techniques/Selection Sort - Algorithm.png",
     "University Of Colombo - School Of Computing/Semester - 02/IS1214 - Data Structures and Algorithms/Images/Sorting Techniques/Insertion Sort - Algorithm.png",
@@ -322,11 +301,6 @@
     "University Of Colombo - School Of Computing/Semester - 02/IS1214 - Data Structures and Algorithms/Images/DFS vs BFS graph traversal.png",
     "University Of Colombo - School Of Computing/Semester - 02/IS1214 - Data Structures and Algorithms/Images",
     "University Of Colombo - School Of Computing/Semester - 02/Past Papers/IS 1214 - Data Structures and Algorithms.pdf",
-    "University Of Colombo - School Of Computing/Semester - 02/IS1214 - Data Structures and Algorithms/Lecture Notes/DSA - Lecture 10.pdf",
-    "University Of Colombo - School Of Computing/Semester - 02/IS1208 - Systems Analysis and Design/Images/Activity Diagram/Steps-to-Draw-an-Activity-Diagram.jpg",
-    "University Of Colombo - School Of Computing/Semester - 02/IS1208 - Systems Analysis and Design/Images/Activity Diagram/time-event.jpg",
-    "University Of Colombo - School Of Computing/Semester - 02/IS1208 - Systems Analysis and Design/Images/Activity Diagram/swimlane.jpg",
-    "University Of Colombo - School Of Computing/Semester - 02/IS1208 - Systems Analysis and Design/Images/Activity Diagram/merge.jpg",
-    "University Of Colombo - School Of Computing/Semester - 02/IS1208 - Systems Analysis and Design/Images/Activity Diagram/join.jpg"
+    "University Of Colombo - School Of Computing/Semester - 02/IS1208 - Systems Analysis and Design/Images/Activity Diagram/Steps-to-Draw-an-Activity-Diagram.jpg"
   ]
 }
