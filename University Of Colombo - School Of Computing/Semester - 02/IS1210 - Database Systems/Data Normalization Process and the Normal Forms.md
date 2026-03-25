@@ -41,7 +41,7 @@ The process involves a series of tests called **Normal Forms**:
 - **Boyce-Codd Normal Form (BCNF):** A stronger version of 3NF where **every determinant must be a candidate key**.
 
 ---
-# Short Note - Database Normalization**
+# Short Note - Database Normalization
 
 • **Technique Types:** Normalization can be used as a **bottom-up technique** to create relations from attributes or a **validation technique** to check structures derived from top-down ER modeling.
 

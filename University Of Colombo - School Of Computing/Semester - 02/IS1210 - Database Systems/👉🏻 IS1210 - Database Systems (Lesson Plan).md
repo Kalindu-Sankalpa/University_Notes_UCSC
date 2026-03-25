@@ -1,3 +1,5 @@
+>Next Course : [[👉🏻 IS1211 - Computer Networks (Lesson Plan)]]
+
 - **Course Code** : IS 1210
 - **Course Name** : Database Systems
 - **Lecture** : Dr. Enosha Hettiarachchi & Ms. MVPT Lakshika
