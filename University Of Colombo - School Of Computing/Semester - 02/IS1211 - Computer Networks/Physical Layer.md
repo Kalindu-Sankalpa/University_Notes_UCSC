@@ -1,10 +1,10 @@
->Next Topic:
+>Next Topic: [[Data-link Layer]]
 
-> [!INFO] Overview
+> [!TIP] Overview
 > **Physical Layer**, is the lowest layer in the network architecture and is responsible for moving individual **bits** from one node to the next over a physical communication link.
 
 ---
-# 1. Signals and Waveforms
+# 1. Signals and Wave-forms
 
 Data is transmitted through physical media using signals, which can be either **analog** (continuous) or **digital** (discrete).
 

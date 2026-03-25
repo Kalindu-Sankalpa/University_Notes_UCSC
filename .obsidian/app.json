@@ -2,7 +2,7 @@
   "newFileLocation": "current",
   "tabSize": 5,
   "readableLineLength": true,
-  "showLineNumber": false,
+  "showLineNumber": true,
   "alwaysUpdateLinks": true,
   "defaultViewMode": "preview",
   "attachmentFolderPath": "./",
