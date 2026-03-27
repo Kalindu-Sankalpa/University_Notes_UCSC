@@ -33,11 +33,11 @@ We use a rounded rectangle to represent a state. A state represents the conditio
 ### 4. Fork
 
 We use a rounded solid rectangular bar to represent a Fork notation with incoming arrow from the parent state and outgoing arrows towards the newly created states. We use the fork notation to represent a state splitting into two or more concurrent states.
-![[fork.jpg]]
+![[University Of Colombo - School Of Computing/Semester - 02/IS1208 - Systems Analysis and Design/Images/State Machine Diagram/fork.jpg]]
 ### 5. Join
 
 We use a rounded solid rectangular bar to represent a Join notation with incoming arrows from the joining states and outgoing arrow towards the common goal state. We use the join notation when two or more states concurrently converge into one on the occurrence of an event or events.
-![[join.jpg]]
+![[University Of Colombo - School Of Computing/Semester - 02/IS1208 - Systems Analysis and Design/Images/State Machine Diagram/join.jpg]]
 ### 6. Self transition
 
 We use a solid arrow pointing back to the state itself to represent a self transition. There might be scenarios when the state of the object does not change upon the occurrence of an event. We use self transitions to represent such cases.
@@ -49,7 +49,7 @@ We use a rounded rectangle to represent a composite state also. We represent a s
 ### 8. Final State
 
 We use a filled circle within a circle notation to represent the final state in a state machine diagram.
-![[final-state.jpg]]
+![[University Of Colombo - School Of Computing/Semester - 02/IS1208 - Systems Analysis and Design/Images/State Machine Diagram/final-state.jpg]]
 ## How to draw a State Machine diagram in UML?
 
 Below are the steps on how to draw the State Machine Diagram in UML:
