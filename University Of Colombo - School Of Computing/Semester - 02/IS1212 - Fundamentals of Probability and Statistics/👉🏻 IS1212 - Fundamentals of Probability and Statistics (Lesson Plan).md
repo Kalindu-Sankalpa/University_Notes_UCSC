@@ -49,3 +49,4 @@ To think about these goals, imagine statistics as a **translator**: it takes a m
 ---
 # Past Papers
 [[IS 1212 - Probability and Statistics.pdf]]
+[[IS 1112 - Propability and Statistics.pdf]]

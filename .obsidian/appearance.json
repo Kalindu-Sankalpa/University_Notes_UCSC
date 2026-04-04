@@ -1,9 +1,10 @@
 {
-  "accentColor": "#007ea8",
-  "baseFontSize": 16,
-  "baseFontSizeAction": false,
+  "accentColor": "#006f85",
+  "baseFontSize": 18,
+  "baseFontSizeAction": true,
   "theme": "system",
   "cssTheme": "",
   "showViewHeader": true,
-  "nativeMenus": false
+  "nativeMenus": true,
+  "showRibbon": true
 }

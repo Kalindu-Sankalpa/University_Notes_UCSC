@@ -13,7 +13,7 @@ In this simplest model, every possible outcome has an equal chance of occurring.
 - **Fancy Example:**
   Choosing one of the **6 Infinity Stones** at random from a bag. Each stone has a $1/6$ chance of being picked.
 - **Stats:** 
-	- Mean $$E(X)=\frac{(n+1)}{2}$$
+	- Mean $$E(X)=\frac{(n+1)}{2}$$ 
 	- Variance $$Var(X)=\frac{(n^2−1)}{12}$$
 # 2. Bernoulli & Binomial (The "Success vs. Failure" Models)
 
