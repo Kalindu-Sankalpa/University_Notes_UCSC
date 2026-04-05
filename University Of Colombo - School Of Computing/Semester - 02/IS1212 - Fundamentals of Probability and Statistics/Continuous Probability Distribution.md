@@ -16,9 +16,14 @@ The normal distribution is famous for its **bell shape** and is perfectly **symm
 
 In any normal distribution, the data follows a very strict "neighborhood" rule:
 
+- Approximately **68%** of the data lies within ±1 **standard deviations**.
 - Approximately **95%** of all observations fall within ±2 **standard deviations** of the mean.
 - Approximately **99.8%** of the data lies within ±3 **standard deviations**.
 
+To find,
+- **68%** - $\mu \pm \sigma$
+- **95%** - $\mu \pm 2\sigma$
+- **99.8%** - $\mu \pm 3\sigma$
 # 3. The Standard Normal Distribution $Z$
 
 Since every dataset has a different mean and variance, mathematicians created a "universal translator" called the **Standard Normal Distribution $(Z)$**.

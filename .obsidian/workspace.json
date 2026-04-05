@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "University Of Colombo - School Of Computing/Semester - 02/IS1212 - Fundamentals of Probability and Statistics/👉🏻 IS1212 - Fundamentals of Probability and Statistics (Lesson Plan).md",
-                "mode": "preview",
+                "file": "University Of Colombo - School Of Computing/Semester - 02/IS1212 - Fundamentals of Probability and Statistics/Discrete Probability Distribution.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "👉🏻 IS1212 - Fundamentals of Probability and Statistics (Lesson Plan)"
+              "title": "Discrete Probability Distribution"
             }
           }
         ]
@@ -256,14 +256,18 @@
   },
   "active": "f4b002f8e872cc94",
   "lastOpenFiles": [
-    "University Of Colombo - School Of Computing/Semester - 02/Past Papers/IS 1112 - Propability and Statistics.pdf",
-    "University Of Colombo - School Of Computing/Semester - 02/IS1212 - Fundamentals of Probability and Statistics/Discrete Probability Distribution.md",
-    "University Of Colombo - School Of Computing/Semester - 02/IS1212 - Fundamentals of Probability and Statistics/👉🏻 IS1212 - Fundamentals of Probability and Statistics (Lesson Plan).md",
-    "University Of Colombo - School Of Computing/Semester - 02/Past Papers/IS 1212 - Probability and Statistics.pdf",
     "University Of Colombo - School Of Computing/Semester - 02/IS1212 - Fundamentals of Probability and Statistics/Continuous Probability Distribution.md",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1212 - Fundamentals of Probability and Statistics/Discrete Probability Distribution.md",
     "University Of Colombo - School Of Computing/Semester - 02/IS1212 - Fundamentals of Probability and Statistics/Discrete Random Variables.md",
     "University Of Colombo - School Of Computing/Semester - 02/IS1212 - Fundamentals of Probability and Statistics/Independent Events.md",
     "University Of Colombo - School Of Computing/Semester - 02/IS1212 - Fundamentals of Probability and Statistics/Conditional Probability.md",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1212 - Fundamentals of Probability and Statistics/Introduction to Probability.md",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1212 - Fundamentals of Probability and Statistics/Numerical Representation.md",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1212 - Fundamentals of Probability and Statistics/Graphical Presentation.md",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1212 - Fundamentals of Probability and Statistics/Introduction to Statistics.md",
+    "University Of Colombo - School Of Computing/Semester - 02/IS1212 - Fundamentals of Probability and Statistics/👉🏻 IS1212 - Fundamentals of Probability and Statistics (Lesson Plan).md",
+    "University Of Colombo - School Of Computing/Semester - 02/Past Papers/IS 1112 - Propability and Statistics.pdf",
+    "University Of Colombo - School Of Computing/Semester - 02/Past Papers/IS 1212 - Probability and Statistics.pdf",
     "University Of Colombo - School Of Computing/Semester - 02/IS1212 - Fundamentals of Probability and Statistics/Exam_prep.html",
     "University Of Colombo - School Of Computing/Semester - 02/IS1212 - Fundamentals of Probability and Statistics/Artifacts/Exam_prep.html",
     "University Of Colombo - School Of Computing/Semester - 02/IS1212 - Fundamentals of Probability and Statistics/Artifacts/Exam_prep.pdf",
@@ -273,7 +277,6 @@
     "University Of Colombo - School Of Computing/Semester - 02/IS1212 - Fundamentals of Probability and Statistics/Artifacts/IS1212_exam_prep 3.html",
     "University Of Colombo - School Of Computing/Semester - 02/IS1212 - Fundamentals of Probability and Statistics/Artifacts/IS1212_exam_prep 2.html",
     "University Of Colombo - School Of Computing/Semester - 02/IS1212 - Fundamentals of Probability and Statistics/Artifacts/IS1212_exam_prep 1.html",
-    "University Of Colombo - School Of Computing/Semester - 02/IS1212 - Fundamentals of Probability and Statistics/Artifacts",
     "University Of Colombo - School Of Computing/Semester - 02/IS1209 - Information Technology Project Management/👉🏻 IS1209 - Information Technology Project Management (Lesson Plan).md",
     "University Of Colombo - School Of Computing/Semester - 02/IS1209 - Information Technology Project Management/Project Time Management.md",
     "University Of Colombo - School Of Computing/Semester - 02/IS1209 - Information Technology Project Management/Project Scope Management.md",
@@ -293,9 +296,6 @@
     "University Of Colombo - School Of Computing/Semester - 02/IS1208 - Systems Analysis and Design/Images/State Machine Diagram/Iinitial -state.jpg",
     "University Of Colombo - School Of Computing/Semester - 02/IS1208 - Systems Analysis and Design/Images/State Machine Diagram/final-state.jpg",
     "University Of Colombo - School Of Computing/Semester - 02/IS1208 - Systems Analysis and Design/Images/img_01.png",
-    "University Of Colombo - School Of Computing/Semester - 02/IS1211 - Computer Networks/👉🏻 IS1211 - Computer Networks (Lesson Plan).md",
-    "University Of Colombo - School Of Computing/Semester - 02/IS1208 - Systems Analysis and Design/Class Diagrams and some Agile Techniques.md",
-    "University Of Colombo - School Of Computing/Semester - 02/IS1211 - Computer Networks/Physical Layer.md",
     "University Of Colombo - School Of Computing/Semester - 02/IS1211 - Computer Networks/Images/osi_model_layers.svg",
     "University Of Colombo - School Of Computing/Semester - 02/IS1211 - Computer Networks/Images/computer_networks_study_roadmap.svg",
     "University Of Colombo - School Of Computing/Semester - 02/IS1211 - Computer Networks/Images/computer_networks_study_roadmap (1).svg",

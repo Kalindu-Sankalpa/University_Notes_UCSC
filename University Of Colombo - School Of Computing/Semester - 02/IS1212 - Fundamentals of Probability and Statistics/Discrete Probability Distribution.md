@@ -30,6 +30,17 @@ In this simplest model, every possible outcome has an equal chance of occurring.
 
 >**Stats:** Mean $E(X)=np$; Variance $Var(X)=npq$ $($where $q=1−p)$.
 
+The **probability mass function (PMF)** of the **binomial distribution** gives the probability of obtaining exactly k successes in n independent Bernoulli trials, each with success probability p. 
+### Formula:
+$$P(X = k) = \binom{n}{k} p^k (1 - p)^{n - k}$$
+$$
+P(X = k) = \binom{n}{k} p^k (1 - p)^{n - k}, \quad k = 0, 1, 2, \dots, n
+$$   
+for k=0,1,2,…,n, where:
+
+- $\binom{n}{k​}=\frac{k!}{(n−k)!n!}​$ is the **binomial coefficient** (number of ways to choose k successes from n trials),
+- p is the probability of success,
+- 1−p is the probability of failure.
 # 3. Poisson Distribution (The "Rare Events" Model)
 
 Used for events that occur randomly over a fixed interval of time or space.
@@ -37,6 +48,25 @@ Used for events that occur randomly over a fixed interval of time or space.
 - **The Logic:** It depends on the mean number of occurrences $(λ)$.
 - **Fancy Example:** Counting the number of **falling stars** seen in one hour or the number of bacteria in 1ml of liquid.
 - **Stats:** Mean $E(X)=λ$; Variance $Var(X)=λ$.
+## Key Characteristics
+
+- **Discrete**: Only non-negative integers (0, 1, 2, ...) are possible outcomes. 
+- **Single Parameter**: Defined entirely by λ (lambda), the average rate of occurrence.
+- **Independence**: Events occur independently of each other. 
+- **Constant Rate**: The average number of events per interval ( λ ) remains constant.
+- **Rare Events**: Often used for events that are infrequent but have many opportunities to occur.
+
+As **λ** increases, the distribution becomes more symmetric and approaches a normal distribution.
+## Probability Mass Function (PMF)
+
+The probability of observing exactly k events in a fixed interval is given by the Poisson probability mass function:
+$$P(X=k)=\frac{e^{−λ}λ^k}{k!}$$​
+Where:
+- k = number of occurrences (0, 1, 2, ...)
+- λ = average number of occurrences in the interval ( λ>0 )
+- e ≈ 2.71828 (Euler’s number) 
+
+This formula is derived as a limiting case of the binomial distribution when the number of trials n→∞ and the probability of success p→0, such that np=λ remains constant.
 
 # 4. Geometric & Negative Binomial (The "Waiting" Models)
 
