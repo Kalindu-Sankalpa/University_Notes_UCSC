@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Academic Year 01/Semester - 01/Notes Will Be Available Soon.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Notes Will Be Available Soon"
+              "title": "README"
             }
           }
         ],
@@ -281,8 +281,9 @@
   },
   "active": "93b008add8bb606f",
   "lastOpenFiles": [
-    "Academic Year 01/Semester - 02/Past Papers/Past Papers.md",
     "Academic Year 01/Semester - 01/Notes Will Be Available Soon.md",
+    "README.md",
+    "Academic Year 01/Semester - 02/Past Papers/Past Papers.md",
     "Academic Year 01/Semester - 02/IS1212 - Fundamentals of Probability and Statistics/Discrete Probability Distribution.md",
     "Academic Year 01",
     "Academic Year 01/Semester - 02/IS1212 - Fundamentals of Probability and Statistics/Continuous Probability Distribution.md",
@@ -316,7 +317,6 @@
     "Academic Year 01/Semester - 02/IS1208 - Systems Analysis and Design/👉🏻 IS1208 - Systems Analysis and Design (Lesson Plan).md",
     "Academic Year 01/Semester - 02/IS1208 - Systems Analysis and Design/Systems Analysis and Fact Finding techniques.md",
     "Academic Year 01/Semester - 02/IS1208 - Systems Analysis and Design/Software Development Methodologies and Software process models.md",
-    "Academic Year 01/Semester - 02/IS1208 - Systems Analysis and Design/Introduction to System & Designs.md",
     "Academic Year 01/Semester - 02/IS1208 - Systems Analysis and Design/Images/Activity Diagram/final-state.jpg",
     "Academic Year 01/Semester - 02/IS1208 - Systems Analysis and Design/Images/State Machine Diagram/Iinitial -state.jpg",
     "Academic Year 01/Semester - 02/IS1208 - Systems Analysis and Design/Images/State Machine Diagram/final-state.jpg",
