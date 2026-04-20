@@ -39,7 +39,7 @@ EER modeling introduces advanced concepts for complex applications:
 - **Constraints:**
 	These include **Disjointness** (whether an instance can belong to multiple sub-classes) and **Completeness** (whether every super-class instance must belong to a subclass).
 
-![[University Of Colombo - School Of Computing/Semester - 02/IS1210 - Database Systems/Images/img_01.svg]]
+![[Academic Year 01/Semester - 02/IS1210 - Database Systems/Images/img_01.svg]]
 # Logical Database Design (Mapping)
 
 The final stage of modeling is mapping the ER/EER diagrams into relations. This involves transforming entities into tables and resolving relationships:

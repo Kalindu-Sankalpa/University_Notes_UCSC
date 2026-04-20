@@ -36,11 +36,11 @@ A Guard refers to a statement written next to a decision node on an arrow someti
 ### 6. Fork
 
 Fork nodes are used to support concurrent activities. When we use a fork node when both the activities get executed concurrently i.e. no decision is made before splitting the activity into two parts. Both parts need to be executed in case of a fork statement. We use a rounded solid rectangular bar to represent a Fork notation with incoming arrow from the parent activity state and outgoing arrows towards the newly created activities.
-![[fork.jpg]]
+![[Academic Year 01/Semester - 02/IS1208 - Systems Analysis and Design/Images/Activity Diagram/fork.jpg]]
 ### 7. Join
 
 Join nodes are used to support concurrent activities converging into one. For join notations we have two or more incoming edges and one outgoing edge.
-![[join.jpg]]
+![[Academic Year 01/Semester - 02/IS1208 - Systems Analysis and Design/Images/Activity Diagram/join.jpg]]
 ### 8. Merge or Merge Event
 
 Scenarios arise when activities which are not being executed concurrently have to be merged. We use the merge notation for such scenarios. We can merge two or more activities into one if the control proceeds onto the next activity irrespective of the path chosen.
@@ -56,7 +56,7 @@ This refers to an event that stops the flow for a time; an hourglass depicts it.
 ### 11. Final State or End State
 
 The state which the system reaches when a particular process or activity ends is known as a Final State or End State. We use a filled circle within a circle notation to represent the final state in a state machine diagram. A system or a process can have multiple final states.
-![[final-state.jpg]]
+![[Academic Year 01/Semester - 02/IS1208 - Systems Analysis and Design/Images/Activity Diagram/final-state.jpg]]
 
 ## Draw an Activity Diagram in UML
 ![[Steps-to-Draw-an-Activity-Diagram.jpg]]
