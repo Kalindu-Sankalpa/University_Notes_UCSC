@@ -4,59 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "77a54710a70f2568",
+        "id": "06d205ec722f1056",
         "type": "tabs",
         "children": [
           {
-            "id": "f4b002f8e872cc94",
+            "id": "db903c0bba7ac9db",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Academic Year 01/Semester - 02/Past Papers/Past Papers.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Past Papers"
-            }
-          },
-          {
-            "id": "93b008add8bb606f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "README"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -113,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 388.5
+    "width": 402.5
   },
   "right": {
     "id": "4c057cc63347afdb",
@@ -130,7 +91,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "University Of Colombo - School Of Computing/Semester - 02/IS1208 - Systems Analysis and Design/State Machine Diagrams.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -140,7 +100,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for State Machine Diagrams"
+              "title": "Backlinks"
             }
           },
           {
@@ -149,12 +109,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "University Of Colombo - School Of Computing/Semester - 02/IS1214 - Data Structures and Algorithms/Sorting Methods.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Sorting Methods"
+              "title": "Outgoing links"
             }
           },
           {
@@ -192,13 +151,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "University Of Colombo - School Of Computing/Semester - 02/IS1208 - Systems Analysis and Design/Feasibility Analysis.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Feasibility Analysis"
+              "title": "Outline"
             }
           },
           {
@@ -214,7 +172,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       },
       {
         "id": "5ca9c691d47aa69a",
@@ -227,7 +185,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "University Of Colombo - School Of Computing/Semester - 02/IS1208 - Systems Analysis and Design/Feasibility Analysis.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -255,7 +212,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Feasibility Analysis"
+              "title": "Graph view"
             }
           }
         ]
@@ -279,13 +236,34 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "93b008add8bb606f",
+  "active": "db903c0bba7ac9db",
   "lastOpenFiles": [
-    "Academic Year 01/Semester - 01/Notes Will Be Available Soon.md",
+    "Academic Year 01/Semester - 01/IS1201 - Programming and Problem Solving/👉🏻 IS1201 - Programming and Problem Soving.md",
+    "Academic Year 01/Semester - 01/IS1201 - Programming and Problem Solving/Overview and History of Programming Languages.md",
+    "Academic Year 01/Semester - 01/IS1201 - Programming and Problem Solving/Programming Fundamentals.md",
+    "Academic Year 01/Semester - 01/IS1201 - Programming and Problem Solving/Control Structures.md",
+    "Academic Year 01/Semester - 01/IS1201 - Programming and Problem Solving/Macros and the Preprocessor.md",
+    "Academic Year 01/Semester - 01/IS1201 - Programming and Problem Solving/Functions and Recursion.md",
+    "Academic Year 01/Semester - 01/IS1201 - Programming and Problem Solving/Handling Simple Data Structures.md",
+    "Academic Year 01/Semester - 01/IS1201 - Programming and Problem Solving/File Handling.md",
+    "Academic Year 01/Semester - 01/IS1201 - Programming and Problem Solving/Lecture Notes/IS1201 - Operators.pdf",
     "README.md",
-    "Academic Year 01/Semester - 02/Past Papers/Past Papers.md",
+    "Academic Year 01/Semester - 01/IS1201 - Programming and Problem Solving/Lecture Notes/IS1201 - Unions.pdf",
+    "Academic Year 01/Semester - 01/IS1201 - Programming and Problem Solving/Lecture Notes/IS1201 - Structures.pdf",
+    "Academic Year 01/Semester - 01/IS1201 - Programming and Problem Solving/Lecture Notes/IS1201 - Preprocesser and Macro.pdf",
+    "Academic Year 01/Semester - 01/IS1201 - Programming and Problem Solving/Lecture Notes/IS1201 - Syllabus.pdf",
+    "Academic Year 01/Semester - 01/IS1201 - Programming and Problem Solving/Lecture Notes/IS1201 - IS1201 - Programming and Problem Solving _ Understanding and Using Pointers in C.pdf",
+    "Academic Year 01/Semester - 01/IS1201 - Programming and Problem Solving/Lecture Notes/IS1201 - IS1201 - Programming and Problem Solving _ Arrays and Strings.pdf",
+    "Academic Year 01/Semester - 01/IS1201 - Programming and Problem Solving/Lecture Notes/IS1201 - Introduction.pdf",
+    "Academic Year 01/Semester - 01/IS1201 - Programming and Problem Solving/Lecture Notes/IS1201 - Functions  Recursion.pdf",
+    "Academic Year 01/Semester - 01/IS1201 - Programming and Problem Solving/Lecture Notes/IS1201 - Data Types.pdf",
+    "LICENSE.md",
+    "Academic Year 01/Semester - 02/IS1213 - Organizational Behavior/Introduction to Organizational Behavior.md",
+    "Academic Year 01/Semester - 02/IS1213 - Organizational Behavior/👉🏻 IS1213 - Organizational Behavior (Lesson Plan).md",
+    "Academic Year 01/Semester - 02/IS1208 - Systems Analysis and Design/👉🏻 IS1208 - Systems Analysis and Design (Lesson Plan).md",
+    "Academic Year 01/Semester - 01/Notes Will Be Available Soon.md",
+    "Past Papers/Past Papers.md",
     "Academic Year 01/Semester - 02/IS1212 - Fundamentals of Probability and Statistics/Discrete Probability Distribution.md",
-    "Academic Year 01",
     "Academic Year 01/Semester - 02/IS1212 - Fundamentals of Probability and Statistics/Continuous Probability Distribution.md",
     "Academic Year 01/Semester - 02/IS1212 - Fundamentals of Probability and Statistics/Discrete Random Variables.md",
     "Academic Year 01/Semester - 02/IS1212 - Fundamentals of Probability and Statistics/Independent Events.md",
@@ -295,28 +273,6 @@
     "Academic Year 01/Semester - 02/IS1212 - Fundamentals of Probability and Statistics/Graphical Presentation.md",
     "Academic Year 01/Semester - 02/IS1212 - Fundamentals of Probability and Statistics/Introduction to Statistics.md",
     "Academic Year 01/Semester - 02/IS1212 - Fundamentals of Probability and Statistics/👉🏻 IS1212 - Fundamentals of Probability and Statistics (Lesson Plan).md",
-    "Academic Year 01/Semester - 02/Past Papers/IS 1112 - Propability and Statistics.pdf",
-    "Academic Year 01/Semester - 02/Past Papers/IS 1212 - Probability and Statistics.pdf",
-    "University Of Colombo - School Of Computing/Semester - 02/IS1212 - Fundamentals of Probability and Statistics/Exam_prep.html",
-    "University Of Colombo - School Of Computing/Semester - 02/IS1212 - Fundamentals of Probability and Statistics/Artifacts/Exam_prep.html",
-    "University Of Colombo - School Of Computing/Semester - 02/IS1212 - Fundamentals of Probability and Statistics/Artifacts/Exam_prep.pdf",
-    "University Of Colombo - School Of Computing/Semester - 02/IS1212 - Fundamentals of Probability and Statistics/Artifacts/Exam_prep.h",
-    "University Of Colombo - School Of Computing/Semester - 02/IS1212 - Fundamentals of Probability and Statistics/exam.md",
-    "University Of Colombo - School Of Computing/Semester - 02/IS1212 - Fundamentals of Probability and Statistics/Artifacts/IS1212_exam_prep.html",
-    "University Of Colombo - School Of Computing/Semester - 02/IS1212 - Fundamentals of Probability and Statistics/Artifacts/IS1212_exam_prep 3.html",
-    "University Of Colombo - School Of Computing/Semester - 02/IS1212 - Fundamentals of Probability and Statistics/Artifacts/IS1212_exam_prep 2.html",
-    "Academic Year 01/Semester - 02/IS1209 - Information Technology Project Management/👉🏻 IS1209 - Information Technology Project Management (Lesson Plan).md",
-    "Academic Year 01/Semester - 02/IS1209 - Information Technology Project Management/Project Time Management.md",
-    "Academic Year 01/Semester - 02/IS1209 - Information Technology Project Management/Project Scope Management.md",
-    "Academic Year 01/Semester - 02/IS1209 - Information Technology Project Management/Project Quality Management.md",
-    "Academic Year 01/Semester - 02/IS1209 - Information Technology Project Management/Capital Budgeting & Financial Metrics.md",
-    "Academic Year 01/Semester - 02/IS1209 - Information Technology Project Management/Information Technology Context and Process Groups in Project Management.md",
-    "Academic Year 01/Semester - 02/IS1209 - Information Technology Project Management/Project Management Process Groups & Life Cycles.md",
-    "Academic Year 01/Semester - 02/IS1209 - Information Technology Project Management/Introduction to Software Project Management.md",
-    "Academic Year 01/Semester - 02/IS1208 - Systems Analysis and Design/Feasibility Analysis.md",
-    "Academic Year 01/Semester - 02/IS1208 - Systems Analysis and Design/👉🏻 IS1208 - Systems Analysis and Design (Lesson Plan).md",
-    "Academic Year 01/Semester - 02/IS1208 - Systems Analysis and Design/Systems Analysis and Fact Finding techniques.md",
-    "Academic Year 01/Semester - 02/IS1208 - Systems Analysis and Design/Software Development Methodologies and Software process models.md",
     "Academic Year 01/Semester - 02/IS1208 - Systems Analysis and Design/Images/Activity Diagram/final-state.jpg",
     "Academic Year 01/Semester - 02/IS1208 - Systems Analysis and Design/Images/State Machine Diagram/Iinitial -state.jpg",
     "Academic Year 01/Semester - 02/IS1208 - Systems Analysis and Design/Images/State Machine Diagram/final-state.jpg",

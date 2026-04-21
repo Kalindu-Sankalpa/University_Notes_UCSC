@@ -23,7 +23,8 @@ This vault contains structured, topic-by-topic Markdown notes for each module, a
 ```
 UCSC-Notes/
 ├── 📁 Academic Year 01/
-│   ├── 📁 Semester 01/          ⏳ Coming Soon
+│   ├── 📁 Semester 01/
+|   |   ├── 📘 IS1201 — Programing and Problem Solving
 │   └── 📁 Semester 02/
 │       ├── 📘 IS1208 — Systems Analysis and Design
 │       ├── 📘 IS1209 — IT Project Management
@@ -32,10 +33,10 @@ UCSC-Notes/
 │       ├── 📘 IS1212 — Fundamentals of Probability and Statistics
 │       ├── 📘 IS1213 — Organizational Behavior
 │       ├── 📘 IS1214 — Data Structures and Algorithms
-│       └── 📁 Past Papers
 ├── 📁 Academic Year 02/          🔄 In Progress
 ├── 📁 Academic Year 03/          🔜 Coming Soon
-└── 📁 Academic Year 04/          🔜 Coming Soon
+├── 📁 Academic Year 04/          🔜 Coming Soon
+└── 📁 Past Papers
 ```
 
 Each module folder contains:
@@ -58,7 +59,7 @@ Go to **[obsidian.md](https://obsidian.md)** and download the version for your O
 
 **Option A — Git (recommended)**
 ```bash
-git clone https://github.com/<your-username>/UCSC-Notes.git
+git clone https://github.com/Kalindu-Sankalpa/UCSC-Notes.git
 ```
 
 **Option B — Download ZIP**
@@ -89,33 +90,39 @@ Use the **left sidebar** to browse files, or press `Ctrl+O` / `Cmd+O` to search 
 ---
 
 ## 📖 Notes Coverage
+### 🎓 Academic Year 01 — Semester 01
 
-### 🎓 Academic Year 01 — Semester 02
-
-| Module | Code | Topics Covered |
-|--------|------|----------------|
-| Systems Analysis and Design | IS1208 | Intro to SA&D, Feasibility Analysis, Use Case Modelling, Activity & State Diagrams, Class Diagrams, OOD, Sequence Modelling, Agile (CRC Cards), Design Patterns |
-| IT Project Management | IS1209 | Project Management Intro, PMBOK Process Groups, Scope/Time/Quality Management, Capital Budgeting (NPV, IRR, Payback) |
-| Database Systems | IS1210 | DB Environment, ER & EER Models, Relational Model, Normalization, Logical Design, SQL |
-| Computer Networks | IS1211 | Core Concepts, Physical/Data-link/Network/Transport/Application Layers, Specialized Topics |
-| Probability & Statistics | IS1212 | Intro to Stats & Probability, Graphical Presentation, Numerical Representation, Random Variables, Discrete & Continuous Distributions, Conditional & Independent Probability |
-| Organizational Behavior | IS1213 | Intro to OB, Diversity, Emotions & Moods, Perception & Decision Making, Personality & Values, Motivation, Communication, Groups & Teams |
-| Data Structures & Algorithms | IS1214 | Intro & Arrays, Linked Lists, Stacks, Queues, Trees, Graphs, Sorting Methods, Algorithm Complexity |
+| Module                          | Code   | Topics Covered                                                                                                           |
+| ------------------------------- | ------ | ------------------------------------------------------------------------------------------------------------------------ |
+| Programming and Problem Solving | IS1201 | Overview and History of Programming Languages, Programming Fundamentals, Control Structures, Macros and the Preprocessoe |
 
 > 📂 Semester 01 notes are planned — watch this space!
 
+### 🎓 Academic Year 01 — Semester 02
+
+| Module                       | Code   | Topics Covered                                                                                                                                                               |
+| ---------------------------- | ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Systems Analysis and Design  | IS1208 | Intro to SA&D, Feasibility Analysis, Use Case Modelling, Activity & State Diagrams, Class Diagrams, OOD, Sequence Modelling, Agile (CRC Cards), Design Patterns              |
+| IT Project Management        | IS1209 | Project Management Intro, PMBOK Process Groups, Scope/Time/Quality Management, Capital Budgeting (NPV, IRR, Payback)                                                         |
+| Database Systems             | IS1210 | DB Environment, ER & EER Models, Relational Model, Normalization, Logical Design, SQL                                                                                        |
+| Computer Networks            | IS1211 | Core Concepts, Physical/Data-link/Network/Transport/Application Layers, Specialized Topics                                                                                   |
+| Probability & Statistics     | IS1212 | Intro to Stats & Probability, Graphical Presentation, Numerical Representation, Random Variables, Discrete & Continuous Distributions, Conditional & Independent Probability |
+| Organizational Behavior      | IS1213 | Intro to OB, Diversity, Emotions & Moods, Perception & Decision Making, Personality & Values, Motivation, Communication, Groups & Teams                                      |
+| Data Structures & Algorithms | IS1214 | Intro & Arrays, Linked Lists, Stacks, Queues, Trees, Graphs, Sorting Methods, Algorithm Complexity                                                                           |
+
+
 ---
 
-## 🗓️ Roadmap
+## 🗓️ Road-map
 
-| Academic Year | Semester | Status |
-|---|---|---|
-| Year 01 | Semester 01 | ⏳ Coming soon |
-| Year 01 | Semester 02 | ✅ Available |
-| Year 02 | Semester 01 | 🔄 In progress |
-| Year 02 | Semester 02 | 🔜 Planned |
-| Year 03 | Semester 01 & 02 | 🔜 Planned |
-| Year 04 | Semester 01 & 02 | 🔜 Planned |
+| Academic Year | Semester         | Status         |
+| ------------- | ---------------- | -------------- |
+| Year 01       | Semester 01      | 🔄 In progress |
+| Year 01       | Semester 02      | ✅ Available    |
+| Year 02       | Semester 01      | 🔄 In progress |
+| Year 02       | Semester 02      | 🔜 Planned     |
+| Year 03       | Semester 01 & 02 | 🔜 Planned     |
+| Year 04       | Semester 01 & 02 | 🔜 Planned     |
 
 ---
 
