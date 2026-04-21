@@ -4,17 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "06d205ec722f1056",
+        "id": "29acdc5f947aa17a",
         "type": "tabs",
         "children": [
           {
-            "id": "db903c0bba7ac9db",
+            "id": "3ad3536cd1c7a524",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "README"
             }
           }
         ]
@@ -74,7 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 402.5
+    "width": 333.5
   },
   "right": {
     "id": "4c057cc63347afdb",
@@ -109,11 +123,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from README"
             }
           },
           {
@@ -151,12 +166,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "README.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of README"
             }
           },
           {
@@ -172,7 +188,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       },
       {
         "id": "5ca9c691d47aa69a",
@@ -185,6 +201,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "README.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -212,14 +229,14 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "title": "Graph of README"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 432.5,
+    "width": 324.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -236,9 +253,29 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "db903c0bba7ac9db",
+  "active": "3ad3536cd1c7a524",
   "lastOpenFiles": [
+    "Academic Year 01/Semester - 01/IS1202 - Computer Systems/👉🏻 IS1202 - Computer Systems.md",
+    "Academic Year 01/Semester - 01/IS1202 - Computer Systems/Memory Components and Organization.md",
+    "Academic Year 01/Semester - 01/IS1202 - Computer Systems/Lecture Notes/IS1202 Lecture 4.1.pdf",
+    "Academic Year 01/Semester - 01/IS1202 - Computer Systems/Lecture Notes/IS1202 Lecture 3.3.pdf",
+    "Academic Year 01/Semester - 01/IS1202 - Computer Systems/Lecture Notes/IS1202 Lecture 3.2.pdf",
+    "Academic Year 01/Semester - 01/IS1202 - Computer Systems/Lecture Notes/IS1202 Lecture 3.1.pdf",
+    "Academic Year 01/Semester - 01/IS1202 - Computer Systems/Lecture Notes/IS1202 Lecture 2.5.pdf",
+    "Academic Year 01/Semester - 01/IS1202 - Computer Systems/Lecture Notes/IS1202 Lecture 2.4.pdf",
+    "Academic Year 01/Semester - 01/IS1202 - Computer Systems/Lecture Notes/IS1202 Lecture 2.3.pdf",
+    "Academic Year 01/Semester - 01/IS1202 - Computer Systems/Lecture Notes/IS1202 Lecture 2.2.pdf",
+    "Academic Year 01/Semester - 01/IS1202 - Computer Systems/Lecture Notes/IS1202 Lecture 2.1.pdf",
+    "Academic Year 01/Semester - 01/IS1202 - Computer Systems/Lecture Notes/IS1202 Lecture 1.4.pdf",
+    "Academic Year 01/Semester - 01/IS1202 - Computer Systems/Inner Workings of the CPU.md",
+    "Academic Year 01/Semester - 01/IS1202 - Computer Systems/Data Representation and Computer Arithmetic.md",
+    "Academic Year 01/Semester - 01/IS1202 - Computer Systems/Basic Logic Circuit Design.md",
     "Academic Year 01/Semester - 01/IS1201 - Programming and Problem Solving/👉🏻 IS1201 - Programming and Problem Soving.md",
+    "LICENSE.md",
+    "Academic Year 01/Semester - 01/IS1201 - Programming and Problem Solving/👉🏻 IS1201 - Programming and Problem Solving.md",
+    "README.md",
+    "Untitled.md",
+    "Academic Year 01/Semester - 02/IS1208 - Systems Analysis and Design/👉🏻 IS1208 - Systems Analysis and Design (Lesson Plan).md",
     "Academic Year 01/Semester - 01/IS1201 - Programming and Problem Solving/Overview and History of Programming Languages.md",
     "Academic Year 01/Semester - 01/IS1201 - Programming and Problem Solving/Programming Fundamentals.md",
     "Academic Year 01/Semester - 01/IS1201 - Programming and Problem Solving/Control Structures.md",
@@ -246,33 +283,13 @@
     "Academic Year 01/Semester - 01/IS1201 - Programming and Problem Solving/Functions and Recursion.md",
     "Academic Year 01/Semester - 01/IS1201 - Programming and Problem Solving/Handling Simple Data Structures.md",
     "Academic Year 01/Semester - 01/IS1201 - Programming and Problem Solving/File Handling.md",
-    "Academic Year 01/Semester - 01/IS1201 - Programming and Problem Solving/Lecture Notes/IS1201 - Operators.pdf",
-    "README.md",
-    "Academic Year 01/Semester - 01/IS1201 - Programming and Problem Solving/Lecture Notes/IS1201 - Unions.pdf",
-    "Academic Year 01/Semester - 01/IS1201 - Programming and Problem Solving/Lecture Notes/IS1201 - Structures.pdf",
-    "Academic Year 01/Semester - 01/IS1201 - Programming and Problem Solving/Lecture Notes/IS1201 - Preprocesser and Macro.pdf",
-    "Academic Year 01/Semester - 01/IS1201 - Programming and Problem Solving/Lecture Notes/IS1201 - Syllabus.pdf",
-    "Academic Year 01/Semester - 01/IS1201 - Programming and Problem Solving/Lecture Notes/IS1201 - IS1201 - Programming and Problem Solving _ Understanding and Using Pointers in C.pdf",
-    "Academic Year 01/Semester - 01/IS1201 - Programming and Problem Solving/Lecture Notes/IS1201 - IS1201 - Programming and Problem Solving _ Arrays and Strings.pdf",
-    "Academic Year 01/Semester - 01/IS1201 - Programming and Problem Solving/Lecture Notes/IS1201 - Introduction.pdf",
-    "Academic Year 01/Semester - 01/IS1201 - Programming and Problem Solving/Lecture Notes/IS1201 - Functions  Recursion.pdf",
-    "Academic Year 01/Semester - 01/IS1201 - Programming and Problem Solving/Lecture Notes/IS1201 - Data Types.pdf",
-    "LICENSE.md",
     "Academic Year 01/Semester - 02/IS1213 - Organizational Behavior/Introduction to Organizational Behavior.md",
     "Academic Year 01/Semester - 02/IS1213 - Organizational Behavior/👉🏻 IS1213 - Organizational Behavior (Lesson Plan).md",
-    "Academic Year 01/Semester - 02/IS1208 - Systems Analysis and Design/👉🏻 IS1208 - Systems Analysis and Design (Lesson Plan).md",
     "Academic Year 01/Semester - 01/Notes Will Be Available Soon.md",
     "Past Papers/Past Papers.md",
     "Academic Year 01/Semester - 02/IS1212 - Fundamentals of Probability and Statistics/Discrete Probability Distribution.md",
     "Academic Year 01/Semester - 02/IS1212 - Fundamentals of Probability and Statistics/Continuous Probability Distribution.md",
     "Academic Year 01/Semester - 02/IS1212 - Fundamentals of Probability and Statistics/Discrete Random Variables.md",
-    "Academic Year 01/Semester - 02/IS1212 - Fundamentals of Probability and Statistics/Independent Events.md",
-    "Academic Year 01/Semester - 02/IS1212 - Fundamentals of Probability and Statistics/Conditional Probability.md",
-    "Academic Year 01/Semester - 02/IS1212 - Fundamentals of Probability and Statistics/Introduction to Probability.md",
-    "Academic Year 01/Semester - 02/IS1212 - Fundamentals of Probability and Statistics/Numerical Representation.md",
-    "Academic Year 01/Semester - 02/IS1212 - Fundamentals of Probability and Statistics/Graphical Presentation.md",
-    "Academic Year 01/Semester - 02/IS1212 - Fundamentals of Probability and Statistics/Introduction to Statistics.md",
-    "Academic Year 01/Semester - 02/IS1212 - Fundamentals of Probability and Statistics/👉🏻 IS1212 - Fundamentals of Probability and Statistics (Lesson Plan).md",
     "Academic Year 01/Semester - 02/IS1208 - Systems Analysis and Design/Images/Activity Diagram/final-state.jpg",
     "Academic Year 01/Semester - 02/IS1208 - Systems Analysis and Design/Images/State Machine Diagram/Iinitial -state.jpg",
     "Academic Year 01/Semester - 02/IS1208 - Systems Analysis and Design/Images/State Machine Diagram/final-state.jpg",

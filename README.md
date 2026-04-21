@@ -11,7 +11,6 @@
 [![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-orange?style=flat)](CONTRIBUTING.md)
 
 🎓 *Handcrafted notes from a UCSC student — shared freely so every student can study smarter.*
-
 </div>
 
 ---
@@ -25,6 +24,7 @@ UCSC-Notes/
 ├── 📁 Academic Year 01/
 │   ├── 📁 Semester 01/
 |   |   ├── 📘 IS1201 — Programing and Problem Solving
+|   |   └── 📘 IS1202 — Computer Systems
 │   └── 📁 Semester 02/
 │       ├── 📘 IS1208 — Systems Analysis and Design
 │       ├── 📘 IS1209 — IT Project Management
