@@ -92,9 +92,10 @@ Use the **left sidebar** to browse files, or press `Ctrl+O` / `Cmd+O` to search 
 ## 📖 Notes Coverage
 ### 🎓 Academic Year 01 — Semester 01
 
-| Module                          | Code   | Topics Covered                                                                                                           |
-| ------------------------------- | ------ | ------------------------------------------------------------------------------------------------------------------------ |
-| Programming and Problem Solving | IS1201 | Overview and History of Programming Languages, Programming Fundamentals, Control Structures, Macros and the Preprocessoe |
+| Module                          | Code   | Topics Covered                                                                                                                                       |
+| ------------------------------- | ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Programming and Problem Solving | IS1201 | - Overview and History of Programming Languages<br>- Programming Fundamentals<br>- Control Structures<br>- Macros and the Preprocessoe               |
+| Computer Systems                | IS1202 | - Data Representation and Computer Arithmetic<br>- Basic Logic Circuit Design<br>- Inner Workings of the CPU<br>- Memory Components and Organization |
 
 > 📂 Semester 01 notes are planned — watch this space!
 
