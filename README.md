@@ -10,7 +10,7 @@
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat)](LICENSE)
 [![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-orange?style=flat)](CONTRIBUTING.md)
 
-> 🎓 *Handcrafted notes from a UCSC student — shared freely so every student can study smarter.*
+🎓 *Handcrafted notes from a UCSC student — shared freely so every student can study smarter.*
 
 </div>
 
