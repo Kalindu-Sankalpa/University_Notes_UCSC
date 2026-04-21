@@ -3,7 +3,7 @@
   "baseFontSize": 18,
   "baseFontSizeAction": true,
   "theme": "system",
-  "cssTheme": "",
+  "cssTheme": "Cupertino",
   "showViewHeader": true,
   "nativeMenus": true,
   "showRibbon": true
