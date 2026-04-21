@@ -59,7 +59,7 @@ Go to **[obsidian.md](https://obsidian.md)** and download the version for your O
 
 **Option A — Git (recommended)**
 ```bash
-git clone https://github.com/Kalindu-Sankalpa/UCSC-Notes.git
+git clone https://github.com/Kalindu-Sankalpa/University_Notes_UCSC.git
 ```
 
 **Option B — Download ZIP**
@@ -70,7 +70,7 @@ Click the green **`Code`** button on this page → **Download ZIP** → Extract 
 
 1. Launch **Obsidian**
 2. On the welcome screen, click **"Open folder as vault"**
-3. Navigate to and select the **`UCSC-Notes-main`** folder (the one containing `.obsidian/`)
+3. Navigate to and select the **`University_Notes_UCSC-main`** folder (the one containing `.obsidian/`)
 4. Click **Open**
 
 > ⚠️ Make sure you open the **root folder** (the one that has `.obsidian/` inside it), not a subfolder.
