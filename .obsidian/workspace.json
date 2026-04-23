@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "45eaab94a2f594e5",
+        "id": "9bfd16db1f9bcbd7",
         "type": "tabs",
         "children": [
           {
-            "id": "f41a66ae0abf14b1",
+            "id": "2039909fa7da55ce",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -109,11 +109,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from README"
             }
           },
           {
@@ -236,43 +237,43 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "f41a66ae0abf14b1",
+  "active": "2039909fa7da55ce",
   "lastOpenFiles": [
+    "Academic Year 01/Semester - 01/IS1203 - Foundations Of Information Systems/👉🏻 IS1203 - Foundations Of Information Systems.md",
+    "Academic Year 01/Semester - 01/IS1203 - Foundations Of Information Systems/Social and Ethical Issues Related to Information Systems.md",
+    "Academic Year 01/Semester - 01/IS1203 - Foundations Of Information Systems/Acquiring IT or IS Infrastructure Capabilities and Performance Evaluation.md",
+    "Academic Year 01/Semester - 01/IS1203 - Foundations Of Information Systems/Different Types of Business Information Systems.md",
+    "Academic Year 01/Semester - 01/IS1203 - Foundations Of Information Systems/Information Systems in Organizations.md",
+    "Academic Year 01/Semester - 01/IS1203 - Foundations Of Information Systems/Lecture Notes/Topic 3.1.pdf",
+    "Academic Year 01/Semester - 01/IS1203 - Foundations Of Information Systems/Introduction to Information Systems.md",
+    "Academic Year 01/Semester - 01/IS1203 - Foundations Of Information Systems/Lecture Notes/Topic 5.pdf",
+    "Academic Year 01/Semester - 01/IS1203 - Foundations Of Information Systems/Lecture Notes/Topic 4.2.pdf",
+    "Academic Year 01/Semester - 01/IS1203 - Foundations Of Information Systems/Lecture Notes/Topic 4.1.pdf",
+    "Academic Year 01/Semester - 01/IS1203 - Foundations Of Information Systems/Lecture Notes/Topic 3.2.pdf",
+    "Academic Year 01/Semester - 01/IS1203 - Foundations Of Information Systems/Lecture Notes/Topic 2.pdf",
+    "Academic Year 01/Semester - 01/IS1203 - Foundations Of Information Systems/Lecture Notes/Topic 1.pdf",
+    "Academic Year 01/Semester - 01/IS1203 - Foundations Of Information Systems/Lecture Notes/IS1203 - Syllabus.pdf",
+    "Academic Year 01/Semester - 01/IS1203 - Foundations Of Information Systems/Lecture Notes",
+    "Academic Year 01/Semester - 01/IS1201 - Programming and Problem Solving/👉🏻 IS1201 - Programming and Problem Soving.md",
+    "Academic Year 01/Semester - 01/IS1201 - Programming and Problem Solving/Control Structures.md",
     "Academic Year 01/Semester - 01/IS1202 - Computer Systems/👉🏻 IS1202 - Computer Systems.md",
+    "Academic Year 01/Semester - 01/IS1203 - Foundations Of Information Systems",
     "README.md",
-    "Academic Year 01/Semester - 01/IS1202 - Computer Systems/Data Representation and Computer Arithmetic.md",
     "Academic Year 01/Semester - 01/IS1202 - Computer Systems/Memory Components and Organization.md",
-    "Academic Year 01/Semester - 01/IS1202 - Computer Systems/Lecture Notes/IS1202 Lecture 4.1.pdf",
-    "Academic Year 01/Semester - 01/IS1202 - Computer Systems/Lecture Notes/IS1202 Lecture 3.3.pdf",
-    "Academic Year 01/Semester - 01/IS1202 - Computer Systems/Lecture Notes/IS1202 Lecture 3.2.pdf",
-    "Academic Year 01/Semester - 01/IS1202 - Computer Systems/Lecture Notes/IS1202 Lecture 3.1.pdf",
-    "Academic Year 01/Semester - 01/IS1202 - Computer Systems/Lecture Notes/IS1202 Lecture 2.5.pdf",
-    "Academic Year 01/Semester - 01/IS1202 - Computer Systems/Lecture Notes/IS1202 Lecture 2.4.pdf",
-    "Academic Year 01/Semester - 01/IS1202 - Computer Systems/Lecture Notes/IS1202 Lecture 2.3.pdf",
-    "Academic Year 01/Semester - 01/IS1202 - Computer Systems/Lecture Notes/IS1202 Lecture 2.2.pdf",
-    "Academic Year 01/Semester - 01/IS1202 - Computer Systems/Lecture Notes/IS1202 Lecture 2.1.pdf",
-    "Academic Year 01/Semester - 01/IS1202 - Computer Systems/Lecture Notes/IS1202 Lecture 1.4.pdf",
+    "Academic Year 01/Semester - 01/IS1202 - Computer Systems/Data Representation and Computer Arithmetic.md",
     "Academic Year 01/Semester - 01/IS1202 - Computer Systems/Inner Workings of the CPU.md",
     "Academic Year 01/Semester - 01/IS1202 - Computer Systems/Basic Logic Circuit Design.md",
-    "Academic Year 01/Semester - 01/IS1201 - Programming and Problem Solving/👉🏻 IS1201 - Programming and Problem Soving.md",
     "LICENSE.md",
     "Academic Year 01/Semester - 01/IS1201 - Programming and Problem Solving/👉🏻 IS1201 - Programming and Problem Solving.md",
     "Untitled.md",
     "Academic Year 01/Semester - 02/IS1208 - Systems Analysis and Design/👉🏻 IS1208 - Systems Analysis and Design (Lesson Plan).md",
     "Academic Year 01/Semester - 01/IS1201 - Programming and Problem Solving/Overview and History of Programming Languages.md",
     "Academic Year 01/Semester - 01/IS1201 - Programming and Problem Solving/Programming Fundamentals.md",
-    "Academic Year 01/Semester - 01/IS1201 - Programming and Problem Solving/Control Structures.md",
     "Academic Year 01/Semester - 01/IS1201 - Programming and Problem Solving/Macros and the Preprocessor.md",
     "Academic Year 01/Semester - 01/IS1201 - Programming and Problem Solving/Functions and Recursion.md",
     "Academic Year 01/Semester - 01/IS1201 - Programming and Problem Solving/Handling Simple Data Structures.md",
     "Academic Year 01/Semester - 01/IS1201 - Programming and Problem Solving/File Handling.md",
     "Academic Year 01/Semester - 02/IS1213 - Organizational Behavior/Introduction to Organizational Behavior.md",
-    "Academic Year 01/Semester - 02/IS1213 - Organizational Behavior/👉🏻 IS1213 - Organizational Behavior (Lesson Plan).md",
-    "Academic Year 01/Semester - 01/Notes Will Be Available Soon.md",
-    "Past Papers/Past Papers.md",
-    "Academic Year 01/Semester - 02/IS1212 - Fundamentals of Probability and Statistics/Discrete Probability Distribution.md",
-    "Academic Year 01/Semester - 02/IS1212 - Fundamentals of Probability and Statistics/Continuous Probability Distribution.md",
-    "Academic Year 01/Semester - 02/IS1212 - Fundamentals of Probability and Statistics/Discrete Random Variables.md",
     "Academic Year 01/Semester - 02/IS1208 - Systems Analysis and Design/Images/Activity Diagram/final-state.jpg",
     "Academic Year 01/Semester - 02/IS1208 - Systems Analysis and Design/Images/State Machine Diagram/Iinitial -state.jpg",
     "Academic Year 01/Semester - 02/IS1208 - Systems Analysis and Design/Images/State Machine Diagram/final-state.jpg",

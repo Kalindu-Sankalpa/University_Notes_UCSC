@@ -1,4 +1,4 @@
-> Next Lesson : Will Be Available Soon! 🎉
+> Next Lesson : [[👉🏻 IS1203 - Foundations Of Information Systems]]
 
 **Course Code** : IS1202
 **Course Name** : Computer Systems

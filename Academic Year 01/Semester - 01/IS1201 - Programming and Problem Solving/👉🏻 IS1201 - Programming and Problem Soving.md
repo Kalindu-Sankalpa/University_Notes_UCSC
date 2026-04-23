@@ -1,4 +1,4 @@
->Next Course : Will Be Available Soon! 🎉
+>Next Course : [[👉🏻 IS1202 - Computer Systems]]
 
 - **Course Code** : IS1201
 - **Course Name** : Programming and Problem Soving
