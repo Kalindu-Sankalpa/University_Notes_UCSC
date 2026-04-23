@@ -24,7 +24,8 @@ UCSC-Notes/
 ├── 📁 Academic Year 01/
 │   ├── 📁 Semester 01/
 |   |   ├── 📘 IS1201 — Programing and Problem Solving
-|   |   └── 📘 IS1202 — Computer Systems
+|   |   ├── 📘 IS1202 — Computer Systems
+|   |   └── 📘 IS1203 — Foundations Of Information Systems
 │   └── 📁 Semester 02/
 │       ├── 📘 IS1208 — Systems Analysis and Design
 │       ├── 📘 IS1209 — IT Project Management
@@ -32,7 +33,7 @@ UCSC-Notes/
 │       ├── 📘 IS1211 — Computer Networks
 │       ├── 📘 IS1212 — Fundamentals of Probability and Statistics
 │       ├── 📘 IS1213 — Organizational Behavior
-│       ├── 📘 IS1214 — Data Structures and Algorithms
+│       └── 📘 IS1214 — Data Structures and Algorithms
 ├── 📁 Academic Year 02/          🔄 In Progress
 ├── 📁 Academic Year 03/          🔜 Coming Soon
 ├── 📁 Academic Year 04/          🔜 Coming Soon
@@ -55,7 +56,7 @@ This vault is optimized for **[Obsidian](https://obsidian.md)** — a free, offl
 
 Go to **[obsidian.md](https://obsidian.md)** and download the version for your OS (Windows / macOS / Linux / Android / iOS). Install it normally.
 
-### Step 2 — Clone or Download This Repo
+### Step 2 — Clone or Download This Repository
 
 **Option A — Git (recommended)**
 ```bash
@@ -73,7 +74,7 @@ Click the green **`Code`** button on this page → **Download ZIP** → Extract 
 3. Navigate to and select the **`University_Notes_UCSC-main`** folder (the one containing `.obsidian/`)
 4. Click **Open**
 
-> ⚠️ Make sure you open the **root folder** (the one that has `.obsidian/` inside it), not a subfolder.
+> ⚠️ Make sure you open the **root folder** (the one that has `.obsidian/` inside it), not a sub-folder.
 
 ### Step 4 — Trust the Vault (if prompted)
 
@@ -92,10 +93,11 @@ Use the **left sidebar** to browse files, or press `Ctrl+O` / `Cmd+O` to search 
 ## 📖 Notes Coverage
 ### 🎓 Academic Year 01 — Semester 01
 
-| Module                          | Code   | Topics Covered                                                                                                                                       |
-| ------------------------------- | ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Programming and Problem Solving | IS1201 | - Overview and History of Programming Languages<br>- Programming Fundamentals<br>- Control Structures<br>- Macros and the Preprocessoe               |
-| Computer Systems                | IS1202 | - Data Representation and Computer Arithmetic<br>- Basic Logic Circuit Design<br>- Inner Workings of the CPU<br>- Memory Components and Organization |
+| Module                             | Code   | Topics Covered                                                                                                                                                                                                                                                                                             |
+| ---------------------------------- | ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Programming and Problem Solving    | IS1201 | 1. [[Overview and History of Programming Languages]]<br>2. [[Programming Fundamentals]]<br>3. [[Control Structures]]<br>4. [[Macros and the Preprocessor]]                                                                                                                                                 |
+| Computer Systems                   | IS1202 | 1. [[Data Representation and Computer Arithmetic]]<br>2. [[Basic Logic Circuit Design]]<br>3. [[Inner Workings of the CPU]]<br>4. [[Memory Components and Organization]]                                                                                                                                   |
+| Foundations Of Information Systems | IS1203 | 1. [[Introduction to Information Systems]]<br>2. [[Information Systems in Organizations]]<br>3. [[Different Types of Business Information Systems]]<br>4. [[Acquiring IT or IS Infrastructure Capabilities and Performance Evaluation]]<br>5. [[Social and Ethical Issues Related to Information Systems]] |
 
 > 📂 Semester 01 notes are planned — watch this space!
 
