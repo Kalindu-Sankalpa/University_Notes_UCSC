@@ -1,4 +1,4 @@
->Next Lesson : Will Be Available Soon! 🎉
+>Next Lesson : [[👉🏻 IS1204 - Fundamentals of Software Engineering]]
 
 **Course Code** : IS1203
 **Course Name** : Foundations Of Information Systems

@@ -93,25 +93,25 @@ Use the **left sidebar** to browse files, or press `Ctrl+O` / `Cmd+O` to search 
 ## 📖 Notes Coverage
 ### 🎓 Academic Year 01 — Semester 01
 
-| Module                             | Code   | Topics Covered                                                                                                                                                                                                                                                                                             |
-| ---------------------------------- | ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Programming and Problem Solving    | IS1201 | 1. [[Overview and History of Programming Languages]]<br>2. [[Programming Fundamentals]]<br>3. [[Control Structures]]<br>4. [[Macros and the Preprocessor]]                                                                                                                                                 |
-| Computer Systems                   | IS1202 | 1. [[Data Representation and Computer Arithmetic]]<br>2. [[Basic Logic Circuit Design]]<br>3. [[Inner Workings of the CPU]]<br>4. [[Memory Components and Organization]]                                                                                                                                   |
-| Foundations Of Information Systems | IS1203 | 1. [[Introduction to Information Systems]]<br>2. [[Information Systems in Organizations]]<br>3. [[Different Types of Business Information Systems]]<br>4. [[Acquiring IT or IS Infrastructure Capabilities and Performance Evaluation]]<br>5. [[Social and Ethical Issues Related to Information Systems]] |
+| Module                             | Code   | Topics Covered                                                                                                                                                                                                                                                                         |
+| ---------------------------------- | ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Programming and Problem Solving    | IS1201 | 1. Overview and History of Programming Languages<br>2. Programming Fundamentals<br>3. Control Structures<br>4. Macros and the Preprocessor                                                                                                                                             |
+| Computer Systems                   | IS1202 | 1. Data Representation and Computer Arithmetic<br>2. Basic Logic Circuit Design<br>3. Inner Workings of the CPU<br>4. Memory Components and Organization                                                                                                                               |
+| Foundations Of Information Systems | IS1203 | 1. Introduction to Information Systems<br>2. Information Systems in Organizations<br>3. Different Types of Business Information Systems<br>4. Acquiring IT or IS Infrastructure Capabilities and Performance Evaluation<br>5. Social and Ethical Issues Related to Information Systems |
 
 > 📂 Semester 01 notes are planned — watch this space!
 
 ### 🎓 Academic Year 01 — Semester 02
 
-| Module                       | Code   | Topics Covered                                                                                                                                                               |
-| ---------------------------- | ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Systems Analysis and Design  | IS1208 | Intro to SA&D, Feasibility Analysis, Use Case Modelling, Activity & State Diagrams, Class Diagrams, OOD, Sequence Modelling, Agile (CRC Cards), Design Patterns              |
-| IT Project Management        | IS1209 | Project Management Intro, PMBOK Process Groups, Scope/Time/Quality Management, Capital Budgeting (NPV, IRR, Payback)                                                         |
-| Database Systems             | IS1210 | DB Environment, ER & EER Models, Relational Model, Normalization, Logical Design, SQL                                                                                        |
-| Computer Networks            | IS1211 | Core Concepts, Physical/Data-link/Network/Transport/Application Layers, Specialized Topics                                                                                   |
-| Probability & Statistics     | IS1212 | Intro to Stats & Probability, Graphical Presentation, Numerical Representation, Random Variables, Discrete & Continuous Distributions, Conditional & Independent Probability |
-| Organizational Behavior      | IS1213 | Intro to OB, Diversity, Emotions & Moods, Perception & Decision Making, Personality & Values, Motivation, Communication, Groups & Teams                                      |
-| Data Structures & Algorithms | IS1214 | Intro & Arrays, Linked Lists, Stacks, Queues, Trees, Graphs, Sorting Methods, Algorithm Complexity                                                                           |
+| Module                       | Code   | Topics Covered                                                                                                                                                                                           |
+| ---------------------------- | ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Systems Analysis and Design  | IS1208 | 1. Intro to SA&D<br>2. Feasibility Analysis<br>3. Use Case Modelling<br>4. Activity & State Diagrams<br>5. Class Diagrams, OOD<br>6. Sequence Modelling<br>7. Agile (CRC Cards)<br>8. Design Patterns    |
+| IT Project Management        | IS1209 | 1. Project Management Intro<br>2. PMBOK Process Groups<br>3. Scope/Time/Quality Management<br>4. Capital Budgeting (NPV, IRR, Payback)                                                                   |
+| Database Systems             | IS1210 | 1. DB Environment<br>2. ER & EER Models<br>3. Relational Model<br>4. Normalization<br>5. Logical Design<br>6. SQL                                                                                        |
+| Computer Networks            | IS1211 | 1. Core Concepts<br>2. Physical/Data-link/Network/Transport/Application Layers<br>3. Specialized Topics                                                                                                  |
+| Probability & Statistics     | IS1212 | 1. Intro to Stats & Probability<br>2. Graphical Presentation<br>3. Numerical Representation<br>4. Random Variables<br>5. Discrete & Continuous Distributions<br>6. Conditional & Independent Probability |
+| Organizational Behavior      | IS1213 | 1. Intro to OB<br>2. Diversity<br>3. Emotions & Moods<br>4. Perception & Decision Making<br>5. Personality & Values<br>6. Motivation<br>7. Communication<br>8. Groups & Teams                            |
+| Data Structures & Algorithms | IS1214 | 1. Intro & Arrays<br>2. Linked Lists<br>3. Stacks<br>4. Queues<br>5. Trees<br>6. Graphs<br>7. Sorting Methods<br>8. Algorithm Complexity                                                                 |
 
 
 ---
