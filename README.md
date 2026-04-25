@@ -25,7 +25,8 @@ UCSC-Notes/
 │   ├── 📁 Semester 01/
 |   |   ├── 📘 IS1201 — Programing and Problem Solving
 |   |   ├── 📘 IS1202 — Computer Systems
-|   |   └── 📘 IS1203 — Foundations Of Information Systems
+|   |   ├── 📘 IS1203 — Foundations Of Information Systems
+|   |   └── 📘 IS1204 - Fundamentals of Software Engineering
 │   └── 📁 Semester 02/
 │       ├── 📘 IS1208 — Systems Analysis and Design
 │       ├── 📘 IS1209 — IT Project Management
@@ -93,11 +94,12 @@ Use the **left sidebar** to browse files, or press `Ctrl+O` / `Cmd+O` to search 
 ## 📖 Notes Coverage
 ### 🎓 Academic Year 01 — Semester 01
 
-| Module                             | Code   | Topics Covered                                                                                                                                                                                                                                                                         |
-| ---------------------------------- | ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Programming and Problem Solving    | IS1201 | 1. Overview and History of Programming Languages<br>2. Programming Fundamentals<br>3. Control Structures<br>4. Macros and the Preprocessor                                                                                                                                             |
-| Computer Systems                   | IS1202 | 1. Data Representation and Computer Arithmetic<br>2. Basic Logic Circuit Design<br>3. Inner Workings of the CPU<br>4. Memory Components and Organization                                                                                                                               |
-| Foundations Of Information Systems | IS1203 | 1. Introduction to Information Systems<br>2. Information Systems in Organizations<br>3. Different Types of Business Information Systems<br>4. Acquiring IT or IS Infrastructure Capabilities and Performance Evaluation<br>5. Social and Ethical Issues Related to Information Systems |
+| Module                               | Code   | Topics Covered                                                                                                                                                                                                                                                                         |
+| ------------------------------------ | ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Programming and Problem Solving      | IS1201 | 1. Overview and History of Programming Languages<br>2. Programming Fundamentals<br>3. Control Structures<br>4. Macros and the Preprocessor                                                                                                                                             |
+| Computer Systems                     | IS1202 | 1. Data Representation and Computer Arithmetic<br>2. Basic Logic Circuit Design<br>3. Inner Workings of the CPU<br>4. Memory Components and Organization                                                                                                                               |
+| Foundations Of Information Systems   | IS1203 | 1. Introduction to Information Systems<br>2. Information Systems in Organizations<br>3. Different Types of Business Information Systems<br>4. Acquiring IT or IS Infrastructure Capabilities and Performance Evaluation<br>5. Social and Ethical Issues Related to Information Systems |
+| Fundamentals of Software Engineering | IS1204 | 1. Introduction to Software Engineering<br>2. Software Process Models<br>3. Agile Software Development<br>4. Requirements Engineering<br>5. System Modeling<br>6. Architectural Design<br>7. Design and Implementation<br>8. Software Testing<br>9. Software Evolution                 |
 
 > 📂 Semester 01 notes are planned — watch this space!
 
