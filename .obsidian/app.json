@@ -6,6 +6,6 @@
   "alwaysUpdateLinks": true,
   "defaultViewMode": "preview",
   "attachmentFolderPath": "./",
-  "showUnsupportedFiles": false,
+  "showUnsupportedFiles": true,
   "showInlineTitle": true
 }

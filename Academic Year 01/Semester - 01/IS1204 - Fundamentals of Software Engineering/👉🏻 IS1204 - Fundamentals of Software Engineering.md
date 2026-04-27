@@ -1,4 +1,4 @@
->Next Lesson : Will Be Available Soon! 🎉
+>Next Lesson : [[👉🏻 IS1205 - Introduction to Management]]
 
 **Course Code** : IS1204
 **Course Name** : Fundamentals of Software Engineering
