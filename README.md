@@ -27,7 +27,8 @@ UCSC-Notes/
 |   |   ├── 📘 IS1202 — Computer Systems
 |   |   ├── 📘 IS1203 — Foundations Of Information Systems
 |   |   ├── 📘 IS1204 - Fundamentals of Software Engineering
-|   |   └── 📘 IS1205 - Introduction to Management
+|   |   ├── 📘 IS1205 - Introduction to Management
+|   |   └── 📘 IS1206 - Mathematics for Computing
 │   └── 📁 Semester 02/
 │       ├── 📘 IS1208 — Systems Analysis and Design
 │       ├── 📘 IS1209 — IT Project Management
@@ -102,8 +103,8 @@ Use the **left sidebar** to browse files, or press `Ctrl+O` / `Cmd+O` to search 
 | Foundations Of Information Systems   | IS1203 | 1. Introduction to Information Systems<br>2. Information Systems in Organizations<br>3. Different Types of Business Information Systems<br>4. Acquiring IT or IS Infrastructure Capabilities and Performance Evaluation<br>5. Social and Ethical Issues Related to Information Systems |
 | Fundamentals of Software Engineering | IS1204 | 1. Introduction to Software Engineering<br>2. Software Process Models<br>3. Agile Software Development<br>4. Requirements Engineering<br>5. System Modeling<br>6. Architectural Design<br>7. Design and Implementation<br>8. Software Testing<br>9. Software Evolution                 |
 | Introduction to Management           | IS1205 | 1. Introduction to Management Concepts<br>2. Business Organization & Environment<br>3. Business & Marketing Strategies<br>4. Ethics and Professional Issues<br>5. Motivation and Leadership<br>6. Information Systems and e-Business                                                   |
+| Mathematics for Computing            | IS1206 | 1. Numbers and Arithmetic<br>2. Set Theory<br>3. Mathematical Logic<br>4. Indices and Logarithms<br>5. Techniques of Counting<br>6. Linear Algebra: Vectors and Matrices<br>7. Relations and Functions                                                                                 |
 
-> 📂 Semester 01 notes are planned — watch this space!
 
 ### 🎓 Academic Year 01 — Semester 02
 

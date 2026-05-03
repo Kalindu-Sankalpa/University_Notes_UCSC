@@ -1,4 +1,4 @@
->Next Lesson : Will Be Available Soon! 🎉
+>Next Lesson : [[👉🏻 IS1206 - Mathematics for Computing]]
 
 **Course Code** : IS1205
 **Course Name** : Introduction to Management
