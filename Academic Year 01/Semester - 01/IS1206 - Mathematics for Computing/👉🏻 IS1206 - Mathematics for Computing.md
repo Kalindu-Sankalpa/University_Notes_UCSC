@@ -67,6 +67,8 @@ Upon completion of this course, students should be able to:
 - Solve problems using indices, logarithms, and counting techniques such as permutations and combinations.
 - Perform vector and matrix operations to solve linear equations and represent data.
 
+![[mindmap.html]]
+
 # Topics Covered
 
 The comprehensive list of covered topics for the **IS1206 - Mathematics for Computing** course, structured according to the syllabus :
@@ -106,7 +108,7 @@ The comprehensive list of covered topics for the **IS1206 - Mathematics for Comp
 	- **Permutations and Combinations:** Calculating ordered arrangements (permutations) and unordered selections (combinations), including cases with **repetition** and **indistinguishable objects**.
 	- **Distribution:** Techniques for distributing objects (distinguishable or indistinguishable) into boxes.
 
-6. [[Linear Algebra: Vectors and Matrices]]
+6. [[Linear Algebra - Vectors and Matrices]]
 	- **Linear Equations:** Solving single linear equations and systems of linear equations through graphical and algebraic methods.
 	- **Matrix Basics:** Notation, dimensions, and identifying special types like Square, Diagonal, Identity, Triangular, Symmetric, and Zero matrices.
 	- **Matrix Algebra:** Performing equality checks, scalar multiplication, addition, subtraction, and matrix multiplication.

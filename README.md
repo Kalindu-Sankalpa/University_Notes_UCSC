@@ -125,7 +125,7 @@ Use the **left sidebar** to browse files, or press `Ctrl+O` / `Cmd+O` to search 
 
 | Academic Year | Semester         | Status         |
 | ------------- | ---------------- | -------------- |
-| Year 01       | Semester 01      | 🔄 In progress |
+| Year 01       | Semester 01      | ✅ Available    |
 | Year 01       | Semester 02      | ✅ Available    |
 | Year 02       | Semester 01      | 🔄 In progress |
 | Year 02       | Semester 02      | 🔜 Planned     |

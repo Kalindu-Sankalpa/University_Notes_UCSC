@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Interactive Mind Map</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap');
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --bg:       #0f1117;
+    --surface:  #181c25;
+    --border:   rgba(255,255,255,0.07);
+    --text:     #e8eaf0;
+    --muted:    #7a7f8e;
+    --accent:   #4ade80;
+    --accent2:  #38bdf8;
+
+    --c0: #4ade80; /* root */
+    --c1: #38bdf8;
+    --c2: #f472b6;
+    --c3: #fb923c;
+    --c4: #a78bfa;
+    --c5: #34d399;
+    --c6: #fbbf24;
+    --c7: #60a5fa;
+    --c8: #f87171;
+  }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    user-select: none;
+  }
+
+  /* ── TOOLBAR ── */
+  #toolbar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 16px;
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    flex-shrink: 0;
+    z-index: 10;
+    flex-wrap: wrap;
+  }
+
+  #toolbar h1 {
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .06em;
+    color: var(--accent);
+    font-family: 'DM Mono', monospace;
+    margin-right: 4px;
+    white-space: nowrap;
+  }
+
+  #search {
+    flex: 1;
+    min-width: 140px;
+    max-width: 260px;
+    padding: 5px 12px;
+    background: rgba(255,255,255,0.05);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    color: var(--text);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 12px;
+    outline: none;
+    transition: border-color .2s;
+  }
+  #search:focus { border-color: var(--accent); }
+  #search::placeholder { color: var(--muted); }
+
+  .btn {
+    padding: 5px 13px;
+    font-size: 11px;
+    font-family: 'DM Mono', monospace;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    background: rgba(255,255,255,0.04);
+    color: var(--muted);
+    cursor: pointer;
+    transition: all .15s;
+    white-space: nowrap;
+  }
+  .btn:hover { background: rgba(255,255,255,0.09); color: var(--text); border-color: rgba(255,255,255,0.18); }
+
+  #info {
+    font-size: 11px;
+    color: var(--muted);
+    font-family: 'DM Mono', monospace;
+    margin-left: auto;
+    white-space: nowrap;
+  }
+
+  /* ── CANVAS ── */
+  #canvas-wrap {
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+    cursor: grab;
+  }
+  #canvas-wrap.dragging { cursor: grabbing; }
+
+  svg#mm {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    overflow: visible;
+  }
+
+  /* ── NODES ── */
+  .mm-node { cursor: pointer; }
+  .mm-node rect, .mm-node ellipse {
+    transition: filter .15s, opacity .15s;
+  }
+  .mm-node:hover rect, .mm-node:hover ellipse { filter: brightness(1.25); }
+  .mm-node.faded { opacity: 0.18; }
+  .mm-node.highlighted rect, .mm-node.highlighted ellipse {
+    filter: drop-shadow(0 0 8px currentColor) brightness(1.3);
+  }
+
+  .mm-edge {
+    fill: none;
+    stroke-linecap: round;
+    transition: opacity .2s;
+  }
+  .mm-edge.faded { opacity: 0.05; }
+
+  /* ── TOOLTIP ── */
+  #tooltip {
+    position: fixed;
+    pointer-events: none;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 7px 12px;
+    font-size: 12px;
+    color: var(--text);
+    font-family: 'DM Mono', monospace;
+    opacity: 0;
+    transition: opacity .15s;
+    z-index: 100;
+    max-width: 240px;
+    line-height: 1.5;
+  }
+
+  /* ── LEGEND ── */
+  #legend {
+    position: absolute;
+    bottom: 14px;
+    left: 14px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 10px 14px;
+    font-size: 11px;
+    color: var(--muted);
+    font-family: 'DM Mono', monospace;
+    line-height: 2;
+    pointer-events: none;
+  }
+  #legend span { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 6px; vertical-align: middle; }
+
+  /* ── MINIMAP ── */
+  #minimap {
+    position: absolute;
+    bottom: 14px;
+    right: 14px;
+    width: 160px;
+    height: 100px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  #minimap svg { width: 100%; height: 100%; }
+</style>
+</head>
+<body>
+
+<div id="toolbar">
+  <h1>⬡ MIND MAP</h1>
+  <input id="search" type="text" placeholder="Search nodes…" oninput="doSearch(this.value)">
+  <button class="btn" onclick="expandAll()">Expand all</button>
+  <button class="btn" onclick="collapseToDepth(1)">Collapse</button>
+  <button class="btn" onclick="resetView()">Reset view</button>
+  <button class="btn" onclick="fitView()">Fit</button>
+  <div id="info">scroll to zoom · drag to pan · click node to expand</div>
+</div>
+
+<div id="canvas-wrap" id="canvas-wrap">
+  <svg id="mm">
+    <defs>
+      <filter id="glow">
+        <feGaussianBlur stdDeviation="3" result="blur"/>
+        <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+      </filter>
+    </defs>
+    <g id="viewport">
+      <g id="edges-layer"></g>
+      <g id="nodes-layer"></g>
+    </g>
+  </svg>
+</div>
+
+<div id="tooltip"></div>
+
+<div id="legend">
+  <div><span style="background:var(--c0)"></span>Root</div>
+  <div><span style="background:var(--c1)"></span>Branch</div>
+  <div><span style="background:var(--muted)"></span>Leaf</div>
+  <div style="margin-top:4px">+ = has children</div>
+</div>
+
+<script>
+// ═══════════════════════════════════════════════════════
+//  DATA  — edit this section to match your actual notes!
+// ═══════════════════════════════════════════════════════
+const RAW = {
+  label: "Computer Networks",
+  children: [
+    {
+      label: "Network Infrastructure",
+      children: [
+        { label: "Physical Topology", children: [
+          { label: "Bus topology" }, { label: "Star topology" },
+          { label: "Ring topology" }, { label: "Mesh topology" },
+          { label: "Hybrid topology" }
+        ]},
+        { label: "Logical Topology", children: [
+          { label: "Ethernet" }, { label: "Token Ring" }, { label: "FDDI" }
+        ]},
+        { label: "Network Types", children: [
+          { label: "LAN" }, { label: "WAN" }, { label: "MAN" },
+          { label: "PAN" }, { label: "CAN" }
+        ]},
+        { label: "Network Devices", children: [
+          { label: "Router" }, { label: "Switch" }, { label: "Hub" },
+          { label: "Bridge" }, { label: "Gateway" }, { label: "Repeater" }
+        ]}
+      ]
+    },
+    {
+      label: "OSI & TCP/IP Models",
+      children: [
+        { label: "OSI 7 Layers", children: [
+          { label: "L1 — Physical" }, { label: "L2 — Data Link" },
+          { label: "L3 — Network" }, { label: "L4 — Transport" },
+          { label: "L5 — Session" }, { label: "L6 — Presentation" },
+          { label: "L7 — Application" }
+        ]},
+        { label: "TCP/IP Layers", children: [
+          { label: "Network Access" }, { label: "Internet" },
+          { label: "Transport" }, { label: "Application" }
+        ]},
+        { label: "Key Protocols", children: [
+          { label: "TCP" }, { label: "UDP" }, { label: "IP" },
+          { label: "ICMP" }, { label: "ARP" }
+        ]}
+      ]
+    },
+    {
+      label: "IP Addressing",
+      children: [
+        { label: "IPv4", children: [
+          { label: "Classes A–E" }, { label: "Subnetting" },
+          { label: "CIDR notation" }, { label: "Private ranges" }, { label: "NAT" }
+        ]},
+        { label: "IPv6", children: [
+          { label: "128-bit addressing" }, { label: "EUI-64" },
+          { label: "DHCPv6" }, { label: "Link-local" }
+        ]},
+        { label: "Subnetting Concepts", children: [
+          { label: "Subnet mask" }, { label: "VLSM" },
+          { label: "Default gateway" }, { label: "Broadcast address" }
+        ]}
+      ]
+    },
+    {
+      label: "Routing & Switching",
+      children: [
+        { label: "Routing Protocols", children: [
+          { label: "RIP" }, { label: "OSPF" }, { label: "EIGRP" },
+          { label: "BGP" }, { label: "IS-IS" }
+        ]},
+        { label: "Switching", children: [
+          { label: "VLANs" }, { label: "STP" },
+          { label: "802.1Q Trunking" }, { label: "Inter-VLAN routing" }
+        ]},
+        { label: "Route Types", children: [
+          { label: "Static routes" }, { label: "Dynamic routing" },
+          { label: "Default route" }
+        ]}
+      ]
+    },
+    {
+      label: "Network Security",
+      children: [
+        { label: "Threats & Attacks", children: [
+          { label: "DoS / DDoS" }, { label: "Man-in-the-middle" },
+          { label: "Phishing" }, { label: "Replay attacks" }, { label: "SQL injection" }
+        ]},
+        { label: "Security Mechanisms", children: [
+          { label: "Firewall" }, { label: "IDS / IPS" },
+          { label: "VPN" }, { label: "ACLs" }, { label: "DMZ" }
+        ]},
+        { label: "Cryptography", children: [
+          { label: "Symmetric encryption" }, { label: "Asymmetric encryption" },
+          { label: "Hashing" }, { label: "PKI & Certificates" }, { label: "SSL / TLS" }
+        ]},
+        { label: "Authentication", children: [
+          { label: "RADIUS" }, { label: "TACACS+" },
+          { label: "802.1X" }, { label: "Multi-factor auth" }
+        ]}
+      ]
+    },
+    {
+      label: "Wireless Networking",
+      children: [
+        { label: "IEEE 802.11 Standards", children: [
+          { label: "802.11a/b/g" }, { label: "802.11n (Wi-Fi 4)" },
+          { label: "802.11ac (Wi-Fi 5)" }, { label: "802.11ax (Wi-Fi 6)" }
+        ]},
+        { label: "Wireless Security", children: [
+          { label: "WEP" }, { label: "WPA" }, { label: "WPA2" }, { label: "WPA3" }
+        ]},
+        { label: "Wireless Concepts", children: [
+          { label: "SSID" }, { label: "BSS / ESS" },
+          { label: "Channel overlap" }, { label: "AP modes" }
+        ]}
+      ]
+    },
+    {
+      label: "Application Protocols",
+      children: [
+        { label: "Web & Email", children: [
+          { label: "HTTP / HTTPS" }, { label: "SMTP" },
+          { label: "POP3" }, { label: "IMAP" }, { label: "FTP / SFTP" }
+        ]},
+        { label: "Name & Config Services", children: [
+          { label: "DNS" }, { label: "DHCP" }, { label: "NTP" },
+          { label: "SNMP" }, { label: "SSH / Telnet" }
+        ]}
+      ]
+    },
+    {
+      label: "Network Management",
+      children: [
+        { label: "Monitoring Tools", children: [
+          { label: "ping / traceroute" }, { label: "netstat" },
+          { label: "Wireshark" }, { label: "nmap" }, { label: "SNMP traps" }
+        ]},
+        { label: "FCAPS Model", children: [
+          { label: "Fault management" }, { label: "Configuration" },
+          { label: "Accounting" }, { label: "Performance" }, { label: "Security" }
+        ]}
+      ]
+    }
+  ]
+};
+
+// ═══════════════════════════════════════════════════════
+//  LAYOUT ENGINE
+// ═══════════════════════════════════════════════════════
+const COLORS = ['--c0','--c1','--c2','--c3','--c4','--c5','--c6','--c7','--c8'];
+const NW = 160, NH = 32, HGAP = 56, VGAP = 9;
+
+function buildTree(raw, depth=0, colorVar=null) {
+  const cv = depth === 0 ? '--c0' : (colorVar || '--c1');
+  const node = {
+    label: raw.label,
+    depth,
+    colorVar: cv,
+    collapsed: depth >= 2,
+    children: []
+  };
+  if (raw.children) {
+    raw.children.forEach((c, i) => {
+      const childColor = depth === 0 ? COLORS[1 + i % (COLORS.length-1)] : cv;
+      node.children.push(buildTree(c, depth+1, childColor));
+    });
+  }
+  return node;
+}
+
+function calcLayout(node, x=60, y=0) {
+  node.x = x;
+  if (node.collapsed || !node.children.length) {
+    node.subtreeH = NH;
+    node.y = y;
+    return NH;
+  }
+  let cy = y, total = 0;
+  node.children.forEach((ch, i) => {
+    const h = calcLayout(ch, x + NW + HGAP, cy);
+    cy += h + VGAP;
+    total += h + (i > 0 ? VGAP : 0);
+  });
+  const first = node.children[0], last = node.children[node.children.length-1];
+  node.y = (first.y + last.y + last.subtreeH - NH) / 2;
+  node.subtreeH = Math.max(NH, total);
+  return cy - y - VGAP;
+}
+
+function allNodes(node, list=[]) {
+  list.push(node);
+  if (!node.collapsed) node.children.forEach(c => allNodes(c, list));
+  return list;
+}
+
+// ═══════════════════════════════════════════════════════
+//  RENDER
+// ═══════════════════════════════════════════════════════
+let ROOT, searchQ = '', viewX = 0, viewY = 0, viewScale = 1;
+const SVGNS = "http://www.w3.org/2000/svg";
+const edgesLayer = document.getElementById('edges-layer');
+const nodesLayer = document.getElementById('nodes-layer');
+const viewport   = document.getElementById('viewport');
+
+function cssVar(v) {
+  return getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+}
+
+function render() {
+  edgesLayer.innerHTML = '';
+  nodesLayer.innerHTML = '';
+
+  calcLayout(ROOT, 80, 60);
+  const nodes = allNodes(ROOT);
+  const sq = searchQ.toLowerCase();
+
+  // draw edges first
+  nodes.forEach(node => {
+    if (node.collapsed || !node.children.length) return;
+    const color = cssVar(node.colorVar);
+    node.children.forEach(child => {
+      const x1 = node.x + NW, y1 = node.y + NH/2;
+      const x2 = child.x,     y2 = child.y + NH/2;
+      const mx = (x1 + x2) / 2;
+      const path = document.createElementNS(SVGNS, 'path');
+      const faded = sq && !child.label.toLowerCase().includes(sq) && !node.label.toLowerCase().includes(sq);
+      path.setAttribute('class', 'mm-edge' + (faded ? ' faded' : ''));
+      path.setAttribute('d', `M${x1},${y1} C${mx},${y1} ${mx},${y2} ${x2},${y2}`);
+      path.setAttribute('stroke', color);
+      path.setAttribute('stroke-width', node.depth === 0 ? '2' : '1.2');
+      path.setAttribute('stroke-opacity', node.depth === 0 ? '0.6' : '0.35');
+      edgesLayer.appendChild(path);
+    });
+  });
+
+  // draw nodes
+  nodes.forEach(node => {
+    const color = cssVar(node.colorVar);
+    const hasKids = node.children.length > 0;
+    const isRoot  = node.depth === 0;
+    const sq = searchQ.toLowerCase();
+    const matched = sq && node.label.toLowerCase().includes(sq);
+    const faded   = sq && !matched;
+
+    const g = document.createElementNS(SVGNS, 'g');
+    g.setAttribute('class', 'mm-node' + (matched ? ' highlighted' : '') + (faded ? ' faded' : ''));
+    g.setAttribute('transform', `translate(${node.x},${node.y})`);
+
+    if (isRoot) {
+      // Root: pill shape
+      const rx = document.createElementNS(SVGNS, 'rect');
+      rx.setAttribute('width', NW); rx.setAttribute('height', NH);
+      rx.setAttribute('rx', '16');
+      rx.setAttribute('fill', color); rx.setAttribute('fill-opacity', '0.2');
+      rx.setAttribute('stroke', color); rx.setAttribute('stroke-width', '1.5');
+      g.appendChild(rx);
+    } else {
+      const rx = document.createElementNS(SVGNS, 'rect');
+      rx.setAttribute('width', NW); rx.setAttribute('height', NH);
+      rx.setAttribute('rx', '7');
+      rx.setAttribute('fill', node.depth === 1 ? color : 'rgba(255,255,255,0.04)');
+      rx.setAttribute('fill-opacity', node.depth === 1 ? '0.15' : '1');
+      rx.setAttribute('stroke', color);
+      rx.setAttribute('stroke-width', node.depth === 1 ? '1' : '0.5');
+      rx.setAttribute('stroke-opacity', node.depth === 1 ? '0.7' : '0.3');
+      g.appendChild(rx);
+    }
+
+    // dot indicator for collapse state
+    if (hasKids) {
+      const dot = document.createElementNS(SVGNS, 'circle');
+      dot.setAttribute('cx', NW - 10); dot.setAttribute('cy', NH/2);
+      dot.setAttribute('r', '4');
+      dot.setAttribute('fill', node.collapsed ? color : 'none');
+      dot.setAttribute('stroke', color); dot.setAttribute('stroke-width', '1.2');
+      dot.setAttribute('opacity', '0.8');
+      g.appendChild(dot);
+
+      if (node.collapsed) {
+        const cnt = document.createElementNS(SVGNS, 'text');
+        cnt.setAttribute('x', NW + 8); cnt.setAttribute('y', NH/2);
+        cnt.setAttribute('dominant-baseline', 'central');
+        cnt.setAttribute('font-size', '10');
+        cnt.setAttribute('font-family', 'DM Mono, monospace');
+        cnt.setAttribute('fill', color); cnt.setAttribute('fill-opacity', '0.55');
+        cnt.textContent = `+${countDesc(node)}`;
+        g.appendChild(cnt);
+      }
+    }
+
+    // label
+    const txt = document.createElementNS(SVGNS, 'text');
+    txt.setAttribute('x', hasKids ? (NW-20)/2 : NW/2);
+    txt.setAttribute('y', NH/2);
+    txt.setAttribute('dominant-baseline', 'central');
+    txt.setAttribute('text-anchor', 'middle');
+    txt.setAttribute('font-size', isRoot ? '13' : node.depth===1 ? '12' : '11');
+    txt.setAttribute('font-weight', node.depth <= 1 ? '600' : '400');
+    txt.setAttribute('font-family', 'DM Sans, sans-serif');
+    txt.setAttribute('fill', isRoot ? color : node.depth===1 ? color : 'rgba(232,234,240,0.85)');
+    txt.setAttribute('pointer-events', 'none');
+    const maxC = hasKids ? 16 : 19;
+    txt.textContent = node.label.length > maxC ? node.label.slice(0, maxC-1)+'…' : node.label;
+    g.appendChild(txt);
+
+    // events
+    g.addEventListener('click', () => {
+      if (hasKids) { node.collapsed = !node.collapsed; render(); }
+    });
+    g.addEventListener('mouseenter', (e) => showTooltip(e, node));
+    g.addEventListener('mousemove',  (e) => moveTooltip(e));
+    g.addEventListener('mouseleave', hideTooltip);
+
+    nodesLayer.appendChild(g);
+  });
+
+  applyViewport();
+}
+
+function countDesc(node) {
+  let n = 0;
+  function walk(nd) { n += nd.children.length; nd.children.forEach(walk); }
+  walk(node); return n;
+}
+
+// ═══════════════════════════════════════════════════════
+//  VIEWPORT / PAN / ZOOM
+// ═══════════════════════════════════════════════════════
+function applyViewport() {
+  viewport.setAttribute('transform', `translate(${viewX},${viewY}) scale(${viewScale})`);
+}
+
+function fitView() {
+  const nodes = allNodes(ROOT);
+  const xs = nodes.map(n => n.x), ys = nodes.map(n => n.y);
+  const minX = Math.min(...xs), maxX = Math.max(...xs) + NW + 40;
+  const minY = Math.min(...ys), maxY = Math.max(...ys) + NH + 20;
+  const wrap = document.getElementById('canvas-wrap');
+  const W = wrap.clientWidth, H = wrap.clientHeight;
+  const scaleX = W / (maxX - minX), scaleY = H / (maxY - minY);
+  viewScale = Math.min(scaleX, scaleY, 1) * 0.92;
+  viewX = (W - (maxX - minX) * viewScale) / 2 - minX * viewScale;
+  viewY = (H - (maxY - minY) * viewScale) / 2 - minY * viewScale;
+  applyViewport();
+}
+
+// drag
+let dragging = false, dragSX, dragSY, dragVX, dragVY;
+const wrap = document.getElementById('canvas-wrap');
+wrap.addEventListener('mousedown', e => {
+  if (e.target.closest('.mm-node')) return;
+  dragging = true; dragSX = e.clientX; dragSY = e.clientY;
+  dragVX = viewX; dragVY = viewY;
+  wrap.classList.add('dragging');
+});
+window.addEventListener('mousemove', e => {
+  if (!dragging) return;
+  viewX = dragVX + (e.clientX - dragSX);
+  viewY = dragVY + (e.clientY - dragSY);
+  applyViewport();
+});
+window.addEventListener('mouseup', () => { dragging = false; wrap.classList.remove('dragging'); });
+
+// zoom
+wrap.addEventListener('wheel', e => {
+  e.preventDefault();
+  const delta = e.deltaY > 0 ? 0.9 : 1.1;
+  const rect = wrap.getBoundingClientRect();
+  const mx = e.clientX - rect.left, my = e.clientY - rect.top;
+  viewX = mx - (mx - viewX) * delta;
+  viewY = my - (my - viewY) * delta;
+  viewScale = Math.max(0.2, Math.min(3, viewScale * delta));
+  applyViewport();
+}, { passive: false });
+
+// touch pinch
+let lastTouchDist = null;
+wrap.addEventListener('touchstart', e => {
+  if (e.touches.length === 2) lastTouchDist = Math.hypot(e.touches[0].clientX - e.touches[1].clientX, e.touches[0].clientY - e.touches[1].clientY);
+}, { passive: true });
+wrap.addEventListener('touchmove', e => {
+  if (e.touches.length === 2) {
+    const dist = Math.hypot(e.touches[0].clientX - e.touches[1].clientX, e.touches[0].clientY - e.touches[1].clientY);
+    if (lastTouchDist) { const d = dist/lastTouchDist; viewScale = Math.max(0.2, Math.min(3, viewScale*d)); applyViewport(); }
+    lastTouchDist = dist;
+  }
+}, { passive: true });
+
+// ═══════════════════════════════════════════════════════
+//  TOOLTIP
+// ═══════════════════════════════════════════════════════
+const tooltip = document.getElementById('tooltip');
+function showTooltip(e, node) {
+  const kidCount = countDesc(node);
+  tooltip.innerHTML = `<strong>${node.label}</strong>${kidCount ? `<br><span style="color:var(--muted);font-size:10px">${kidCount} sub-topics · click to ${node.collapsed?'expand':'collapse'}</span>` : '<br><span style="color:var(--muted);font-size:10px">leaf node</span>'}`;
+  tooltip.style.opacity = '1';
+  moveTooltip(e);
+}
+function moveTooltip(e) {
+  tooltip.style.left = (e.clientX + 14) + 'px';
+  tooltip.style.top  = (e.clientY + 14) + 'px';
+}
+function hideTooltip() { tooltip.style.opacity = '0'; }
+
+// ═══════════════════════════════════════════════════════
+//  CONTROLS
+// ═══════════════════════════════════════════════════════
+function expandAll() {
+  function ex(n) { n.collapsed = false; n.children.forEach(ex); } ex(ROOT); render();
+}
+function collapseToDepth(d) {
+  function co(n, cur) { n.collapsed = cur >= d; n.children.forEach(c => co(c, cur+1)); } co(ROOT, 0); render();
+}
+function resetView() {
+  ROOT = buildTree(RAW);
+  searchQ = '';
+  document.getElementById('search').value = '';
+  render();
+  setTimeout(fitView, 50);
+}
+function doSearch(q) {
+  searchQ = q.trim();
+  if (searchQ) expandAll();
+  else render();
+  render();
+}
+
+// ═══════════════════════════════════════════════════════
+//  INIT
+// ═══════════════════════════════════════════════════════
+ROOT = buildTree(RAW);
+render();
+setTimeout(fitView, 80);
+
+// keyboard shortcuts
+window.addEventListener('keydown', e => {
+  if (e.key === 'Escape') { searchQ=''; document.getElementById('search').value=''; render(); }
+  if (e.key === 'f' && !e.target.matches('input')) fitView();
+  if (e.key === 'e' && !e.target.matches('input')) expandAll();
+  if (e.key === 'c' && !e.target.matches('input')) collapseToDepth(1);
+});
+</script>
+</body>
+</html>
