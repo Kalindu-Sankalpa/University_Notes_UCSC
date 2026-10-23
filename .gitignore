@@ -33,3 +33,4 @@ desktop.ini
 .vscode/
 # Antigravity agent files
 .agent/
+.agents/
