@@ -45,7 +45,12 @@ UCSC-Notes/
 │   │   ├── 📘 IS2205 — Mobile Application Design and Development
 │   │   ├── 📘 IS2206 — Business Process Management
 │   │   └── 📘 IS2207 — Electronics and Physical Computing
-│   └── 📁 Semester 02/          🔄 In Progress
+│   └── 📁 Semester 02/
+│       ├── 📘 IS2208 — Information Systems Management and Strategy
+│       ├── 📘 IS2209 — Data Management and Governance
+│       ├── 📘 IS2210 — Applied Data Science
+│       ├── 📘 IS2211 — UI/UX Design
+│       └── 📘 IS2212 — Cloud Infrastructure and Applications
 ├── 📁 Academic Year 03/          🔜 Coming Soon
 ├── 📁 Academic Year 04/          🔜 Coming Soon
 └── 📁 Past Papers

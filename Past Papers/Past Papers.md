@@ -39,4 +39,10 @@
 | IS 2207 | Electronic & Physical Computing | [[IS 2207 - Electronic & Physical Computing.pdf]] |
 
 ### Semester 02
-> 🔜 *Past papers will be available soon...!*
+| Course Code | Course Name | Past Paper |
+| :--- | :--- | :--- |
+| IS 2208 | Information Systems Management and Strategy | *Available soon* |
+| IS 2209 | Data Management and Governance | *Available soon* |
+| IS 2210 | Applied Data Science | *Available soon* |
+| IS 2211 | UI/UX Design | *Available soon* |
+| IS 2212 | Cloud Infrastructure and Applications | *Available soon* |
