@@ -65,6 +65,7 @@ An effective IT infrastructure must be **Flexible** (offering connectivity and m
 6. **Agility:** The ability to respond to new opportunities or pressures to change.
 
 ---
+
 # Lecture Notes
 ![[Topic 4.1.pdf]]
 ![[Topic 4.2.pdf]]

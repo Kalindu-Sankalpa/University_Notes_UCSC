@@ -46,5 +46,6 @@
 - **Prevention:** Maintain good posture, use stretching exercises, and ensure screens are positioned 0-20 degrees below the horizontal line of sight.
 
 ---
+
 # Lecture Notes
 ![[Topic 5.pdf]]

@@ -47,6 +47,7 @@ Here is an analysis of the specific goals and objectives for this lesson:
 	- **Final Exam (60%):** This will test your ability to apply these concepts to a **case study**.
 
 ---
+
 # Topics Covered
 
 The course **IS1205 - Introduction to Management** covers a wide range of topics designed to build a foundation in management principles and their application in modern business.

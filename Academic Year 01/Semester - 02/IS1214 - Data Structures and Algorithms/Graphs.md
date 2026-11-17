@@ -2,6 +2,7 @@
 >A **Graph** is a non-linear data structure consisting of **Vertices** (nodes representing entities) and **Edges** (arcs representing the connections or relationships between them). Formally, a graph $G$ is defined as $G=(V,E)$.
 
 ---
+
 # 1. Types and Terminology
 
 - **Directed vs. Undirected:** In a **directed graph**, edges have a specific direction (from u to v); in an **undirected graph**, the direction is disregarded.
@@ -34,6 +35,7 @@ Traversal is the process of visiting all nodes in a specific order:
 - **Prim’s Algorithm:** A greedy method that starts from one node and "grows" the tree by repeatedly adding the cheapest edge connected to the current tree.
 
 ---
+
 # Short Note for Memory:
 
 - **Graph:** $G=(V,E) (Vertices + Edges)$.
@@ -43,11 +45,14 @@ Traversal is the process of visiting all nodes in a specific order:
 - **MST Algorithms:** **Kruskal** (Edge-based) vs. **Prim** (Node-based).
 
 ---
+
 # Fancy Examples:
 
 - **Social Networks:** On **Facebook**, a person is a **Vertex**, and a "Friend" relationship is an **Undirected Edge**. On **Twitter**, a "Follow" is a **Directed Edge** because you can follow someone who doesn't follow you back.
 - **GPS/Maps:** Cities are **Vertices**, and roads are **Edges**. The distance or travel time on a road is the **Weight**.
 - **Civil Planning:** When connecting a set of houses to a **water or power line**, a **Minimum Spanning Tree** ensures every house is connected using the least amount of pipe or cable to save money.
+
 ---
+
 # Lecture Notes
 ![[DSA - Lecture 10.pdf]]

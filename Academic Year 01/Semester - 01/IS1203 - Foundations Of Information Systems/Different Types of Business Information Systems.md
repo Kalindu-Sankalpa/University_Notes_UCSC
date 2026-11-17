@@ -29,6 +29,7 @@ These systems span multiple functional areas and organizational levels, focusing
 - **Knowledge Management Systems (KMS):** Collect and link internal and external knowledge to support processes for creating, storing, and distributing expertise throughout the organization.
 
 ---
+
 # Lecture Notes
 ![[Topic 3.1.pdf]]
 ![[Topic 3.2.pdf]]

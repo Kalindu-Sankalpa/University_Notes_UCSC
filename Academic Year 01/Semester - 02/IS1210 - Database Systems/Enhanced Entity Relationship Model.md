@@ -2,6 +2,7 @@
 >This topic helps to explore advanced data modeling concepts required for complex applications such as **Engineering design (CAD/CAM)** and **Geographical Information Systems (GIS)**. It aims to teach students how to use **superclasses, subclasses, and inheritance** to represent specialized groupings of entities and how to map these complex structures into a relational schema.
 
 ---
+
 # Super-classes, Sub-classes, and Inheritance
 
 An EER model groups entities into **super-classes and sub-classes** based on an **"IS-A" relationship**, such as an "Engineer IS-A Employee". A subclass represents a specialized sub-grouping of a super-class's instances. The most critical concept here is **type inheritance**: an entity in a subclass **inherits all attributes and relationship participators** of the super-class while also having its own specific attributes.
@@ -55,5 +56,6 @@ The model also includes **Categories**, which are sub-classes of the **union** o
 The **EER Model** is like a **biological classification system**: The **Super-class** is the "Genus" (e.g., Mammal), and the **Sub-classes** are the "Species" (e.g., Dog, Cat). Because of **Inheritance**, a Dog automatically has "Mammal traits" (attributes like warm-blooded), and **Disjointness** ensures that a single animal cannot be both a Dog and a Cat at the same time.
 
 ---
+
 # Lecture Notes
 ![[IS1210 - Enhanced Entity-Relationship Model.pdf]]

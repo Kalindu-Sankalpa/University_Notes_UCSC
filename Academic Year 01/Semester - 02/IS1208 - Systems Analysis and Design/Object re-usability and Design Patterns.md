@@ -2,6 +2,7 @@
 >**Object re-usability** is considered a primary benefit of Object-Oriented Analysis (OOA), enabling more **effective problem solving** and modularity for easier troubleshooting. This concept allows developers to build systems more efficiently by leveraging existing structures rather than starting from scratch.
 
 ---
+
 # Mechanisms for Re-usability
 
 The sources highlight several ways re-usability is integrated into system development:
@@ -20,6 +21,7 @@ The sources highlight several ways re-usability is integrated into system develo
 The provided sources **do not explicitly define or list "Design Patterns"** (such as the Gang of Four patterns like Singleton or Observer). However, they emphasize that **UML (Unified Modeling Language)** provides the standard modeling conventions and notations used to specify these types of object-oriented architectures. Design patterns typically represent proven solutions to common design problems within these UML structures. _Note: You may want to independently verify specific design patterns as they are not detailed in these materials._
 
 ---
+
 # Short Note for Easy Memorization
 
 - **Re-usability Goal:** Build faster and improve troubleshooting through **Modularity**.

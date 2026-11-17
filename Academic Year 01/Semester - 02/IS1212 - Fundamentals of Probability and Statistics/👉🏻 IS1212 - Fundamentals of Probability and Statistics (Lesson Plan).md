@@ -10,6 +10,7 @@
 >Additionally, the course focuses on converting **raw facts into useful information** through both numerical and graphical summaries. By mastering these concepts, students will be able to interpret results, evaluate published data, and **generalize decisions** across various disciplines, including computer science, marketing, and medicine.
 
 ---
+
 # Learning Objectives
 
 - **Evaluating published data** and interpreting statistical results.

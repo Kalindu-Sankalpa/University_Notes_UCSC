@@ -2,6 +2,7 @@
 > **Network Layer**, is the third layer of the OSI model and the second layer of the TCP/IP suite (where it is called the Internet Layer). Its primary function is **internetworking**, which involves moving data across multiple networks and finding the best path from a source to a destination.
 
 ---
+
 # 1. IP Addressing
 
 Every device on a network requires a unique identifier.

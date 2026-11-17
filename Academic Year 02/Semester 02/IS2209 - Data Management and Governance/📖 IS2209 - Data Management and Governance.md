@@ -9,6 +9,7 @@
 > This course aims to provide students with the theoretical foundation and practical skills necessary to manage, secure, and govern data assets effectively. The course integrates advanced database management techniques with organizational data governance principles to ensure data quality, compliance, and ethical use in modern digital environments.
 
 ---
+
 # The specific objectives of the module include:
 
 - **Evolution of Data Management:** Explain the evolution of data management and its strategic role in driving enterprise digital transformation.
@@ -21,11 +22,13 @@
 - **Tools & Practices for Data Quality & Security:** Apply tools and industry practices to ensure data integrity, robust security controls, and high data quality within organizations.
 
 ---
+
 # Topic Covered
 
 > ℹ️ *Topic notes and lecture slide transclusions will be added here as soon as lecture materials become available.*
 
 ---
+
 # IS2209 Syllabus
 
 ![[IS2209 - Syllabus.pdf]]

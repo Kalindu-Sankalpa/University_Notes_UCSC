@@ -58,5 +58,6 @@ The field offers diverse career paths, including:
 - **Strategic/Managerial Roles:** Systems Analyst, Business Analyst, Chief Information Officer (CIO), Chief Technology Officer (CTO), Project Manager.
 
 ---
+
 # Lecture Notes
 ![[Topic 1.pdf]]

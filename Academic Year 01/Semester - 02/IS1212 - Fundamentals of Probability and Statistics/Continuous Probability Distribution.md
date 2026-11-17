@@ -2,6 +2,7 @@
 >Continuous Probability Distribution focuses heavily on the **Normal Distribution**, which is considered the most important continuous distribution in statistics because it describes so many natural measurements like heights, ages, and exam results.
 
 ---
+
 # 1. The Normal Distribution (The "Bell Curve")
 
 The normal distribution is famous for its **bell shape** and is perfectly **symmetrical** about its mean $(μ)$.
@@ -42,6 +43,7 @@ Since every dataset has a different mean and variance, mathematicians created a 
 This is often called the most important theorem in statistics. It states that if your sample size $(n)$ is **large**, the distribution of the sample mean will be **approximately normal**, even if the original population was not normal. The larger your sample, the better this "bell curve" approximation becomes.
 
 ---
+
 # Short Note for Remember Things Better
 
 | Concept             | Key Feature                | Formula / Logic                     |
@@ -55,5 +57,6 @@ This is often called the most important theorem in statistics. It states that if
 **Analogy for Understanding:** Think of the **Normal Distribution** like a **professional archer.** Most of their arrows hit near the bullseye (the **Mean**), and as you move further away from the center, you find fewer and fewer arrows. The **Z-score** is like converting the archer's score into a "global ranking" so you can compare them to archers using different sized targets. The **Central Limit Theorem** says that if you average the scores of 30 different archers, that _average_ score will follow a perfect bell curve, even if some individual archers are completely random!
 
 ---
+
 # Lecture Notes
 ![[IS 1212 Handout 10 - Continuous Probability Distribution Normal.pdf]]

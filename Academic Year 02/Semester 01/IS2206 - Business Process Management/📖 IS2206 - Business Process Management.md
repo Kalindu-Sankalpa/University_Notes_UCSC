@@ -9,6 +9,7 @@
 > The primary goal of this lesson is to provide you with a comprehensive understanding of the **organizational practices of Business Process Management (BPM)**. You will learn to recognize specific business processes and apply techniques to re-engineer them for better efficiency.
 
 ---
+
 # Intended Learning Outcomes (Learning Objectives)
 
 Upon completing these lessons, you should be able to:

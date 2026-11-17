@@ -2,6 +2,7 @@
 >CRC Cards (Class-Responsibility-Collaborator), a simple yet powerful Agile technique used to bridge the gap between your static structural models (like Class Diagrams) and dynamic behavioral models (like Sequence Diagrams).
 
 ---
+
 # 1. What are CRC Cards?
 
 Instead of using complex software tools, this technique uses **4x6 index cards** to represent classes. Each card acts as a "placeholder for conversation" and identifies three critical pieces of information:

@@ -8,6 +8,7 @@
 > This course traces the architectural and operational evolution of enterprise IT—following a retail enterprise's real-world transition from traditional on-premises datacenters, through server virtualization, to modern cloud-native infrastructures. Students master distributed computing foundations, cloud service models (IaaS, PaaS, SaaS), elasticity, infrastructure automation, and resilient cloud architecture.
 
 ---
+
 # The specific objectives of the module include:
 
 - **Traditional Datacenter Architecture & Limitations:** Deconstructing facilities (TIA-942), computing, storage (SAN/NAS), networking fabrics, and analyzing the financial and operational trade-offs of fixed-capacity planning (CapEx vs OpEx).
@@ -17,6 +18,7 @@
 - **Scalability, Resilience & Cloud Mindset:** Differentiating vertical scaling (scale-up) from horizontal scaling (scale-out), architectural statelessness, and shifting from procurement to service-oriented operations.
 
 ---
+
 # Topic Covered
 
 ### Part 1: Datacenter Foundations, Virtualization & Service Models
@@ -45,6 +47,7 @@
 	- **Control vs. Convenience:** The fundamental trade-off spectrum and multi-model service composition.
 
 ---
+
 # IS2212 Syllabus
 
 ![[IS2212 - Syllabus.pdf]]

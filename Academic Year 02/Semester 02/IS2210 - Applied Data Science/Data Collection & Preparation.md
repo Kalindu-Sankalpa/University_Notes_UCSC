@@ -1,5 +1,7 @@
 This topic note covers the systematic data collection process, probability and non-probability sampling theory, web scraping and REST API integration, the six dimensions of data quality, statistical mechanisms of missing data (MCAR, MAR, MNAR), feature transformation and dimensionality reduction, and Big Data storage and chunking architectures.
+
 ---
+
 # 1. The Data Ingestion Landscape: Methods & Classifications
 
 Data collection is the systematic process of gathering, measuring, and accurately conveying information on variables of interest to answer research questions, test empirical hypotheses, and evaluate outcomes. In data science, the choice of collection methodology directly dictates the quality, validity, and statistical power of subsequent machine learning models.
@@ -44,6 +46,7 @@ Surveys remain the primary empirical instrument in social science, healthcare, a
 5. **Pilot Testing:** Administer the instrument to a small pilot cohort ($n = 15 - 30$) to detect semantic ambiguities and formatting friction prior to national distribution.
 
 ---
+
 # 2. Sampling Theory: Probability vs. Non-Probability Techniques
 
 Studying an entire population (a census) is often financially, logistically, or temporally impossible. **Sampling** is the statistical discipline of selecting a representative subset from a target population to infer properties of the whole group.
@@ -95,6 +98,7 @@ Units are chosen through non-random criteria; selection probabilities are unknow
 > *Optimal Approach:* **Multi-Stage Stratified Cluster Sampling.** First, stratify provinces by urban/semi-urban density. Second, randomly select clusters of stores within each stratum. Finally, systematically sample every $k$-th checkout customer at the selected locations. This balances geographic cost constraints with demographic representativeness.
 
 ---
+
 # 3. Internet Data Harvesting: Web Scraping vs. REST APIs
 
 Data scientists frequently harvest public datasets from web platforms using either programmatic web scraping or structured Application Programming Interfaces (APIs).
@@ -153,6 +157,7 @@ except requests.exceptions.RequestException as e:
 ```
 
 ---
+
 # 4. The Six Dimensions of Data Quality & Preprocessing Stages
 
 Raw data collected from real-world systems is notoriously dirty: incomplete, noisy, inconsistent, and duplicated.
@@ -182,6 +187,7 @@ Raw data collected from real-world systems is notoriously dirty: incomplete, noi
   - *Audit Check:* Identifying customers registered twice with slightly differing email formats.
 
 ---
+
 # 5. Statistical Missing Data Mechanisms: MCAR, MAR, and MNAR
 
 Before applying imputation or dropping rows, a data scientist must diagnose the statistical mechanism driving the missingness. Blindly deleting rows can introduce devastating bias into machine learning models.
@@ -216,6 +222,7 @@ Let $Y = (Y_{\text{obs}}, Y_{\text{mis}})$ represent the complete data matrix, p
 | **MNAR** | Driven by the missing value itself | **Disastrous (Severe skew)** | **Domain modeling + Binary Missing Indicator Feature** |
 
 ---
+
 # 6. Data Transformation, Feature Engineering & Reduction
 
 Data transformation prepares clean variables for consumption by machine learning algorithms that require numerical, scaled, and non-collinear inputs.
@@ -244,6 +251,7 @@ $$\mathbf{\Sigma} = \frac{1}{n} \mathbf{X}^T \mathbf{X} \implies \mathbf{\Sigma}
 This preserves the majority of informational signal while eliminating multicollinearity and reducing model overfitting.
 
 ---
+
 # 7. Big Data Foundations & Scalable Storage Architecture
 
 As datasets expand beyond local workstation RAM, data science transitions into Big Data engineering.
@@ -291,6 +299,7 @@ print(f"Total Aggregated Revenue: ${total_revenue:,.2f}")
 ```
 
 ---
+
 # 8. Hands-On Python Cleaning Pipeline with Pandas
 
 The following script integrates the complete data preparation lifecycle into an automated, reproducible pipeline:
@@ -334,5 +343,6 @@ print("Cleaning Pipeline Executed Successfully. Final Shape:", df.shape)
 ```
 
 ---
+
 # Lecture Notes
 ![[IS2210 - 02. Data Collection & Preparation.pdf]]

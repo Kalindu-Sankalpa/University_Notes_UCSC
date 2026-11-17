@@ -47,6 +47,7 @@ A union is similar to a structure, but all its members **share the same storage 
 While specific details on `enum` syntax are limited in the excerpts, the syllabus lists them as a key component of Topic 06 for defining sets of named integer constants.
 
 ---
+
 # Lecture Notes
 ![[IS1201 - IS1201 - Programming and Problem Solving _ Arrays and Strings.pdf]]
 ![[IS1201 - IS1201 - Programming and Problem Solving _ Understanding and Using Pointers in C.pdf]]

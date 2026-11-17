@@ -56,6 +56,7 @@ A good graph should **never distort data** or contain **"chart junk"** (unnecess
 Organizing data is like **cleaning a messy room.** Raw data is the pile of clothes on the floor. A **Summary Table** is like folding them into neat stacks. A **Bar Chart** is like hanging them up by color so you can instantly see which color you own the most of. If you see one neon-green sock in a pile of black ones, that’s your **Outlier**!
 
 ---
+
 # Lecture Notes
 
 ![[IS 1212 Handout 2 - Graphical Representation.pdf]]

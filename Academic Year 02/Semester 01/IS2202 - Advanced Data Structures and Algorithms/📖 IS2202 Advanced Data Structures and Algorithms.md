@@ -8,6 +8,7 @@
 > The primary goal of this course is to develop advanced theoretical foundations and practical skills for designing, analyzing, and implementing complex data structures and efficient algorithms. The curriculum transitions from elementary sequential programming to rigorous asymptotic complexity analysis, multi-way search trees, global tree balancing, graph traversal paradigms, hashing techniques, greedy optimization, and data compression.
 
 ---
+
 # The specific objectives of the module include:
 
 - **Mastering Algorithmic Complexity:** Evaluating time vs. space complexity trade-offs, calculating instruction counts using the sequential computational model, and establishing asymptotic bounds ($O, \Omega, \Theta$).
@@ -19,6 +20,7 @@
 - **Data Compression & Information Theory:** Constructing optimal prefix codes using Huffman Coding and implementing Run-Length Encoding (RLE) to minimize digital data footprint.
 
 ---
+
 # Topic Covered
 
 1. [[Foundations of Algorithms & Graph Theory Fundamentals]]

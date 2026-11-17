@@ -8,6 +8,7 @@
 > This course moves from understanding the user (UX) to crafting the visual interface (UI), emphasizing a human-centered design process bridging theory with practical, hands-on digital product design. Students develop the foundational mindset, empirical methodologies, and industry skills (utilizing Figma as the core design tool) to create accessible, effective, and compelling digital experiences.
 
 ---
+
 # Assessment Structure
 
 | Assessment Component | Weight | Focus Area |
@@ -18,6 +19,7 @@
 | **Final Examination** | 70% | Comprehensive Theoretical & Evaluative Principles |
 
 ---
+
 # The specific objectives of the module include:
 
 - **Human-Centered Design (HCD) & Design Thinking:** Mastering the 5-stage iterative design thinking process (Empathize, Define, Ideate, Prototype, Test) aligned with ISO 9241-210 pillars.
@@ -28,6 +30,7 @@
 - **Accessibility (A11y) & Ethical UX:** Enforcing WCAG 2.2 AA standards, keyboard navigation paths, visible focus indicators, and eliminating manipulative dark patterns (EU Digital Services Act compliance).
 
 ---
+
 # Topic Covered
 
 ### Part 1: Foundations & User Empathy (Weeks 1–4)
@@ -57,6 +60,7 @@
 	- **Flow Diagramming:** Mapping user flows, decision branches, error pathways, and wireflows.
 
 ---
+
 # IS2211 Syllabus
 
 ![[IS2211 - Syllabus.pdf]]

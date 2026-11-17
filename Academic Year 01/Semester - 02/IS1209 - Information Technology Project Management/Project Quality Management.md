@@ -2,6 +2,7 @@
 >Modern quality management emphasizes that **quality is defined by the customer**, prefers **prevention over inspection**, and recognizes that management is responsible for the majority (85%) of quality costs.
 
 ---
+
 # 1. The Three Main Processes
 
 - **Plan Quality:**

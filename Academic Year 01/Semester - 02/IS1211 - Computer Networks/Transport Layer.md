@@ -2,6 +2,7 @@
 > **Transport Layer**, is the fourth layer in both the OSI model and the TCP/IP suite. Its primary role is to provide **process-to-process communication**, ensuring that data from a specific application on one computer reaches the correct application on another.
 
 ---
+
 # 1. Core Responsibilities
 
 While the Network Layer handles delivery between hosts, the Transport Layer manages the data stream between applications. Its key functions include:

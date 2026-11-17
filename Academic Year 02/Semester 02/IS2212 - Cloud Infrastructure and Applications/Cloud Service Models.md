@@ -1,5 +1,7 @@
 This topic note establishes the architectural taxonomy of cloud delivery models—Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and Software as a Service (SaaS)—evaluating trust boundaries, the 7-layer application stack, the shared responsibility model, and strategic workload placement.
+
 ---
+
 # 1. Cloud Roles, Relationships & Governance Boundaries
 
 In enterprise cloud computing, governance and operational ownership are defined through formal architectural roles established by the Thomas Erl and NIST frameworks.
@@ -44,6 +46,7 @@ A fundamental security challenge in cloud migration is the structural decoupling
 > In the cloud, **organizational and trust boundaries no longer align**. The retailer's sensitive customer credit card data and proprietary algorithms physically execute inside a multitenant facility owned and staffed by a third-party provider. Consequently, security cannot rely on physical locked doors; it must be enforced cryptographically through **end-to-end encryption, Zero-Trust access control, continuous automated compliance telemetry, and binding contractual SLAs**.
 
 ---
+
 # 2. The 7-Layer Application Stack & The Shared Responsibility Model
 
 Every digital application consists of seven discrete architectural layers. A cloud delivery model is fundamentally an architectural decision regarding **where the dividing line of operational ownership is drawn**.
@@ -76,6 +79,7 @@ Every digital application consists of seven discrete architectural layers. A clo
 > Across every cloud delivery model—including turnkey SaaS applications—the customer permanently retains ultimate legal, regulatory, and ethical accountability for their data. The provider guarantees infrastructure availability and isolation, but the customer is solely responsible for data classification, role-based access control (RBAC), data loss prevention, privacy compliance (GDPR, PCI-DSS, HIPAA), and backup retention policies.
 
 ---
+
 # 3. Infrastructure as a Service (IaaS)
 
 ## 3.1 Core Architecture & Capabilities
@@ -109,6 +113,7 @@ When operating an IaaS environment, the customer's operations team must determin
 - **Enterprise Retailer Fit:** **The Legacy Inventory Management System.** Built on custom C++ daemons and specialized database extensions, the inventory system cannot easily run on modern serverless or container platforms. Migrating it to IaaS virtual servers preserves the application configuration exactly while eliminating on-premises hardware maintenance.
 
 ---
+
 # 4. Platform as a Service (PaaS)
 
 ## 4.1 Core Architecture & Capabilities
@@ -148,6 +153,7 @@ git push production main
 - **Enterprise Retailer Fit:** **The New E-Commerce Web Storefront.** Built as a modern Node.js and React application, the web store benefits from PaaS automatic horizontal scaling, instant deployment rollbacks, and automated SSL termination, allowing software engineers to iterate features rapidly without operational distractions.
 
 ---
+
 # 5. Software as a Service (SaaS)
 
 ## 5.1 Core Architecture & Capabilities
@@ -166,6 +172,7 @@ When adopting SaaS, the enterprise shifts from an engineering mindset to a busin
 - **Enterprise Retailer Fit:** **Corporate Email, Calendar, HR, and Payroll.** Running an in-house Microsoft Exchange email server or building custom payroll software provides zero competitive market advantage. Consuming these as SaaS commodities frees up engineering talent to focus on core retail differentiation.
 
 ---
+
 # 6. The Fundamental Trade-off: Control vs. Convenience
 
 Choosing among IaaS, PaaS, and SaaS is not an all-or-nothing proposition; it represents a strategic calibration along the **Control vs. Convenience continuum**.
@@ -196,6 +203,7 @@ Modern enterprise architectures rarely standardize on a single service model. In
 ```
 
 ---
+
 # 7. Enterprise Scenario Mapping: Retailer Migration Decisions
 
 Applying our theoretical models to the retailer's IT portfolio yields a definitive strategic migration roadmap:
@@ -208,5 +216,6 @@ Applying our theoretical models to the retailer's IT portfolio yields a definiti
 | **Product Photo Catalog** | **IaaS (Object Storage)**| Massive collection of unstructured image assets best served via highly durable, scalable, low-cost cloud object storage (e.g., S3). |
 
 ---
+
 # Lecture Notes
 ![[IS2212 - 03. Cloud Service Models (IaaS, PaaS, SaaS).pdf]]

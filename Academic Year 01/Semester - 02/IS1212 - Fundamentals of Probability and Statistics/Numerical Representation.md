@@ -15,6 +15,7 @@ These measures help identify the central or typical value of a dataset.
 - **Quartiles & Percentiles:** These divide your data into chunks (Quartiles into 4 parts, Percentiles into 100). Your **Median** is simply the 50th Percentile (P50​) or the 2nd Quartile (Q2​).
 
 ---
+
 # 2. Measures of Dispersion (The "Spread")
 
 Dispersion tells you how "scattered" your data points are around the center.
@@ -29,6 +30,7 @@ Dispersion tells you how "scattered" your data points are around the center.
 	_Fancy Example:_ If you want to compare the weight variability of **Elephants** (tons) vs. **Mice** (grams), you use CV because it cancels out the units, allowing a fair comparison.
 
 ---
+
 # 3. The Five-Number Summary & Box Plots
 
 A **Box-and-Whiskers Plot** is a graphical version of the **Five-Number Summary**: Minimum, $Q1$​, Median, $Q3​$, and Maximum.
@@ -53,6 +55,7 @@ When studying two variables at once, we look for how they "co-vary."
 - **Coefficient of Determination** $(r^2)$: The square of the correlation. it tells you what **percentage** of the change in one variable is explained by the other.
 
 ---
+
 # Short Note for Remember Things Better
 
 |Measure Type|Specific Tool|Best Used For...|
@@ -69,6 +72,7 @@ When studying two variables at once, we look for how they "co-vary."
 Imagine you are a **scout looking for a new basketball player.** The **Mean** score tells you their career average. The **Standard Deviation** tells you if they are consistent (low SD) or a "wild card" who scores 40 points one day and 0 the next (high SD). The **CV** would help you compare a player in the NBA to a player in a local league to see who is more "dominant" relative to their own peers.
 
 ---
+
 # Lecture Notes
 
 ![[IS 1212 Handout 3 - Numerical Representation.pdf]]

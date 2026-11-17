@@ -2,6 +2,7 @@
 > Topic 03, **Control Structures**, focuses on how to manage the flow of execution in a C program through conditions and loops. This topic is typically covered over two weeks.
 
 ---
+
 # 1. Selection Logic (Decision Making)
 
 Selection structures allow a program to choose between different paths of execution based on specific conditions.
@@ -33,5 +34,6 @@ These statements allow you to further control the behavior of loops and switches
 - **Filtering Numbers:** A `continue` statement can be used within a loop to print numbers divisible by 5 but skip those that are also divisible by 10.
 
 ---
+
 # Lecture Notes
 ![[IS1201 - Conditions and Loops.pdf]]

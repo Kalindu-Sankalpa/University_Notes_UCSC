@@ -62,6 +62,7 @@ Databases offer **improved consistency, minimal redundancy, and better data shar
 A **file-based system** is like a group of students each keeping their own personal notebook for a project; if one student updates a fact, the others' notes become outdated and inconsistent. A **database system**, however, is like a single shared digital document where everyone views and updates the same information in real-time, ensuring everyone has the most accurate data.
 
 ---
+
 # Lecture Notes
 
 ![[IS1210 - Introduction to Databases.pdf]]

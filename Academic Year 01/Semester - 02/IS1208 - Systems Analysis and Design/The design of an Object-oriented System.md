@@ -2,6 +2,7 @@
 >Object-oriented (OO) design shifts the focus from "what" a system does to "how" it will technically work. It translates the functional requirements discovered during analysis into a detailed technical blueprint.
 
 ---
+
 # The Four Main Design Sections
 
 1. **Architecture Design:** Defines the technical infrastructure, including hardware, software, and network components.
@@ -20,6 +21,7 @@
 • **Message Passing:** The process where objects communicate by invoking each other's methods to request information or actions.
 
 ---
+
 # Short Note for Memorization
 
 - **Goal:** Design is the **"How"** (Technical Solution).
@@ -32,6 +34,8 @@
 	- **P**olymorphism (Many forms for one message).
 	- **I**nheritance (Reuse from parent to child).
 	- **E**ncapsulation (Hiding complexity inside a unit).
+
 ---
+
 # Lecture Notes
 ![[IS1208 - Object oriented concepts.pdf]]

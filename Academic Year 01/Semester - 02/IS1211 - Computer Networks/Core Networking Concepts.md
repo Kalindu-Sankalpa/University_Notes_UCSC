@@ -2,6 +2,7 @@
 > **Core Network Concepts**, provides the foundational theory required to understand how information travels through a network. Based on the provided sources, this topic covers the following key areas:
 
 ---
+
 # 1. Data Communication Fundamentals
 
 At its most basic level, networking is about data communication, which involves several critical concepts:

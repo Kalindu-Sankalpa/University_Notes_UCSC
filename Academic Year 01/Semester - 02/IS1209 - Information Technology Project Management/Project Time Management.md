@@ -2,6 +2,7 @@
 >Project Time Management (also referred to as **Project Schedule Management**) focuses on the processes required to ensure the timely completion of a project. Managers often cite delivering projects on time as one of their biggest challenges because **time is the least flexible constraint**—it passes regardless of what happens on the project.
 
 ---
+
 # Teaching the Core Concepts
 
 ## 1. The Six Main Processes
@@ -58,10 +59,12 @@ If a project is behind, managers can use **Crashing** (adding resources for the 
   A method that accounts for limited resources and uses **buffers** (project and feeding buffers) to protect the completion date, aiming to minimize multitasking.
 - **Process Tip:**
   Top managers should act as **champions** to help project managers secure the resources needed to stay on schedule.
+
 ---
 
 **Analogy:** Project Time Management is like **choreographing a complex dance routine**. You must define every step (**Defining Activities**), decide which dancer follows another (**Sequencing**), and know how long each move takes (**Duration Estimating**). The **Critical Path** is the sequence of dancers who have no room for error; if one slips, the entire performance finishes late. **Crashing** is like bringing in extra dancers to finish a scene faster, while **Fast Tracking** is having two groups perform their parts at the same time instead of one after the other.
 
 ---
+
 # Lecture Notes
 ![[Topic 06 - Project Time Management.pdf]]

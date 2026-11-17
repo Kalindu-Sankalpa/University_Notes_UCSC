@@ -114,6 +114,7 @@ If a view is created using **WITH LOCAL CHECK OPTION**, the DBMS only enforces t
 - **Behavior:** A row is allowed to disappear from the current view **if and only if** it also disappears from the underlying derived view or base table. It essentially checks the current view's rules but is more "forgiving" regarding the rules of underlying views that lack their own check options.
 
 ---
+
 ### Example Illustration
 
 Consider this hierarchy based on a **Staff** table:
@@ -160,7 +161,9 @@ DCL provides the mechanism to ensure only authorized users can access the databa
 - **Privileges:** The ISO standard defines specific actions a user can perform, including `SELECT` (retrieve), `INSERT` (add), `UPDATE` (modify), `DELETE` (remove), `REFERENCES` (integrity constraints), and `USAGE` (domains/character sets).
 - **GRANT:** Used to give access rights to specific users or the `PUBLIC`. Adding `WITH GRANT OPTION` allows the recipient to pass those privileges to others.
 - **REVOKE:** Used to remove previously granted privileges.
+
 ---
+
 # Short Note: Structured Query Language (SQL)
 
 - **Core Logic:** SQL is **non-procedural**; you specify the "what" (result) and the DBMS determines the "how" (execution path).
@@ -186,6 +189,7 @@ DCL provides the mechanism to ensure only authorized users can access the databa
 **SQL** is like **directing an automated library**: the **DDL** is the set of rules for how books are categorized and where the shelves are built; the **DML** is the process of adding new books or updating their records; and the **SELECT statement** is the search terminal where you ask for specific titles or genres—the system doesn't require you to know which floor the book is on, it simply brings the result to you.
 
 ---
+
 # Lecture Notes
 ![[IS1210 - SQL Part 1.pdf]]
 ![[IS1210 - SQL Part 2.pdf]]

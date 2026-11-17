@@ -2,6 +2,7 @@
 >**Personality and Values**, we delve into the deeper, internal traits that determine how individuals interact with their environment and what they prioritize in life and work.
 
 ---
+
 # Understanding Personality
 
 >[!quote]
@@ -55,5 +56,6 @@ The sources emphasize that values and personality perceptions vary globally. **H
 Understanding these dimensions is vital for managing diverse, international teams effectively.
 
 ---
+
 # Lecture Notes
 ![[Lesson 02 - Personality and Values.pdf]]

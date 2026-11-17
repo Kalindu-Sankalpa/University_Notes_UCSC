@@ -1,5 +1,7 @@
 This topic note examines the principles, perceptual psychology, and implementation of data visualization, covering Anscombe's Quartet, the Cleveland-McGill visual encoding hierarchy, chart selection taxonomies, Tufte's data-ink ratio, deceptive chart pitfalls, and practical implementation across Matplotlib, Pandas, Seaborn, and Plotly.
+
 ---
+
 # 1. The Purpose & Psychology of Data Visualization
 
 Data visualization is the graphical representation of information and data using visual elements such as charts, plots, heatmaps, maps, and infographics. In modern data science, visualization is not an aesthetic afterthought; it is a critical instrument for exploratory discovery and decision-making.
@@ -31,6 +33,7 @@ Data visualization is the graphical representation of information and data using
 | **Representative Code** | `sns.pairplot(df, hue='target')` | `px.scatter(..., title="Q3 Revenue Driver")` |
 
 ---
+
 # 2. Why We Must Plot: The Proof of Anscombe's Quartet
 
 A foundational tenet of empirical statistics is that **summary statistics can deceive**. In 1973, statistician Francis Anscombe constructed four synthetic datasets ($n=11$) to demonstrate the danger of calculating statistical aggregates without plotting the raw distribution.
@@ -60,6 +63,7 @@ Despite identical formulas, plotting the coordinates reveals four completely dis
 > Never evaluate a dataset through summary metrics (mean, standard deviation, correlation) alone. Numerical aggregates can hide severe non-linearities, clustering, and fatal leverage points. **Always visualize raw feature distributions before fitting predictive models.**
 
 ---
+
 # 3. Visual Encoding & The Cleveland-McGill Perceptual Hierarchy
 
 Every chart is an optical mapping that binds numeric variables to visual encodings: spatial position, line length, angular slope, 2D area, or color saturation. In 1984, William Cleveland and Robert McGill conducted empirical experiments measuring the perceptual error rate of the human visual cortex when decoding these graphical attributes.
@@ -79,6 +83,7 @@ Ranked from **highest decoding accuracy** (lowest cognitive error) to **lowest d
 > A standard bar chart encodes information via **Length and Position** (Ranks 1 & 2 in perceptual accuracy). A pie chart encodes information via **Angle and 2D Area** (Ranks 3 & 4). Consequently, stakeholders can distinguish a $1\%$ difference on a bar chart instantly, but routinely fail to detect a $10\%$ difference between two pie chart wedges.
 
 ---
+
 # 4. Chart Selection Decision Matrix: Typology & Use Cases
 
 Selecting an appropriate visualization requires matching the **cardinality and data type** of variables to the analytical intent.
@@ -125,6 +130,7 @@ Selecting an appropriate visualization requires matching the **cardinality and d
 | **Geographic Coordinates** | Spatial Patterns | Choropleth Map, Bubble Map |
 
 ---
+
 # 5. Design Principles & Pitfalls: Tufte's Data-Ink & Deceptive Charts
 
 Data visualization requires rigorous design hygiene to prevent misleading stakeholders.
@@ -157,6 +163,7 @@ $$\text{Data-Ink Ratio} = \frac{\text{Data-Ink}}{\text{Total Ink Used to Print t
 - **5. Confusing Correlation with Causation:** Implying that because variable $A$ tracks variable $B$ visually, $A$ causes $B$.
 
 ---
+
 # 6. The Python Visualization Ecosystem
 
 Python provides a layered visualization stack spanning low-level plotting engines, high-level statistical interfaces, and interactive web canvases.
@@ -173,6 +180,7 @@ Python provides a layered visualization stack spanning low-level plotting engine
 | **Missingno** | Matrix / Nullity Correlation | Static Matplotlib | Visualizing nullity distributions and missingness patterns |
 
 ---
+
 # 7. Hands-On Python Plotting Implementation
 
 ## 7.1 Matplotlib: Object-Oriented Figure Anatomy
@@ -285,5 +293,6 @@ fig.write_html("iris_interactive_plot.html")
 ```
 
 ---
+
 # Lecture Notes
 ![[IS2210 - 03. Data Visualization.pdf]]

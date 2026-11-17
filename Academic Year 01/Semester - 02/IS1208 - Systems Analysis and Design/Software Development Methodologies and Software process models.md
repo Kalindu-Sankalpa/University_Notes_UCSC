@@ -57,6 +57,7 @@ In the context of building a house, the **"Process"** consist of the stages a co
 > To understand the difference between **Incremental** and **Iterative** development, think of painting a portrait. **Incremental** development is like painting the head completely, then the body, then the background; **Iterative** development is like sketching the whole scene roughly and then adding detail and color to the entire canvas through several passes
 
 ---
+
 # Lecture Notes
 
 ![[IS1208 - Modelling System Requirements.pdf]]

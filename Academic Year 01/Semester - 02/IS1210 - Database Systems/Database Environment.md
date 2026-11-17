@@ -37,6 +37,7 @@ The description of the database is called the **schema**. Because these levels a
 A DBMS must provide services like **concurrency control** (ensuring simultaneous users don't conflict), **recovery services** (restoring data after failure), and **authorization services** (checking user permissions). Key software components include the **System Catalog** (a repository of metadata), the **Query Optimizer**, and the **Scheduler**.
 
 ---
+
 # Short Note: Topic Two - Database Environment
 
 - **Core Architecture:**
@@ -57,6 +58,7 @@ A DBMS must provide services like **concurrency control** (ensuring simultaneous
 The **three-level architecture** is like using a **smartphone**: The **External level** is the app's interface that you interact with; the **Conceptual level** is the programming logic that decides what the app can do; and the **Internal level** is the actual electrical signals and storage chips inside the phone. Because of **data independence**, the manufacturer can change the internal chips (Internal level) without you ever needing to learn a new way to use the app (External level).
 
 ---
+
 # Lecture Notes
 
 ![[IS1210 - Database Environment.pdf]]

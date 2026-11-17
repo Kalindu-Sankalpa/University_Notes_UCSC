@@ -2,6 +2,7 @@
 >**State Machine Diagrams** (also known as State Transition Diagrams) are behavioral UML models that capture the **internal life history of a single object**. While Class Diagrams show the static structure of a system, State Diagrams show its **dynamic behavior** by illustrating how an object changes in response to events and time.
 
 ---
+
 # 1. Fundamental Components
 
 - **State:** A condition or situation during the life of an object where it satisfies a condition or performs an activity (e.g., a hotel room being "Occupied" or "Available"). It is represented by a **rounded rectangle**.
@@ -83,6 +84,7 @@ Below are the steps on how to draw the State Machine Diagram in UML:
 >![[state-machine-diagram-for-an-online-order.jpg]]
 
 ---
+
 # 2. Transition and State Details
 
 To provide a precise map of behavior, analysts add specific details to these diagrams:
@@ -106,6 +108,7 @@ To provide a precise map of behavior, analysts add specific details to these dia
 These diagrams are essential for developers because they remove the guesswork regarding **how an object is supposed to behave**. They are typically created only for classes with **significant dynamic behavior**, such as those with a "status" attribute that changes frequently based on complex business rules.
 
 ---
+
 # Short Note for Easy Memorization
 
 - **Scope:** Models **ONE** object's life cycle (Dynamic Behavior).
@@ -123,5 +126,6 @@ These diagrams are essential for developers because they remove the guesswork re
 - **Pro-Tip:** If a class has a **"Status"** attribute, it probably needs a State Diagram.
 
 ---
+
 # Lecture Notes
 ![[IS1208 - State Diagrams.pdf]]

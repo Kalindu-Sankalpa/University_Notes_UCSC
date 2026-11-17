@@ -2,6 +2,7 @@
 > **Data-link Layer**, is the second layer in the OSI reference model and the first layer in the TCP/IP Network Interface layer. Its primary responsibility is to **move a datagram from one node to an adjacent node** over a single communication link.
 
 ---
+
 # 1. Services Provided
 
 The Datalink Layer provides several essential services to ensure data is moved efficiently and accurately across a link:

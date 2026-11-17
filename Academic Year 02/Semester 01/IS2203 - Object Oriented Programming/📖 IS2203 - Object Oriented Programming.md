@@ -8,6 +8,7 @@
 > The primary goal of this module is to transition your programming approach from a procedural mindset to an **Object-Oriented Programming (OOP) paradigm**, which organizes software design around real-world objects rather than just functions and logic.
 
 ---
+
 # The specific objectives of the module include:
 
 - **Understanding Software Complexity:** Learning how to handle larger, more complex programs where traditional procedural methods often lead to skyrocketing costs and difficult maintenance.
@@ -24,6 +25,7 @@
 Overall, the module aims to provide you with a robust framework for designing software that is more secure, organized into logical units, and capable of representing complex real-world entities like students, cars, or accounts.
 
 ---
+
 # Topic Covered
 
 1. [[Foundations of the OOP Paradigm]]

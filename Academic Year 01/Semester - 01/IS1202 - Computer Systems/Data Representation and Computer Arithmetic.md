@@ -63,6 +63,7 @@ To represent fractions (non-integers), computers use a format consisting of a **
 - **Limitations:** Floating-point representations are only approximations of real numbers. This leads to issues like **Overflow** (number too large), **Underflow** (number too tiny), and **Round-off errors**.
 
 ---
+
 # Lecture Notes
 ![[IS1202 Lecture 1.1.pdf]]
 ![[IS1202 Lecture 1.2.pdf]]

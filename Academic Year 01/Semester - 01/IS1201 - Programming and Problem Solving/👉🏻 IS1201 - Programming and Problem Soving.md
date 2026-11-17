@@ -15,7 +15,9 @@
 - **Apply modular and recursive programming:** Learn to use functions, parameters, and passing parameters, as well as understanding control structures and recursion.
 - **Work with data structures and files:** Understand and apply simple data structures and learn file handling techniques.
 - **Solve and debug problems:** Develop the ability to write code for simple problems and implement/debug applications to solve **real-life problems**.
+
 ---
+
 # Topic Covered
 
 The course **IS1201: Programming and Problem Solving** covers a comprehensive range of topics starting from fundamental concepts and moving toward advanced data management in C. Based on the syllabus and introductory materials, the topics are organized as follows:

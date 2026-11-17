@@ -2,6 +2,7 @@
 > Topic 01 of the course provides an **Overview and History of Programming Languages**, serving as an introduction to how we communicate with computers and the fundamental logic behind software design.
 
 ---
+
 # 1. Understanding Computers and Algorithms
 
 At its most basic level, a computer is a machine that **performs calculations** at high speeds (billions per second) and **remembers results** using vast amounts of storage. However, computers only know what a programmer tells them.
@@ -64,5 +65,6 @@ To compile a file named `hello.c` using the GCC compiler, you would use the comm
 As programs become more complex, they become harder to read. To maintain clarity, programmers use **comments**—notes written in natural language to explain what the code is doing. In C, these are created using **//** for single-line comments or **/* ... */** for multi-line blocks.
 
 ---
+
 # Lecture Notes
 ![[IS1201 - Introduction.pdf]]

@@ -2,6 +2,7 @@
 >**Groups and Teams**, distinguishing between simple collections of individuals and highly coordinated units that achieve synergy.
 
 ---
+
 # 1. Defining and Classifying Groups
 
 A **group** consists of two or more interacting and interdependent individuals who come together to achieve specific objectives. Groups are classified into two main categories:
@@ -71,6 +72,7 @@ According to the **Team-Effectiveness Model**, success depends on three categori
 To build effective teams, managers should select individuals with interpersonal skills, provide training for team-based work, and rework reward systems to encourage cooperation over competition. Notably, teams are not always the answer; they should only be used if the work is complex, requires interdependent tasks, and creates a common purpose larger than individual goals.
 
 ---
+
 # Lecture Notes
 ![[Lesson 06 - Groups.pdf]]
 ![[Lesson 07 - Understanding Work Teams.pdf]]

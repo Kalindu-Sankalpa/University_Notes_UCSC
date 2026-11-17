@@ -2,6 +2,7 @@
 >**Emotions and moods** are essential components of organizational behavior that significantly impact how individuals work, communicate, and interact. Historically, they were ignored due to the **"myth of rationality,"** which viewed emotions as irrational or disruptive to productivity. Today, we recognize that workers cannot separate their feelings from the workplace.
 
 ---
+
 # Differentiating Emotions and Moods
 
 The sources use the term **Affect** to cover the broad range of feelings people experience, which is then divided into two categories:
@@ -64,5 +65,6 @@ Understanding these concepts allows managers to improve various organizational p
 While people across cultures generally interpret negative emotions as undesirable and positive ones as desirable, **norms of expression vary**. Some cultures have a bias against emotional expression, while others demand it, making interpretations difficult outside of one’s own culture.
 
 ---
+
 # Lecture Notes
 ![[Lesson 05 - Emotions & Moods.pdf]]

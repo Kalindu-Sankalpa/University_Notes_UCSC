@@ -2,6 +2,7 @@
 > Based on the organization we established earlier, **Topic 04** covers **Macros and the Preprocessor**, which are tools used to manipulate your source code before the actual compilation process begins.
 
 ---
+
 # 1. What is a Macro?
 
 In C, a macro is a fragment of code that is assigned a specific name. When the preprocessor encounters this name in your code, it **replaces** it with the defined code segment.
@@ -40,5 +41,6 @@ Additionally, the preprocessor uses two special operators:
 - **##** **(Token Pasting):** Joins two separate tokens together during macro expansion.
 
 ---
+
 # Lecture Notes
 ![[IS1201 - Preprocesser and Macro.pdf]]

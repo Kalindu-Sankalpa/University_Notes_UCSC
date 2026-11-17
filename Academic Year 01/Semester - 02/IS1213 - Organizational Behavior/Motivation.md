@@ -2,6 +2,7 @@
 >**Motivation**, is a cornerstone of Organizational Behavior, representing the "driving force" behind employee performance and productivity. Understanding how to motivate employees is essential for managers who wish to achieve organizational goals.
 
 ---
+
 # Defining Motivation
 
 Motivation is the process that accounts for an individual’s **intensity, direction, and persistence** of effort toward attaining a goal, specifically an organizational one. It is viewed as the result of the interaction between the **individual and the situation**.
@@ -54,5 +55,6 @@ The sources note that motivation theories are often **culture-bound**. For examp
 For managers, understanding these theories helps in **selecting, promoting, and fine-tuning jobs** to fit employee abilities and drive better performance
 
 ---
+
 # Lecture Notes
 ![[Lesson 04 - Motivation.pdf]]

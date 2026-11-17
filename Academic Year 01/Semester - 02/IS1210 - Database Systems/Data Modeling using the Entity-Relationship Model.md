@@ -49,6 +49,7 @@ The final stage of modeling is mapping the ER/EER diagrams into relations. This 
 - **Multi-valued attributes** are moved into their own separate relations to maintain **[^1]Atomicity**.
 
 ---
+
 # Short Note - Data Modeling
 
 - **Design Blueprint:** The **Conceptual Design** is a high-level description of the database structure, often represented by an **E-R diagram**, which ensures all user requirements are met without conflicts.
@@ -64,6 +65,7 @@ The final stage of modeling is mapping the ER/EER diagrams into relations. This 
 The **ER Modeling process** is like **building a family tree for data**: **Entities** are the family members (Nouns), **Attributes** are their traits (Adjectives), and **Relationships** are how they are connected (Verbs). **EER modeling** adds the concept of **Inheritance**, where "children" (sub-classes) automatically receive the "genes" (attributes) of their "parents" (super-classes).
 
 ---
+
 # Lecture Notes
 
 ![[IS1210 - Data Modeling using the Entity-Relationship Model.pdf]]

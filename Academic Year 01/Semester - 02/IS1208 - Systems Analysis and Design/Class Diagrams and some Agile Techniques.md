@@ -2,6 +2,7 @@
 >**Class Diagrams** are the primary example of structural UML diagrams, used to document software architecture by emphasizing the static structure of a system through classes, their attributes, methods, and relationships. Complementing these structural models in modern development are **Agile techniques**, which prioritize customer-oriented delivery over heavy documentation.
 
 ---
+
 # Components of a Class Diagram
 
 A class is a generalized description of a collection of similar objects, which are referred to as "instances" of that class. In a diagram, a class is represented as a box divided into three compartments:
@@ -44,14 +45,18 @@ Agile methods are newer than UML and focus on flexibility and the needs of the u
 	An **Epic** is a large user story that is too big to be completed in a single sprint and must be decomposed into smaller stories. **Themes** are collections of related smaller stories organized around a common topic.
 - **CRC Cards (Class-Responsibility-Collaborator):**
 	A technique used to identify a class's name, its specific responsibilities, and the other classes it must collaborate with to realize those responsibilities.
+
 ---
+
 # Comparison: User Stories vs. Use Cases**
 
 The sources distinguish these two requirements tools as follows:
 
 - **User Stories:** Short (one index card), focus on one goal with no details, and serve as a **"placeholder for conversation"**.
 - **Use Cases:** Long documents containing multiple goals and formal details, serving as a **"record of conversation"**.
+
 ---
+
 # Short Note for Easy Memorization
 
 - **Class Diagram (N-A-M):**
@@ -67,6 +72,8 @@ The sources distinguish these two requirements tools as follows:
 	- **User Story:** "As a... I want... So that..."
 	- **Epic:** A story too big for one sprint.
 	- **CRC Card:** Class, Responsibility, Collaborators.
+
 ---
+
 # Lecture Notes
 ![[IS1208 - Class Diagrams and some Agile Techniques.pdf]]

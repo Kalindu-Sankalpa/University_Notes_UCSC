@@ -1,6 +1,7 @@
 **Introduction to Probability** is the study of experiments where the outcome is not known in advance or cannot be predicted with absolute certainty. It provides a way to quantify "how likely" it is that a specific event will occur.
 
 ---
+
 # 1. The Probability Language
 
 To speak the language of probability, you need to understand three core terms:
@@ -16,6 +17,7 @@ To speak the language of probability, you need to understand three core terms:
 	_Fancy Example:_ If you ask a student how many jeans they own, an **event** could be that they own an odd number {1,3,5,…} or no jeans at all {0}.
 
 ---
+
 # 2. The Probability Scale
 
 Probability is always a number between **0 and 1**.
@@ -29,6 +31,7 @@ Probability is always a number between **0 and 1**.
 - Values close to 0 mean "not likely," while values close to 1 mean "quite likely".
 
 ---
+
 # 3. Three Ways to Guess the Future (Approaches)
 
 The sources describe three ways we assign probability to events:
@@ -40,6 +43,7 @@ The sources describe three ways we assign probability to events:
 3. **Classical/Formal Approach:** Based on mathematical axioms, where the total probability of the sample space must be exactly 1.
 
 ---
+
 # 4. Key Relationship Rules
 
 - **Independent Events:** The happening of one event has **zero influence** on the other.
@@ -52,6 +56,7 @@ The sources describe three ways we assign probability to events:
 	_Fancy Example:_ If 31.6% of households own a dog, the probability of the **complement** (not owning a dog) is 1−0.316=0.684.
 
 ---
+
 # Short Note for Easy Remembering
 
 | Term                   | Concept        | Formula/Logic                                  |
@@ -68,6 +73,7 @@ The sources describe three ways we assign probability to events:
 Think of probability like a **Pizza**. The **Sample Space** is the whole pizza. Each slice is an **Outcome**. If you are looking for the **Event** of "Pepperoni slices," you count those specific slices. The **Complement** is every slice that _doesn't_ have pepperoni. If you eat a Pepperoni slice and a Veggie slice, those are **Mutually Exclusive**—one bite cannot be both purely pepperoni and purely veggie at the exact same time!
 
 ---
+
 # Lecture Notes
 
 ![[IS 1212 Handout 4 - Probability final.pdf]]

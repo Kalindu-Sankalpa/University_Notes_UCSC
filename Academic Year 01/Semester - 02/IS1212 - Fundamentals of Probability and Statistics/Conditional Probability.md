@@ -13,6 +13,7 @@ We write this as $P(A∣B)$, which is read as the **"probability of A, given B"*
 - **A Special Fact:** $P(B∣B)$ is always **1**, because if we know B has happened, the chance of B having happened is 100%.
 
 ---
+
 # 2. Fancy Examples from the Sources
 
 - **The Card Shark:** Suppose you pick a card at random. I tell you, "It’s a heart!" Now, what is the probability it is a picture card (Jack, Queen, or King)?
@@ -62,5 +63,6 @@ Two events are **Independent** if the occurrence of one has **no effect** on the
 	Imagine you are at a **cafeteria**. The probability that someone orders **Fries** is P(Fries). However, if you see them holding a **Burger**, the probability they will order fries usually goes up! That new, higher probability is P(Fries∣Burger). If they are a health nut and the burger doesn't change their chance of getting fries, then fries and burgers are **Independent**.
 
 ---
+
 # Lecture Notes
 ![[IS 1212 Handout 5 - Conditional Probability.pdf]]

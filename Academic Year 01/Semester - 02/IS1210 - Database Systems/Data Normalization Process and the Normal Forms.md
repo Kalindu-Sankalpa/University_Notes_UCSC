@@ -4,6 +4,7 @@
 >The process provides a formal technique to identify a suitable set of relations where attributes with close logical relationships are grouped together. Ultimately, it ensures the database is easier to maintain, access, and takes up **minimal storage space**.
 
 ---
+
 # Understanding Data Redundancy and Anomalies
 
 A major goal of normalization is to group attributes to avoid **redundancy**, which occurs when the same data is stored in multiple places. Redundancy leads to **update anomalies**, which are classified into three types:
@@ -39,6 +40,7 @@ The process involves a series of tests called **Normal Forms**:
 - **Boyce-Codd Normal Form (BCNF):** A stronger version of 3NF where **every determinant must be a candidate key**.
 
 ---
+
 # Short Note - Database Normalization
 
 • **Technique Types:** Normalization can be used as a **bottom-up technique** to create relations from attributes or a **validation technique** to check structures derived from top-down ER modeling.
@@ -54,6 +56,7 @@ The process involves a series of tests called **Normal Forms**:
 The **Normalization Process** is like **refining raw materials**: you start with a "dirty" unnormalized table (UNF) and filter out repeating patterns (1NF), then remove "half-dependencies" on composite keys (2NF), and finally clear out indirect "sideways" dependencies (3NF) until you have a **pure, consistent data structure**. While this makes the data much safer from errors (**anomalies**), it makes the "assembly" of full reports slightly more complex because the data is now stored in many specialized, smaller tables instead of one giant one.
 
 ---
+
 # Lecture Notes
 ![[IS1210 - Normalization - Part 1.pdf]]
 ![[IS1210 - Normalization - Part 2.pdf]]

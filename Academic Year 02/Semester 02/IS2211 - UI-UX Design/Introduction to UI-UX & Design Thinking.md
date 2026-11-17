@@ -152,5 +152,6 @@ A contemporary UI/UX designer is not merely an artist crafting mockups; they are
 5. **Sustain:** Auditing ongoing accessibility compliance (WCAG 2.2 AA), monitoring product analytics (funnel drop-offs, churn rates), and iteratively eliminating UX friction points.
 
 ---
+
 # Lecture Notes
 ![[IS2211 - 01. Introduction to UI-UX & Design Thinking.pdf]]

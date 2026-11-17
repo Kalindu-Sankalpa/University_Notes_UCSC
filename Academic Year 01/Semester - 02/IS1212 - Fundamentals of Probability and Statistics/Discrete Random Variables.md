@@ -2,6 +2,7 @@
 >**Discrete Random Variables**, which are tools used to summarize the numerical results of random experiments where the specific values cannot be predicted with certainty.
 
 ---
+
 # 1. What is a Random Variable?
 
 A random variable $(X)$ is essentially a function that maps outcomes from an experiment's sample space $(\ohm)$ to real numbers $(\mathbb{R})$.
@@ -47,6 +48,7 @@ While the mean tells you the center, **Variance** $Var(X)$ measures how much the
 	- If X and Y are **independent**, then $Var(X±Y)=Var(X)+Var(Y)$
 
 ---
+
 # Short Note for Easy Remembering
 
 | Concept                  | What it is                 | Math Logic / Shortcut              |
@@ -61,5 +63,6 @@ While the mean tells you the center, **Variance** $Var(X)$ measures how much the
 **Analogy for Understanding:** Imagine you are **playing a lottery.** The **Random Variable** is the amount of money you could win. The **Probability Distribution** is the list of prizes and the odds of winning each one. The **Expectation** is the average amount of money you’d get back per ticket if you bought millions of them. The **Standard Deviation** tells you how "risky" the lottery is—a high SD means you might win nothing or win the jackpot (high variability), while a low SD means most prizes are very close to the average win.
 
 ---
+
 # Lecture Notes
 ![[IS 1212 Handout 7 - Discrete Random Variable.pdf]]

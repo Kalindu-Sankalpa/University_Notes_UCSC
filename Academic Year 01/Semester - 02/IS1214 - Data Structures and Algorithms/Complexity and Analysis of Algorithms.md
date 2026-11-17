@@ -3,6 +3,7 @@
 . It allows us to compare different algorithms to see which one performs better as the problem gets larger, independent of the specific computer or programming language used.
 
 ---
+
 # 1. Running Time: Actual vs. Theoretical
 
 There are two ways to look at how **"fast"** a program is:
@@ -63,6 +64,8 @@ When analyzing code, we use two main simplifications:
 - $O(1)$ is picking up your keys (takes the same time whether you have 1 box or 1,000).
 - $O(n)$ is carrying the boxes to the truck one by one (more boxes = more time).
 - $O(n^2)$ is if you had to compare every item in every box to every other item to see if they match. If you double your items, the work quadruples!
+
 ---
+
 # Lecture Notes
 ![[DSA - Lecture 09.pdf]]

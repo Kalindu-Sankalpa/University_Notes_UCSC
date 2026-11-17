@@ -101,6 +101,7 @@ Beyond simple data entry, domains are critical for **relational integrity**. For
 The **relational data model** is like a **standardized spreadsheet workbook**: the **Relation** is an individual sheet, the **Attributes** are the column headers, and each **Tuple** is a completed row. **Primary Keys** act like unique ID numbers for every row to ensure no two entries are confused, and **Foreign Keys** are like a "see also" note that points you to a specific row on a different sheet.
 
 ---
+
 # Lecture Notes
 
 ![[IS1210 - Relational Data Model.pdf]]

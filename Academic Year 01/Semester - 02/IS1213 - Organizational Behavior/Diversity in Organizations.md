@@ -2,6 +2,7 @@
 >**Diversity in Organizations**, is a critical area of study that examines how individual differences can be leveraged to enhance organizational success while minimizing conflict.
 
 ---
+
 # The Two Levels of Diversity
 
 In the workplace, diversity is generally recognized at two distinct levels:
@@ -47,5 +48,6 @@ Diversity management is the practical application of an organization's understan
 By effectively managing diversity, organizations can foster a **more innovative and productive workplace** that is better equipped to serve a diverse global customer base.
 
 ---
+
 # Lecture Notes
 ![[Lesson 01 - Diversity in Organizations.pdf]]

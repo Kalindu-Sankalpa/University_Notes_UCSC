@@ -51,5 +51,6 @@ A competitive advantage is a significant, long-term benefit a firm has over its 
 - **Strategic Planning:** IS helps organizations achieve strategies like **Cost Leadership** (reducing costs), **Differentiation** (making products stand out), or **Niche Strategies** (targeting narrow customer segments).
 
 ---
+
 # Lecture Notes
 ![[Topic 2.pdf]]

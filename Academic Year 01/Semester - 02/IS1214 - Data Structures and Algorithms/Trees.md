@@ -70,6 +70,7 @@ An **AVL Tree** is a BST that automatically keeps itself balanced to ensure sear
   A special binary tree where every node is greater than or equal to its children. Heaps are the primary way to implement **Priority Queues**, where the highest priority item is always at the root.
 
 ---
+
 # Short Note for Memory:
 
 - **BST Rule:** Left < Root < Right.
@@ -79,6 +80,7 @@ An **AVL Tree** is a BST that automatically keeps itself balanced to ensure sear
 - **Array Mapping:** Parent K has children at 2K and 2K+1.
 
 ---
+
 # Lecture Notes
 ![[DSA - Lecture 06.pdf]]
 ![[DSA - Lecture 07.pdf]]

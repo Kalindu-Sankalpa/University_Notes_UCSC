@@ -2,6 +2,7 @@
 >Scope management is vital because you can't manage a project's schedule or the budget without knowing the scoop or if the scoop is out of control, a concept that tied directly to the **Triple Constant** (Scoop, Time, Cost)
 
 ---
+
 # The Scoop Management Process
 
 There are six main processes involved in managing scope:
@@ -39,6 +40,7 @@ The **RTM** is a table used to link product requirements from their origin to th
 The sources warn against **gold plating** (adding extra work not in the charter) and **scope creep** (the tendency for project scope to keep growing). To avoid this, projects should have a clear **Change Control System** and involve users early and often in the process.
 
 ---
+
 # Short Note for Study
 
 ## Topic: Project Scope Management
@@ -65,5 +67,6 @@ The sources warn against **gold plating** (adding extra work not in the charter)
 **Analogy:** Project Scope Management is like **building a house with a strict contract**. The **Scope Statement** is the blueprint that says exactly how many rooms you will have. The **WBS** is the checklist for the builders (foundation, framing, plumbing). **Validating Scope** is the final walkthrough with the owner to get the keys. If the owner suddenly asks for a swimming pool halfway through without a formal agreement, that is **scope creep**, and if the builder adds fancy gold faucets for free just to be nice, that is **gold plating**—both can ruin the project's budget and schedule.
 
 ---
+
 # Lecture Notes
 ![[Topic 05 - Project Scope Management.pdf]]

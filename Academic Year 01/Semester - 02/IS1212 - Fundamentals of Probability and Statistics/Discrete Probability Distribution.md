@@ -2,6 +2,7 @@
 >**Discrete Probability Distributions** describe how probabilities are spread across the possible values of a discrete random variable. A valid probability mass function $(pmf)$, denoted as $f(x)$, must ensure that every individual probability is between 0 and 1, and the sum of all probabilities equals exactly 1.
 
 ---
+
 # 1. Discrete Uniform Distribution (The "Equal Chance" Model)
 
 In this simplest model, every possible outcome has an equal chance of occurring.
@@ -81,6 +82,7 @@ Used when you are selecting items from a finite population **without replacement
 >**Fancy Example:** Drawing 5 cards from a small deck of 20 cards (6 red, 14 black) and calculating the chance of getting exactly 4 red cards.
 
 ---
+
 # Short Note for Easy Remembering
 
 | Distribution       | Key "Vibe"        | Formula Trigger          | Mean           |
@@ -106,6 +108,7 @@ Used when you are selecting items from a finite population **without replacement
 • If you catch fish and **keep them in a bucket** (don't throw them back), the changing odds of your next catch follow the **Hyper-geometric** distribution!
 
 ---
+
 # Lecture Notes
 ![[IS 1212 Handout 8 - Discrete Probability Distribution I.pdf]]
 ![[IS 1212 Handout 9 - Discrete Probability Distribution II.pdf]]

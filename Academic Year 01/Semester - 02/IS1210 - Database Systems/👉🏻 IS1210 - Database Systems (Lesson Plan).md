@@ -8,6 +8,7 @@
 >This course provides a comprehensive introduction to database systems, covering essential concepts, principles, and practical skills necessary for designing, implementing, and maintaining robust database systems. Through a combination of theoretical foundations and hands-on exercises, students will gain a deep understanding of database architecture, relational models, normalization techniques, SQL query formulation, and database application development.
 
 ---
+
 # Learning Objectives
 
 1. Describe the role of a database system and the functions of a database administrator.

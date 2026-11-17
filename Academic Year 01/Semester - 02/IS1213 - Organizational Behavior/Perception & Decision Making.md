@@ -2,6 +2,7 @@
 >**Perception and Individual Decision Making**, explores how we interpret our surroundings and how those interpretations shape the choices we make.
 
 ---
+
 # The Nature of Perception
 
 **Perception** is the process by which individuals organize and interpret sensory impressions to give meaning to their environment. A core tenet of Organizational Behavior is that **people's behavior is based on their perception of reality, not on reality itself**. Therefore, the world as it is perceived is the world that is behaviorally important.
@@ -77,5 +78,6 @@ Decision-making also involves **ethical criteria**:
 Finally, **creativity** is the ability to produce novel and useful ideas. The **three-component model of creativity** suggests it results from a mixture of **expertise**, **creative-thinking skills**, and **intrinsic task motivation**
 
 ---
+
 # Lecture Notes
 ![[Lesson 03 - Perception and Individual Decision Making.pdf]]

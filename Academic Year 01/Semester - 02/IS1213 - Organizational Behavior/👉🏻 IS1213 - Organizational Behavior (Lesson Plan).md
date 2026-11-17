@@ -46,6 +46,7 @@
 6. Define **organizational culture** and understand its importance for employee retention and productivity.
 
 ---
+
 # Topic Covered
 
 1. [[Introduction to Organizational Behavior]]

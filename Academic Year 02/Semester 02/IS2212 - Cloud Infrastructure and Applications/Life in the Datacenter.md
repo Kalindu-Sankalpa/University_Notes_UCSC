@@ -1,5 +1,7 @@
 This topic note examines the architectural, operational, and financial realities of enterprise IT within traditional on-premises datacenters prior to the cloud era, tracing the foundational constraints of facilities, physical hardware, organizational silos, and fixed-capacity planning.
+
 ---
+
 # 1. The Enterprise Dilemma & The Black Friday Outage
 
 Enterprise IT infrastructure before the cloud was anchored to physical real estate and long-term capital investments. To understand why cloud computing represents an architectural paradigm shift rather than merely an operational convenience, we examine the baseline challenges through a representative mid-sized omnichannel retail enterprise.
@@ -27,6 +29,7 @@ On the biggest sales event of the year (Black Friday), marketing launches a nati
 > When an on-premises datacenter crashes due to server saturation, the engineering team **cannot simply add more servers**. In traditional infrastructure, adding compute capacity is a logistical and physical procurement pipeline requiring quotes, executive budget approval, vendor delivery, physical unboxing, rack mounting, power cabling, network patching, OS installation, and configuration—a lead time typically spanning **6 to 12 weeks**.
 
 ---
+
 # 2. The Three-Layer Datacenter Architecture
 
 A enterprise-grade datacenter is structured across three tightly coupled tiers: Facilities, Hardware Infrastructure, and the Software Stack. Every layer below the application requires dedicated engineering expertise, capital expenditure, and physical space.
@@ -68,6 +71,7 @@ Physical infrastructure houses the servers, storage arrays, and network backbone
 The software layer comprises enterprise operating systems (Red Hat Enterprise Linux, Windows Server), relational database engines (Oracle RAC, Microsoft SQL Server, PostgreSQL), runtime middleware (Java Virtual Machines, WebSphere, IIS), and custom monolithic enterprise codebases.
 
 ---
+
 # 3. Organizational Silos & The Dev/Ops Operational Wall
 
 In the traditional datacenter, organizational structure directly mirrored the physical hardware boundaries. Each discipline operated within an isolated administrative silo.
@@ -95,6 +99,7 @@ In the traditional datacenter, organizational structure directly mirrored the ph
 - **Configuration Drift ("Snowflake Servers"):** Servers configured manually over years developed idiosyncratic quirks, undocumented patches, and unique library versions. Software that worked in development routinely crashed when deployed to production.
 
 ---
+
 # 4. Capacity Planning & The Economics of Fixed Provisioning
 
 Capacity planning in a physical datacenter is an exercise in long-range speculation. Because hardware procurement takes months, leadership must forecast user demand **one to three years in advance**.
@@ -155,6 +160,7 @@ The financial friction of datacenter management stems from the disparity between
 - **Operational Expenditure (OpEx):** Ongoing recurring day-to-day operational costs required to keep assets functioning (utility electricity bills, cooling water, telecom bandwidth contracts, software maintenance subscriptions, and sysadmin salaries).
 
 ---
+
 # 5. Half-Steps: Colocation, Managed Hosting, and Outsourcing
 
 Before the cloud revolution, enterprise IT attempted to reduce facilities overhead by outsourcing physical layers without changing the underlying architecture.
@@ -185,6 +191,7 @@ Before the cloud revolution, enterprise IT attempted to reduce facilities overhe
 > 3. **Pay-Per-Use Metering:** Billing was based on provisioned static capacity, whether used at 100% or 0%.
 
 ---
+
 # 6. The Retailer's Problem List (Pre-Cloud Baseline)
 
 At the conclusion of this foundational exploration, our retail enterprise faces an unsustainable operational landscape:
@@ -197,5 +204,6 @@ At the conclusion of this foundational exploration, our retail enterprise faces 
 - **6. Heavy Operational Burden:** Carrying full responsibility for electrical engineering, HVAC, physical security, and hardware repairs in-house.
 
 ---
+
 # Lecture Notes
 ![[IS2212 - 01. Life in the Datacenter.pdf]]

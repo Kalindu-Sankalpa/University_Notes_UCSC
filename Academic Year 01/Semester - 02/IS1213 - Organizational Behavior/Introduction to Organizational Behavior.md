@@ -2,6 +2,7 @@
  >**Organizational Behavior (OB)** is a multifaceted field that serves as the foundation for understanding human dynamics in the workplace.
 
 ---
+
 # Definition and Core Focus
 
 **Organizational Behavior** is defined as the study of how **individuals and groups** behave within organizations. The field is specifically concerned with understanding how these behaviors impact the overall **success and effectiveness** of the organization. Rather than looking at organizations as cold structures, OB views them through the lens of human interaction and psychological processes.
@@ -37,5 +38,6 @@ A fascinating insight from the sources is that in OB, **the world as it is perce
 Ultimately, the goal of studying these introductory concepts is to learn how to create a **positive work environment** that fosters innovation, retains top talent, and increases productivity.
 
 ---
+
 # Lecture Notes
 ![[Introduction to Organizational Behavior.pdf]]

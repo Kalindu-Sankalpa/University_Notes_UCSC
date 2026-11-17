@@ -17,6 +17,7 @@
 This course provides a comprehensive foundation in the principles and practical applications of computer networking, primarily organized around the layered system architecture.
 
 ---
+
 # Learning Objectives
 
 The learning objectives (or outcomes) for the **IS1211 (Computer Networks)** module are focused on understanding network architecture, components, and practical application. According to the course materials, students should be able to:
@@ -24,7 +25,9 @@ The learning objectives (or outcomes) for the **IS1211 (Computer Networks)** mod
 - **Explain the principles** underlying layered systems architectures and how they are applied to computer networks.
 - **Describe the functionality** and specific roles of various hardware and software components used within networks.
 - **Apply core IP networking concepts** to solve basic network design problems, such as calculating IP sub-netting.
+
 ---
+
 # Topics Covered
 
 The module covers the following key areas based on the course contents and lecture notes:

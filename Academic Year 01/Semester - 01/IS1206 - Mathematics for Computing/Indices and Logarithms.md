@@ -1,6 +1,7 @@
 This topic covers the rules for manipulating powers, roots, and their inverse operations, which are essential for understanding algorithmic complexity and data scaling in computing.
 
 ---
+
 # 1. Understanding Indices (Exponents)
 
 An expression written as $a^n$ means the variable a **(the base)** is raised to the **power of** $n$ **(the index or exponent)**. It represents how many times to multiply the base by itself.
@@ -18,6 +19,7 @@ To simplify mathematical expressions in computing, students must master these se
 7. **Negative Index:** $$a^{−n} = \frac{1}{a^n}$$​
 
 ---
+
 # 2. Roots and Surds
 
 The $n^{th}$ **root** of $a$ is the number $b$ such that $b^n = a$.
@@ -34,6 +36,7 @@ The $n^{th}$ **root** of $a$ is the number $b$ such that $b^n = a$.
 	  e.g., $$\frac{1}{\sqrt{3}} = \frac{1}{\sqrt{3}} \times \frac{\sqrt{3}}{\sqrt{3}} = \frac{\sqrt{3}}{3}$$
 
 ---
+
 # 3. Logarithms
 
 Logarithms are the **inverse of exponentiation**.
@@ -51,6 +54,7 @@ Logarithms are the **inverse of exponentiation**.
 5. **Change of Base Formula:** $$\log_b ​x = \frac{\log_a ​x}{\log_a ​b}​$$
 
 ---
+
 # 4. Solving Exponential Equations
 
 The strategy for solving equations like $5^{x^2} − 25^{6−2x} = 0$ is to:

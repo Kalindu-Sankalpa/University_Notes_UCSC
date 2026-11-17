@@ -36,6 +36,7 @@ If these events are mutually independent, then combinations of them are also ind
 - **Independence vs. Mutually Exclusive:** These are often confused. Mutually exclusive events **cannot** happen at the same time (P(A∩B)=0), whereas independent events **can** happen together—they just don't affect each other's odds.
 
 ---
+
 # Short Note for Easy Remembering
 
 | Concept                 | Key Logic                          | Formula                        |
@@ -49,5 +50,6 @@ If these events are mutually independent, then combinations of them are also ind
 	Think of **independent events** like **two people watching the same movie in different cities.** Whether Person A buys popcorn $(EventA)$ has absolutely no effect on the probability that Person B will buy a soda $(EventB)$. Their choices are totally separate. However, if they were **sharing one bucket of popcorn** (Dependent), Person A taking a huge handful would definitely change the probability of how much popcorn is left for Person B!
 
 ---
+
 # Lecture Notes
 ![[IS 1212 Handout 6 - Independent Events.pdf]]

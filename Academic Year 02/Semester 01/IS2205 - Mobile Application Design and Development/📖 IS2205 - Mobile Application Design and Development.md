@@ -9,6 +9,7 @@
 > The primary goal of this course is to provide a comprehensive foundation in **designing and developing mobile applications**, with a specific focus on the **Android platform** using both traditional XML-based layouts and modern **Jetpack Compose** frameworks.
 
 ---
+
 # Intended Learning Objectives
 
 By the end of these lessons, you should be able to:
@@ -26,7 +27,9 @@ By the end of these lessons, you should be able to:
 - **Implement Concurrent Programming in Dart:** Utilize Future, async, and await to handle time-consuming storage operations without blocking the user interface.
 - **Manage App States for Data:** Effectively use the initState() method to load persisted data and configurations when a widget is first created.
 - **Integrate External Cloud Services:** Successfully connect and configure a Flutter app to use Firebase for remote data persistence.
+
 ---
+
 # Topic Covered
 
 1. [[Introduction to Mobile Computing]]

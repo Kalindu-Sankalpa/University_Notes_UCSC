@@ -2,6 +2,7 @@
 >Systems analysis is a fundamental step in the development of any information system, serving as the bridge between understanding a business problem and designing a technical solution.
 
 ---
+
 # What is System Analysis?
 
 **Systems Analysis** is the formal study of a system and its various components. It is a necessary prerequisite to systems design because it focuses on **what the system must do** (the business problem) rather than how it will be technically implemented. This process is primarily driven by the business concerns of system owners and users, addressing their needs regarding knowledge, processes, and communication.
@@ -46,6 +47,7 @@ To accurately discover these requirements, analysts use **Fact-Finding** (also k
 **Ethics in Fact-Finding:** It is important to note that analysts often handle sensitive data during this process. They have a professional obligation to protect the **security and privacy** of the facts they uncover.
 
 ---
+
 # Lecture Notes
 
 ![[IS1208 - Systems Analysis.pdf]]

@@ -2,6 +2,7 @@
 >**Object Interaction and Sequence Modeling** focuses on the **dynamic behavior** of a system by illustrating how objects communicate to fulfill a specific business task or scenario.
 
 ---
+
 # 1. Sequence Diagrams
 
 Sequence diagrams are behavioral models that show object interactions arranged in **time sequence**.
@@ -29,6 +30,7 @@ While **not technically part of UML**, UI Flow Diagrams (also called **Storyboar
 - **Scope:** They can be drawn for the whole application to provide a high-level overview or for a single Use Case scenario to map specific navigation.
 
 ---
+
 # Short Note for Easy Memorization
 
 - **Sequence Diagram Goal:** The **"When"** and **"Who"** of communication (Time + Messages).

@@ -62,5 +62,6 @@ According to the syllabus, this topic also covers **Virtual Memory**, which incl
 *Note: While Virtual Memory and performance measurement are listed in the syllabus, detailed lecture slides for these specific sub-topics were not included in the provided excerpts beyond the role of the MMU*.
 
 ---
+
 # Lecture Notes
 ![[IS1202 Lecture 4.1.pdf]]

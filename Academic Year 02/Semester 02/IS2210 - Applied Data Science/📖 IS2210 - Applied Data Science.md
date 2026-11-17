@@ -8,6 +8,7 @@
 > The primary goal of **IS2210: Applied Data Science** is to teach the complete data science workflow, turning raw structured and unstructured data into actionable predictive insights and automated decision support systems. The course emphasizes practical problem-solving using scientific programming environments, statistical inference, feature engineering, and core machine learning paradigms.
 
 ---
+
 # The specific objectives of the module include:
 
 - **End-to-End Data Science Pipeline:** Executing stages of data collection, wrangling, exploratory data analysis (EDA), model training, and performance evaluation.
@@ -17,6 +18,7 @@
 - **Model Evaluation & Interpretation:** Evaluating model performance through precision-recall trade-offs, ROC-AUC, confusion matrices, and explainability techniques.
 
 ---
+
 # Topic Covered
 
 1. [[Introduction to Data Science]]
@@ -39,6 +41,7 @@
 	- **Python Visualization Ecosystem:** Hands-on plotting with Matplotlib (OOP vs pyplot), Pandas plotting, Seaborn statistical graphics, and Plotly interactive charts.
 
 ---
+
 # IS2210 Syllabus
 
 ![[IS2210 - Syllabus.pdf]]

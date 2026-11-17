@@ -15,7 +15,9 @@ By studying this course, you aim to:
 - **Understand the "Sense-Process-Act" Loop:** Learn how a system uses sensors to gather information, a microcontroller (like Arduino or ESP32) to process that information, and actuators to perform a physical task.
 - **Master the Fundamentals of Electronics:** Gain the knowledge required to design, build, and troubleshoot electronic circuits safely and effectively.
 - **Develop IoT and Embedded Systems Skills:** Learn to create "smart" devices that are connected to networks and the cloud to collect and exchange data.
+
 ---
+
 # Intended Learning Outcomes (ILOs)
 
 The curriculum is structured so that by the end of the course, you will be able to perform several key technical tasks across different domains of electronics and computing:

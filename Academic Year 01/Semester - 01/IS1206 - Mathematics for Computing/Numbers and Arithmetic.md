@@ -1,6 +1,7 @@
 This module establishes the mathematical foundation for computing by exploring number systems, their properties, and fundamental operations.
 
 ---
+
 # 1. Number Systems
 
 Mathematics for computing begins with understanding different sets of numbers that form the **Real Number System**:

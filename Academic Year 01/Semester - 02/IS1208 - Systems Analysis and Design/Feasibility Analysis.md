@@ -1,6 +1,8 @@
 >[!tip]
 >Feasibility is a measure of how beneficial and practical the development of an information system will be to an organization. Feasibility analysis is the ongoing process of evaluating this measure at various checkpoints throughout the system's life cycle.
+
 ---
+
 # Feasibility Checkpoints
 
 Because the feasibility of a project can change as development progresses, it must be reevaluated at different stages. A project can be canceled, revised, or continued at any of these points:
@@ -59,6 +61,7 @@ Analysts use two primary matrices to compare candidate systems:
 The final result of this process is the System Proposal. This is a formal written report or oral presentation intended to "sell" the recommended idea to system owners and users to gain approval for the new system.
 
 ---
+
 # Lecture Notes
 
 ![[IS1208 - Feasibility Study.pdf]]

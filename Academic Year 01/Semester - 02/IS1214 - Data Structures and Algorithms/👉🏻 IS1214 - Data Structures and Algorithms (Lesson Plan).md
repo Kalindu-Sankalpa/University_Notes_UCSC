@@ -8,6 +8,7 @@
 >The goal of this course is to provide a comprehensive understanding of **Data Structures and Algorithms (DSA)**, specifically focusing on the efficient organization, storage, and manipulation of data within a computer. It bridges the gap between theoretical algorithm design and practical implementation in C, ensuring that data is handled in ways that optimize memory utilization and processing speed.
 
 ---
+
 # Learning Objectives
 
 - **Defining and Categorizing Data Structures:** Distinguish between **linear** (arrays, stacks, queues, linked lists) and **non-linear** (trees, graphs) structures.
@@ -107,7 +108,9 @@
 	- **Minimum Spanning Tree (MST):** In a weighted graph, the spanning tree that has the **lowest total edge cost**.
 	- **Applications:** Using MSTs for civil network planning (power lines, water pipes), cluster analysis, and network routing.
 	- **Prim’s Algorithm:** A specific method used to find the MST of a graph.
+
 ---
+
 # Analogy for Understanding:
 
 Think of these data structures as different ways to organize a **library**. An **array** is like a shelf of books where every slot is numbered; it's easy to find book #10, but if you want to squeeze a new book in the middle, you have to move every other book down. A **linked list** is more like a **scavenger hunt**: each clue (node) tells you where the next clue is. You can easily add a new clue anywhere by just updating the directions, but you have to start at the beginning to find anything at the end.

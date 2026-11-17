@@ -55,6 +55,7 @@ These algorithms do not compare elements against each other and can sometimes ac
   This distributes elements into various "buckets" based on their value ranges. Each bucket is then sorted individually (often using Insertion Sort) before being concatenated to form the final sorted list. Its worst-case complexity is $O(n^2)$ if all elements fall into a single bucket.
 
 ---
+
 # Key Comparison Factors to Remember:
 
 - **Speed:** Simple algorithms are $O(n^2)$; advanced ones like Merge Sort and Quick Sort are typically $$O(n\log{n})$$
@@ -62,5 +63,6 @@ These algorithms do not compare elements against each other and can sometimes ac
 - **Stability:** This refers to whether the algorithm keeps the relative order of elements with equal keys.
 
 ---
+
 # Lecture Notes
 ![[DSA - Lecture 08.pdf]]

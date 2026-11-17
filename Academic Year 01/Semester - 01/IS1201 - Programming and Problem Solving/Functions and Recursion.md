@@ -2,6 +2,7 @@
 > Topic 05, **Functions and Recursion**, is a vital part of modular programming, where you divide complex problems into smaller, manageable components to make your programs easier to understand and debug.
 
 ---
+
 # 1. Introduction to Functions
 
 A **function** is a block of code designed to perform a specific task. C programming utilizes two main types of functions:
@@ -38,5 +39,6 @@ There are two primary ways to pass data to a function in C:
 Functions allow for code reuse and better organization, while recursion provides an "elegant" way to implement solutions for mathematically defined problems that would otherwise require complex loops.
 
 ---
+
 # Lecture Notes
 ![[IS1201 - Functions  Recursion.pdf]]

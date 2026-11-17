@@ -2,6 +2,7 @@
 >**Use-case modeling** is a user-centered process used to model a system’s functions in terms of **business events**, the actors who initiate them, and how the system responds to those events. Originally conceived by Dr. Ivar Jacobson in 1986, it has become a best practice for defining and documenting the **functional requirements** of an information system.
 
 ---
+
 # Key Components of Use-Case Modeling
 
 A use-case model consists of several essential elements that graphically and textually describe the system's behavior:
@@ -56,5 +57,6 @@ Use-case modeling provides several advantages for system development:
 - It provides a framework for **driving the entire system development project**.
 
 ---
+
 # Lecture Notes
 ![[IS1208 - Use case Modelling.pdf]]

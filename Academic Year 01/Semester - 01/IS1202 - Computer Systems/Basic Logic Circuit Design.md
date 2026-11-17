@@ -59,6 +59,7 @@ Unlike combinational circuits, sequential circuits have **memory**; their output
 **NAND** and **NOR** gates are known as **Universal Gates** because either one can be used to implement any other logic operation (AND, OR, NOT). Using a single gate type is often preferred in manufacturing to reduce costs and avoid unused gates on ICs.
 
 ---
+
 # Lecture Notes
 ![[IS1202 Lecture 2.1.pdf]]
 ![[IS1202 Lecture 2.2.pdf]]

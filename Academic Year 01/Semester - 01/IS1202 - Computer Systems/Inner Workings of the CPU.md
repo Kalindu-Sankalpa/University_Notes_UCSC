@@ -64,6 +64,7 @@ Several factors determine how quickly a CPU processes a program:
 - **Instruction Level Pipelining:** A technique where the FDE cycle is broken into smaller, independent stages (e.g., fetch, decode, execute) so that multiple instructions can be processed in parallel at different stages. This significantly increases throughput and provides a "speedup" over non-pipelined systems.
 
 ---
+
 # Lecture Notes
 ![[IS1202 Lecture 3.1.pdf]]
 ![[IS1202 Lecture 3.2.pdf]]

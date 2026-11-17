@@ -2,6 +2,7 @@
 >The process of **Object-Oriented Design (OOD)** shifts the focus from understanding a business problem to defining the technical and **implementation concerns** of the system—essentially moving from "what" the system must do to "**how to do it**". This process results in a detailed **design specification** that serves as a blueprint for the final computer-based solution.
 
 ---
+
 # The Four Main Design Specifications
 
 OOD is typically organized into four distinct areas of technical specification:

@@ -1,5 +1,7 @@
 This topic note explores the evolution from physical computing to hypervisor-based virtualization, analyzes why virtual machines alone did not constitute cloud computing, and examines the NIST SP 800-145 cloud standard, rapid elasticity, horizontal scaling, and the operational paradigm shift.
+
 ---
+
 # 1. The Virtualization Breakthrough: Solving Server Sprawl
 
 In the traditional datacenter, the operational standard dictated that **one physical server hosted exactly one application workload**. This design pattern prevented dependency conflicts between applications (e.g., conflicting runtime libraries or operating system kernel requirements), but resulted in severe economic inefficiency: most servers operated at single-digit CPU utilization outside peak hours.
@@ -50,6 +52,7 @@ Consider an enterprise managing an un-virtualized fleet of physical servers:
 > By consolidating 10 lightly used servers onto 3 physical hypervisor nodes, the enterprise **retires 7 physical machines** while maintaining healthy $50\%$ host utilization (leaving ample headroom for burst traffic). This yields an immediate **$70\%$ reduction** in physical rack space, power consumption, heat dissipation, and cabling complexity.
 
 ---
+
 # 2. Virtualization Taxonomy: Hypervisors vs. Containers
 
 Computing virtualization exists in three distinct architectures, differing in their abstraction boundary and performance characteristics.
@@ -87,6 +90,7 @@ Computing virtualization exists in three distinct architectures, differing in th
 | **Primary Use Case** | Legacy High-IOPS DBs | Desktop dev & testing | Enterprise Datacenters & Cloud | Cloud-Native Microservices |
 
 ---
+
 # 3. What Virtualization Solved — And What It Left Broken
 
 While virtualization revolutionized server density, it did **not** create cloud computing. Enterprise IT leaders frequently mistook an internal ESXi cluster for a private cloud.
@@ -108,6 +112,7 @@ While virtualization revolutionized server density, it did **not** create cloud 
 > A virtualized datacenter is still an on-premises datacenter. If a developer needed a new virtual server, they filed an IT ticket. An operations engineer reviewed the ticket, validated available RAM on the ESXi cluster, provisioned the VM, assigned a static IP, and updated the spreadsheet. The procurement cycle dropped from **6 weeks to 3 days**, but the process remained **manual, bureaucratic, static, and internally constrained**.
 
 ---
+
 # 4. Defining Cloud Computing: The NIST SP 800-145 Framework
 
 According to the National Institute of Standards and Technology (**NIST SP 800-145**):
@@ -138,6 +143,7 @@ A system is not a cloud simply because it runs virtual machines. To be classifie
 | **Failure Responsibility** | In-house sysadmins must physically swap parts | **Provider replaces hardware automatically behind SLA** |
 
 ---
+
 # 5. Architectural Scaling: Vertical (Scale Up) vs. Horizontal (Scale Out)
 
 As workloads expand, infrastructure architects must choose between two distinct dimensional strategies for handling increased transaction throughput.
@@ -162,6 +168,7 @@ As workloads expand, infrastructure architects must choose between two distinct 
 - **Architectural Requirement (Statelessness):** Horizontal scaling requires applications to be **stateless**. User session tokens, shopping cart state, and file uploads cannot be saved to local server memory or local disk; they must be offloaded to external distributed state stores (e.g., Redis, Memcached, Amazon S3, or relational/NoSQL databases).
 
 ---
+
 # 6. The Mindset Revolution: From Procurement to the First Derivative
 
 Adopting cloud computing is fundamentally an organizational and mental shift, not merely an infrastructure migration. Enterprise strategist Gregor Hohpe defines this transformation across two foundational principles:
@@ -187,6 +194,7 @@ Adopting cloud computing is fundamentally an organizational and mental shift, no
 ```
 
 ---
+
 # 7. Scenario Analysis: "Is This Cloud?"
 
 To test conceptual clarity, evaluate these three enterprise scenarios against the NIST characteristics:
@@ -199,5 +207,6 @@ To test conceptual clarity, evaluate these three enterprise scenarios against th
   - **Classification:** **Managed Hosting.** The provider owns and repairs the physical hardware, but the capacity is static, non-elastic, locked to long-term contracts, and lacks automated self-service APIs.
 
 ---
+
 # Lecture Notes
 ![[IS2212 - 02. From Virtual Machines to the Cloud.pdf]]

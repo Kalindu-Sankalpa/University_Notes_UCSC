@@ -2,6 +2,7 @@
 >The primary objective of **Logical Database Design** is to transform a high-level conceptual model (ER or EER diagram) into a **relational schema**. This involves refining the model to remove features incompatible with the relational model and applying a well-defined set of rules to derive a structured set of tables.
 
 ---
+
 # Mapping Entities
 
 The first step in logical design is transforming entity types into relations (tables).
@@ -33,6 +34,7 @@ The method for mapping relationships depends on their degree (binary, unary, or 
 - **Categories (Union Types):** When a subclass represents a union of super-classes with different keys, a **surrogate key** is often defined to uniquely identify records in the category relation.
 
 ---
+
 # Short Note - Logical Database Design
 
 - **Blueprint Translation:** Mapping is the systematic process of turning an ER diagram into **relational tables** using seven core steps.
@@ -50,6 +52,7 @@ The method for mapping relationships depends on their degree (binary, unary, or 
 The **Logical Database Design process** is like **drafting a manufacturing manual from a concept sketch**: The **ER Diagram** is the sketch of what the product should look like, but the **Relational Schema** is the set of specific instructions (tables and keys) that tell the factory (the DBMS) exactly how to build and connect every individual component (data) to ensure the final product functions correctly.
 
 ---
+
 # Lecture Notes
 
 ![[IS1210 - Logical Database Design.pdf]]

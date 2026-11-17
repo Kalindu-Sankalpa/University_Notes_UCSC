@@ -17,6 +17,7 @@ Beyond these general goals, the course specifies four **Intended Learning Outcom
 The course is structured into four main sections to meet these goals, covering history and data representation, logic circuit design, the inner workings of the CPU, and memory organization.
 
 ---
+
 # Topics Covered
 
 The **IS 1202 – Computer Systems** module is structured into four main sections, each focusing on a specific area of computer systems. Based on the course syllabus, the topics covered are as follows:
@@ -54,4 +55,5 @@ The final section covers how data is stored and managed:
 - **Memory Issues:** Topics like memory fragmentation and measuring overall memory performance.
 
 ---
+
 ![[IS1202 Introduction of the Course.pdf]]

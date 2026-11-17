@@ -3,6 +3,7 @@
 > 
 
 ---
+
 # 1. Variables, Constants, and Identifiers
 
 - **Identifiers:** These are unique names given to entities like variables and functions. C is **case-sensitive**, meaning `money` and `Money` would be treated as different identifiers.
@@ -41,6 +42,7 @@ Operators are symbols that trigger specific mathematical or logical manipulation
 An expression is a combination of operators, constants, and variables that are evaluated to produce a single value. For example, a program might take a temperature in Celsius from a user and use an expression like `ºF = ºC * 1.8 + 32.00` to calculate the Fahrenheit equivalent.
 
 ---
+
 # Lecture Notes
 ![[IS1201 - C Programming.pdf]]
 ![[IS1201 - Data Types.pdf]]

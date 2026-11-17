@@ -81,6 +81,7 @@ The state which the system reaches when a particular process or activity ends is
 Now, represent the identified states, activities, and conditions visually using the appropriate symbols and notations in an activity diagram. This diagram serves as a visual map of your process, showing the flow from one state to another.
 
 ---
+
 # Synchronization: Forks and Joins
 
 Activity diagrams use **synchronization bars** to manage concurrent workflows:
@@ -97,6 +98,7 @@ Activity diagrams use **synchronization bars** to manage concurrent workflows:
 Activity diagrams are highly useful for **communicating logic to programmers**. However, analysts are cautioned when using them with non-technical users, who may find them difficult to follow; for users, **use-case narratives** are often preferred.
 
 ---
+
 # Short Note for Easy Memorization
 
 - **Definition:** The "Workflow" or "Dynamic" model (Flowchart + Parallelism).
@@ -113,5 +115,6 @@ Activity diagrams are highly useful for **communicating logic to programmers**. 
 - **Swimlanes:** Define **Accountability** (Who does what?).
 
 ---
+
 # Lecture Notes
 ![[IS1208 - Activity Diagrams.pdf]]

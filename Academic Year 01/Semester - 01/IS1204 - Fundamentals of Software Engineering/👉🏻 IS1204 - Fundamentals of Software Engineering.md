@@ -41,6 +41,7 @@ Beyond technical skills, the lesson aims to foster professional responsibility i
 In summary, the goal of this lesson is to transform a student from a "programmer" into a **"software engineer"** who can manage the complexity, quality, and evolution of professional software systems
 
 ---
+
 # Topics Covered
 
 **IS1204: Fundamentals of Software Engineering** cover a broad range of topics organized into nine major chapters that follow the software development lifecycle.

@@ -74,6 +74,7 @@ Linked lists rely on **Dynamic Memory Allocation**, using functions from the `<s
 Think of a **Linked List** like a **Scavenger Hunt**. You don't know where all the prizes are at once (like an array). Instead, you start at the first location (**START**), where you find a prize and a **clue** (pointer) telling you where the next prize is hidden. You keep following clues until you find a box that is empty (**NULL**), which tells you the hunt is over!
 
 ---
+
 # Lecture Notes
 
 ![[DSA - Lecture 04.pdf]]

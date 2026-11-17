@@ -59,6 +59,7 @@ Hashing is used across nearly every domain of information security:
 Despite technical protections, security often fails because users choose passwords from a very small set (e.g., "123456" appeared in 0.90% of a 32-million password sample). These are easily broken via **dictionary attacks**, though systems can defend against this by doubling response times after failed attempts.
 
 ---
+
 # 2. Symmetric Key Cryptography
 
 ## 2.1. Definition and Core Concept

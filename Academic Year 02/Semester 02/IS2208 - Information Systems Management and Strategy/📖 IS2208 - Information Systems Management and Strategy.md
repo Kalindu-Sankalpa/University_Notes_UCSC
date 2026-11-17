@@ -8,6 +8,7 @@
 > The primary goal of **IS2208: Information Systems Management and Strategy** is to equip students with the theoretical frameworks and practical acumen required to leverage information systems for strategic competitive advantage. The curriculum explores strategic alignment between business and IT, strategic frameworks, IT governance, digital transformation, and strategic resource allocation in enterprise environments.
 
 ---
+
 # The specific objectives of the module include:
 
 - **Strategic Alignment:** Formulating and evaluating alignment models between business strategy and information technology architecture.
@@ -17,11 +18,13 @@
 - **IT Portfolio & Investment Planning:** Assessing the financial feasibility, ROI, and total cost of ownership (TCO) for enterprise information systems projects.
 
 ---
+
 # Topic Covered
 
 > ℹ️ *Topic notes and lecture slides will be added here as soon as lecture materials are available.*
 
 ---
+
 # IS2208 Syllabus
 
 ![[IS2208 - Syllabus.pdf]]

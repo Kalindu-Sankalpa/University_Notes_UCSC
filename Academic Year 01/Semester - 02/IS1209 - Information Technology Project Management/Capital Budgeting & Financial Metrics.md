@@ -60,5 +60,6 @@ Organizations use these four metrics to decide whether to accept or reject a pro
 **Analogy:** Choosing a project using capital budgeting is like **planting a fruit tree**. **NPV** is the total amount of fruit you expect to get over the tree's life minus the cost of the seeds and water. **IRR** is the tree's "growth rate" compared to just buying fruit at the store (**opportunity cost**). **Profitability Index** is how many apples you get for every bucket of water you use. And **Payback Period** is simply how many years you have to wait before the first harvest pays for the price of the sapling.
 
 ---
+
 # Lecture Notes
 ![[Topic 04 - Capital Budgeting & Financial Metrics.pdf]]
