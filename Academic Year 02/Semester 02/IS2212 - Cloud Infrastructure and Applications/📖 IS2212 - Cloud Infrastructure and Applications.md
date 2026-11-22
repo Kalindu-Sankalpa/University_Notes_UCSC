@@ -46,6 +46,17 @@
 	- **Deep-Dive into IaaS, PaaS, and SaaS:** Technical capabilities, consumer decisions, benefits, trade-offs, and enterprise retailer fit.
 	- **Control vs. Convenience:** The fundamental trade-off spectrum and multi-model service composition.
 
+4. [[Cloud Deployment Models]]
+	- **The Four Deployment Models:** Public, Private, Multicloud, Community, and Hybrid cloud taxonomies and trade-offs.
+	- **The Governance Axiom:** Service models define what you rent; deployment models define where and for whom.
+	- **Physical Cloud Topology:** Global Regions, Availability Zones (AZs), and Edge Locations / CDN caching points.
+	- **Hybrid Cloud Mechanics & Cloud Bursting:** Legacy inertia, low-latency factory/warehouse edge needs, and the hybrid operational tax.
+	- **Architectural Reality (Stage vs. Destination):** Phased transitional stepping stone vs. permanent hybrid equilibrium.
+	- **System-First Decision Framework:** Kavis 4-step discovery methodology, the 6 driving decision criteria, and rule-of-thumb flowchart.
+	- **Multi-Criteria Weighted Scoring Matrix:** Mathematical evaluation model ($\sum w_i \times s_i$) and the Retailer Payroll worked case study.
+	- **Real-World Case Study (NOAA):** Rapid 25,000-user government SaaS migration analysis (Pressure, Removed, Not Solved).
+	- **Strategic Enterprise Workload Placement:** Architectural mapping for web shop, inventory, payroll, payments, analytics, and photo storage.
+
 ---
 
 # IS2212 Syllabus
