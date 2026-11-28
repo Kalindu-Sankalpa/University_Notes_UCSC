@@ -25,7 +25,12 @@
 
 # Topic Covered
 
-> ℹ️ *Topic notes and lecture slide transclusions will be added here as soon as lecture materials become available.*
+1. [[Introduction to Data Governance and Management]]
+	- **Strategic Dichotomy:** Differentiating governance authority ("Doing the right thing") from technical execution ("Doing it right").
+	- **Data Structures & Career Trajectories:** Classifying structured, semi-structured, and unstructured data alongside technical, governance, and strategic career paths.
+	- **Enterprise Data Lifecycle (DLM):** Tracing the 8-stage pipeline from acquisition through OLAP warehousing, Data Lakes, to certified destruction.
+	- **Database System Components & DBLC:** The 5 foundational components (Hardware, Software, People, Procedures, Data) and the 6-phase Database Life Cycle.
+	- **Modern Data Models & DBaaS:** Comparative evaluation of Relational, Object-Oriented, NoSQL, Vector/Time-Series frontier engines, and Cloud Database-as-a-Service architectures.
 
 ---
 
