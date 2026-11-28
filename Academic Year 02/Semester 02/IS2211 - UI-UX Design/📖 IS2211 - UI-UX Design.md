@@ -59,6 +59,28 @@
 	- **Wayfinding & Navigation:** Sitemaps, global vs local navigation, breadcrumbs, search indexing, and progressive disclosure.
 	- **Flow Diagramming:** Mapping user flows, decision branches, error pathways, and wireflows.
 
+### Part 2: Applied Interaction Critique, Emerging Paradigms & Accessibility (Weeks 5–8)
+
+5. [[Core Interaction Laws in UX-HCI]]
+	- **Applied Interaction Triad:** Harmonizing **Choice** (Hick's Law), **Movement** (Fitts's Law), and **Memory** (Miller's Law) concurrently.
+	- **Bad vs. Good UX Remediation:** Diagnosing choice overload, microscopic touch targets, thumb-zone friction, and cognitive recall strain with concrete HTML/CSS/React fixes.
+	- **3-Step Systematic Critique Protocol:** Identifying user tasks, inventorying UI artifacts, and auditing systematically via structured Quick Critique Questions.
+
+6. [[Ubiquitous & Tangible Computing]]
+	- **Embodied Cognition & Critique:** Bret Victor's *"Pictures Under Glass"* critique, Hutchins/Dourish embodied cognition, and Bell & Dourish's *"Yesterday's Tomorrows"*.
+	- **Mark Weiser's Ubicomp & Calm Tech:** Computers vanishing into the periphery, *Live Wire*, and the 3 physical computing scales (**Tabs**, **Pads**, **Boards**).
+	- **Context-Awareness & Tangible Bits:** Dey & Abowd context tuples, ambient privacy jamming, and Hiroshi Ishii's **Tangible Bits** (*metaDESK*, *transBOARD*, *ambientROOM*, *Urp*, *inFORM*).
+
+7. [[Next-Generation Input-Output & Interdisciplinary HCI]]
+	- **Sensing Input Architectures:** 3-stage pipeline (Raw Sensor Acquisition $\rightarrow$ Featurization via FFT/RMS/RF $\rightarrow$ Embedded/Deep Classifiers) and solving the **Midas Touch** false-positive problem.
+	- **Non-Desktop Output Modalities:** Trade-offs across **Nontraditional Displays** (*Tacttoo*, *Zooids*, drones), **Augmented Reality** (*OmniTouch*, *HoloLens 2*), and **Virtual Reality**.
+	- **HCI Interdisciplinarity:** Bridging Psychology (*Visual Dominance Effect*), Engineering (*Haptic Retargeting*), Theory (*Crafting the Impossible*), and Design (*TurkDeck*).
+
+8. [[Accessibility & Universal Design]]
+	- **A11y & Universal Design Foundations:** The 5 human capability dimensions (Vision, Hearing, Mobility, Cognitive, Learning), Assistive Technologies, and real-world universal design benefits.
+	- **Screen Reader Mechanics & Authoring:** Live text mandate, top-to-bottom DOM reading order, keyboard-only traversal, inclusive phrasing (*"Select"* vs *"Click"*), and avoiding ambiguous hyphen ranges.
+	- **WCAG 2.1 AA Compliance & 8-Point Audit:** Enforcing $\ge 4.5:1$ / $\ge 3:1$ contrast ratios, color-independent meaning, concise `<200`-char Alt Text vs captions, descriptive links, and full 400% zoom reflow.
+
 ---
 
 # IS2211 Syllabus
